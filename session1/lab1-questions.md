@@ -35,7 +35,7 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| Computationally           |
+|                           |
 
 > [!TIP]
 >
