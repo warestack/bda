@@ -1,4 +1,4 @@
-### BDA Seminar 1 - Part 1 & 2
+### BDA Lab 1 - Part 1 & 2
 
 **Complete the following exercises on computational complexity.**
 
@@ -364,7 +364,7 @@ if __name__ == "__main__":
    * Download the file and save it in the same directory as your Python script.
 3. Examine the following script. The script extracts each line of our file using the `strip` that removes any leading or trailing whitespace.
 
-```
+```python
 if __name__ == "__main__":
   with open('rockyou.txt', 'r',encoding='ISO-8859-1') as file:
     for line in file:
