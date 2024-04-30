@@ -23,13 +23,13 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 3. What is the space complexity of the above script?
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 4. Is this a computationally or data-intensive task?
 
@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 6. What is the time complexity of the following code?
 
@@ -69,7 +69,7 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 7. What is the time complexity of the following code?
 
@@ -87,13 +87,13 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 8. Is this a computationally or data-intensive task?
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 9. What is the time complexity of the following code?
 
@@ -117,7 +117,7 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 > [!IMPORTANT]
 >
@@ -127,13 +127,13 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 11. Is this a computationally or data-intensive task?
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 12. Compare the following scripts; which one do you prefer and why?
 
@@ -147,14 +147,14 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 12. What are the time and space complexities for reverse1 and reverse2?
 
 | Provide your answer here. |
 | ------------------------- |
-| `reverse1`: ?             |
-| `reverse2`: ?             |
+| `reverse1`:               |
+| `reverse2`:               |
 
 12. What is the time complexity of the following code?
 
@@ -174,13 +174,13 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 13. What is the space complexity of the previous script?
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 14. Examine the next code.
 
@@ -204,15 +204,15 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 16. What is the time complexity of this script?
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
-17. Analyze the Provided Code.
+17. Analyse the Provided Code.
 
 ```python
  def bubble_sort_count2(arr):
@@ -234,13 +234,13 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 19. Why does it output 12?
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 20. What is the purpose of the script?
 
@@ -268,7 +268,7 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 22. What is the time complexity of this script?
 
@@ -293,7 +293,7 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 23. The following script generates all the possible permutations of a given list. Without running the script, can you define the time complexity of this script?
 
@@ -313,19 +313,19 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 24. What is the length of the output list if the input list has 5 numbers?
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 25. What is the computational complexity of the following script?
 
 The script uses the `bubble_sort` and the `binary_search` functions.
 
-```python
+```
 if __name__ == "__main__":
   data = [10,2,4,6,22,3,55,12]
   print(binary_search(bubble_sort(data), 10))
@@ -333,7 +333,7 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 ### BDA Seminar 1 - Part 2
 
@@ -375,14 +375,18 @@ if __name__ == "__main__":
 
 > [!TIP]
 >
-> ISO 8859-1 is the ISO standard Latin-1 character set and encoding format.
+> `ISO 8859-1` is the ISO standard Latin-1 character set and encoding format.
 
 4. How many passwords are in the file?
 
 ```python
-# Provide your Python script here
+def count_pass(file_path):
+  # Provide your Python script here
+  
 
-
+## Use the following main
+if __name__ == "__main__":
+  print(count_pass('rockyou.txt'))
 ```
 
 > There are 14344391 passwords; make sure your result is correct.
@@ -395,14 +399,26 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 6. Create a `search_password` function to search for a password in a given file.
 
 ```python
-# Provide your solution here
+
+import os
+
+def search_password(file_path, target_password):
+    # Provide your solution here
 
 
+if __name__ == "__main__":
+    file_path = input("Enter the path to the password file: ")
+    target_password = input("Enter the password to search for: ")
+    found = search_password(file_path, target_password)
+    if found:
+        print("Password found.")
+    else:
+        print("Password not found.")
 ```
 
 7. Calculate the time to find:
@@ -415,7 +431,7 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| ?                         |
+|                           |
 
 **:mount_fuji: The following tasks are challenging.**
 
@@ -430,8 +446,8 @@ Then, run it for the whole dataset. Is it ever finished?
 
 ```python
 def check_duplicates1(file_path):
-	# Provide your solution here
-  
+  	# Provide your solution here
+    
 
 if __name__ == "__main__":
     file_path = "rockyou.txt"
@@ -443,7 +459,7 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| O(n)                      |
+|                           |
 
 11. Create a script to find the duplicated records in the `rockyou.tx`t file.
 
@@ -461,8 +477,8 @@ if __name__ == "__main__":
 
 12. What is this script's time and space complexity if you don't use a set? What is when using sets?
 
-| Provide your answer here.                                    |
-| ------------------------------------------------------------ |
-| O(n^2) without                                               |
-| O(n) with sets 😀 - but you used extra space - the seen set - still is O(n) space. |
+| Provide your answer here. |
+| ------------------------- |
+| Time:                     |
+| Space:                    |
 
