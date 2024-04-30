@@ -1,3 +1,3 @@
 ### Welcome to the Big Data Analytics!
 
-In this repository, you will find the exercises and their solutions for the module.
+This repository contains the lecture notes, exercises, and their solutions for the module.
