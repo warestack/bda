@@ -296,7 +296,7 @@ if __name__ == "__main__":
 | ------------------------------------------------------------ |
 | O(log(n)) - Binary search to find an element in a sorted array and return its index if found, otherwise return -1 |
 
-23. The following script generates all the possible permutations of a given list. Without running the script, can you defien the time complexity of this script?
+23. The following script generates all the possible permutations of a given list. Without running the script, can you define the time complexity of this script?
 
 ```python
 from itertools import permutations
@@ -376,7 +376,7 @@ if __name__ == "__main__":
 
 > [!TIP]
 >
-> ISO 8859-1 is the ISO standard Latin-1 character set and encoding format.
+> `ISO 8859-1` is the ISO standard Latin-1 character set and encoding format.
 
 4. How many passwords are in the file?
 

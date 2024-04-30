@@ -295,7 +295,7 @@ if __name__ == "__main__":
 | ------------------------- |
 | ?                         |
 
-23. The following script generates all the possible permutations of a given list. Without running the script, can you defien the time complexity of this script?
+23. The following script generates all the possible permutations of a given list. Without running the script, can you define the time complexity of this script?
 
 ```python
 from itertools import permutations
@@ -325,7 +325,7 @@ if __name__ == "__main__":
 
 The script uses the `bubble_sort` and the `binary_search` functions.
 
-```
+```python
 if __name__ == "__main__":
   data = [10,2,4,6,22,3,55,12]
   print(binary_search(bubble_sort(data), 10))
@@ -429,42 +429,9 @@ if __name__ == "__main__":
 Then, run it for the whole dataset. Is it ever finished?
 
 ```python
-# Provide your solution here
-
 def check_duplicates1(file_path):
-    result=[]
-    try:
-        count=0
-        # Open the file and read all lines into a list
-        with open(file_path, 'r', encoding='ISO-8859-1') as file:
-            records = file.readlines()
-
-        # Clean whitespace and newlines from each line
-        records = [record.strip() for record in records]
-
-        # Compare each record with every other record
-        num_records = len(records)
-        for i in range(num_records):
-            if count==25:
-              break
-            for j in range(i + 1, num_records):
-                if records[i] == records[j]:
-                    # print(f"Duplicate record found: {records[i],i}")
-                    result.append(records[i])
-            count+=1
-        print(f"I stop to search in count: {count}")
-        return result
-
-        # If no duplicates are found after all comparisons
-        print("No duplicate records found.")
-        return False
-
-    except FileNotFoundError:
-        print("Error: The file does not exist.")
-        return False
-    except Exception as e:
-        print(f"An error occurred: {e}")
-        return False
+	# Provide your solution here
+  
 
 if __name__ == "__main__":
     file_path = "rockyou.txt"
@@ -484,38 +451,15 @@ if __name__ == "__main__":
 - Print a set of the duplicated values at the end.
 
 ```python
-# Provide your solution here
-
 def check_duplicates2(file_path):
-    seen = set()
-    duplicates = set()
-
-    try:
-        with open(file_path, 'r', encoding='ISO-8859-1') as file:
-            for line_number, line in enumerate(file, 1):
-                record = line.strip()
-                if record in seen:
-                    duplicates.add(record)
-                else:
-                    seen.add(record)
-
-        if duplicates:
-            print("Duplicates found:")
-            print(duplicates)
-            return True
-        else:
-            print("No duplicates found.")
-            return False
-
-    except FileNotFoundError:
-        print(f"The file {file_path} does not exist.")
+    # Provide your solution here
 
 if __name__ == "__main__":
     file_path = "rockyou.txt"
     check_duplicates2(file_path)
 ```
 
-12. What is the time and space complexity of this script if you don't use a set? What is when using sets?
+12. What is this script's time and space complexity if you don't use a set? What is when using sets?
 
 | Provide your answer here.                                    |
 | ------------------------------------------------------------ |
