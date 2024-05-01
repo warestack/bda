@@ -1,4 +1,4 @@
-### BDA Lab 1 - Part 1 & 2
+### BDA Seminar 1 - Part 1 & 2
 
 **Complete the following exercises on computational complexity.**
 
@@ -23,19 +23,19 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| O(n)                      |
+| ?                         |
 
 3. What is the space complexity of the above script?
 
 | Provide your answer here. |
 | ------------------------- |
-| O(1)                      |
+| ?                         |
 
 4. Is this a computationally or data-intensive task?
 
 | Provide your answer here. |
 | ------------------------- |
-| Computationally           |
+| ?                         |
 
 > [!TIP]
 >
@@ -51,9 +51,9 @@ if __name__ == "__main__":
   print(data[-1])
 ```
 
-| Provide your answer here.                 |
-| ----------------------------------------- |
-| O(1) - it always prints the last element. |
+| Provide your answer here. |
+| ------------------------- |
+| ?                         |
 
 6. What is the time complexity of the following code?
 
@@ -67,14 +67,14 @@ if __name__ == "__main__":
   print(get_it(data))
 ```
 
-| Provide your answer here.                |
-| ---------------------------------------- |
-| O(1) - it always gets the first element. |
+| Provide your answer here. |
+| ------------------------- |
+| ?                         |
 
 7. What is the time complexity of the following code?
 
 ```python
-ef sum_elements(arr):
+def sum_elements(arr):
     total = 0
     for num in arr:
         total += num
@@ -85,15 +85,15 @@ if __name__ == "__main__":
   print(sum_elements(data))
 ```
 
-| Provide your answer here.                                   |
-| ----------------------------------------------------------- |
-| O(n) - It computes the sum of all integers in a given list. |
+| Provide your answer here. |
+| ------------------------- |
+| ?                         |
 
 8. Is this a computationally or data-intensive task?
 
 | Provide your answer here. |
 | ------------------------- |
-| Computationally           |
+| ?                         |
 
 9. What is the time complexity of the following code?
 
@@ -115,9 +115,9 @@ if __name__ == "__main__":
       print("File not found")
 ```
 
-| Provide your answer here.                                   |
-| ----------------------------------------------------------- |
-| O(n) - It computes the sum of all integers in a given list. |
+| Provide your answer here. |
+| ------------------------- |
+| ?                         |
 
 > [!IMPORTANT]
 >
@@ -127,38 +127,17 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| O(1)                      |
+| ?                         |
 
 11. Is this a computationally or data-intensive task?
 
 | Provide your answer here. |
 | ------------------------- |
-| Data (Input/Output)       |
+| ?                         |
 
 12. Compare the following scripts; which one do you prefer and why?
 
-```python
-def reverse1(data):
-  reverse=[]
-  for i in range(len(data) - 1, -1, -1):
-    reverse.append(data[i])
-  return reverse
-
-def reverse2(data):
-    left, right = 0, len(data) - 1
-    while left < right:
-        # Swap the elements at the left and right indices
-        data[left], data[right] = data[right], data[left]
-        left += 1
-        right -= 1
-    return data
-
-if __name__ == "__main__":
-  print(reverse1([1,2,3,4,5]))
-  print(reverse2([1,2,3,4,5]))
-```
-
-12. Pick one of the following options:
+    Pick one of the following options:
 
     \* `reverse1` is better
 
@@ -166,16 +145,16 @@ if __name__ == "__main__":
 
     \* Both are the same
 
-| Provide your answer here.                                    |
-| ------------------------------------------------------------ |
-| `reverse2` is better as it uses in-place swappings and does not use space |
+| Provide your answer here. |
+| ------------------------- |
+| ?                         |
 
 12. What are the time and space complexities for reverse1 and reverse2?
 
-| Provide your answer here.            |
-| ------------------------------------ |
-| `reverse1`: time: O(n), space O(n)   |
-| `reverse2`: time: O(n), space( O(1)) |
+| Provide your answer here. |
+| ------------------------- |
+| `reverse1`: ?             |
+| `reverse2`: ?             |
 
 12. What is the time complexity of the following code?
 
@@ -193,15 +172,15 @@ if __name__ == "__main__":
   print(bubble_sort(data))
 ```
 
-| Provide your answer here.                                    |
-| ------------------------------------------------------------ |
-| O(n^2) - the bubble sort algorithm sorts an array of integers in ascending order. |
+| Provide your answer here. |
+| ------------------------- |
+| ?                         |
 
 13. What is the space complexity of the previous script?
 
-| Provide your answer here.               |
-| --------------------------------------- |
-| O(1) - it does not use any extra space. |
+| Provide your answer here. |
+| ------------------------- |
+| ?                         |
 
 14. Examine the next code.
 
@@ -223,15 +202,15 @@ if __name__ == "__main__":
 
 15. What is the purpose of this script?
 
-| Provide your answer here.                                    |
-| ------------------------------------------------------------ |
-| Counts the total number of iterations (find n) - Total iterations=n×(n−1)=7×(7−1)=7×6=42 |
+| Provide your answer here. |
+| ------------------------- |
+| ?                         |
 
 16. What is the time complexity of this script?
 
 | Provide your answer here. |
 | ------------------------- |
-| O(n-1) ≈ O(n)             |
+| ?                         |
 
 17. Analyze the Provided Code.
 
@@ -255,13 +234,13 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| It counts the swappings.  |
+| ?                         |
 
 19. Why does it output 12?
 
-| Provide your answer here.                 |
-| ----------------------------------------- |
-| There were 12 swappings to sort the list. |
+| Provide your answer here. |
+| ------------------------- |
+| ?                         |
 
 20. What is the purpose of the script?
 
@@ -287,10 +266,9 @@ if __name__ == "__main__":
 
 21. Why does it output 21?
 
-| Provide your answer here.                                    |
-| ------------------------------------------------------------ |
-| Because of the condition `for j in range(0, n-1-i)` the loop excludes the one already ordered. :happy:.   When i=0, it runs 6 times (n-1). When i=1, it runs five times (n-2). When i=2, it runs 4 times (n-3). So 6+5+4+3+2+1 = 21. |
-| Practically, the complexity refers to the sum of the first 6 natural numbers: O(n(n+1)/2) that generalises to O(n^2) |
+| Provide your answer here. |
+| ------------------------- |
+| ?                         |
 
 22. What is the time complexity of this script?
 
@@ -313,9 +291,9 @@ if __name__ == "__main__":
   print(binary_search(data, target))
 ```
 
-| Provide your answer here.                                    |
-| ------------------------------------------------------------ |
-| O(log(n)) - Binary search to find an element in a sorted array and return its index if found, otherwise return -1 |
+| Provide your answer here. |
+| ------------------------- |
+| ?                         |
 
 23. The following script generates all the possible permutations of a given list. Without running the script, can you define the time complexity of this script?
 
@@ -335,27 +313,27 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| O(n!)                     |
+| ?                         |
 
 24. What is the length of the output list if the input list has 5 numbers?
 
 | Provide your answer here. |
 | ------------------------- |
-| 5!=120                    |
+| ?                         |
 
 25. What is the computational complexity of the following script?
 
 The script uses the `bubble_sort` and the `binary_search` functions.
 
-```
+```python
 if __name__ == "__main__":
   data = [10,2,4,6,22,3,55,12]
   print(binary_search(bubble_sort(data), 10))
 ```
 
-| Provide your answer here.   |
-| --------------------------- |
-| O(n^2) > O(log(n)) ≈ O(n^2) |
+| Provide your answer here. |
+| ------------------------- |
+| ?                         |
 
 ### BDA Seminar 1 - Part 2
 
@@ -397,28 +375,14 @@ if __name__ == "__main__":
 
 > [!TIP]
 >
-> `ISO 8859-1` is the ISO standard Latin-1 character set and encoding format.
+> ISO 8859-1 is the ISO standard Latin-1 character set and encoding format.
 
 4. How many passwords are in the file?
 
 ```python
 # Provide your Python script here
 
-def count_pass(file_path):
-  count=0
-  try:
-    count=0
-    with open(file_path, 'r',encoding='ISO-8859-1') as file:
-      for line in file:
-        count+=1
-    return count
-  except Exception as e:
-        print(f"An error occurred: {e}")
-        return False
 
-## Use the following main
-if __name__ == "__main__":
-  print(count_pass('rockyou.txt'))
 ```
 
 > There are 14344391 passwords; make sure your result is correct.
@@ -431,43 +395,14 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| Time: O(n), Space O(1)    |
+| ?                         |
 
 6. Create a `search_password` function to search for a password in a given file.
 
 ```python
 # Provide your solution here
 
-import os
 
-def search_password(file_path, target_password):
-    # Check if the file exists
-    if not os.path.exists(file_path):
-        print("The file does not exist.")
-        return False
-
-    # Open the file and search for the password
-    try:
-        with open(file_path, 'r',encoding='ISO-8859-1') as file:
-            for line in file:
-                # Strip newline and whitespace from the line
-                current_password = line.strip()
-                if current_password == target_password:
-                    return True
-    except Exception as e:
-        print(f"An error occurred: {e}")
-        return False
-
-    return False
-
-if __name__ == "__main__":
-    file_path = input("Enter the path to the password file: ")
-    target_password = input("Enter the password to search for: ")
-    found = search_password(file_path, target_password)
-    if found:
-        print("Password found.")
-    else:
-        print("Password not found.")
 ```
 
 7. Calculate the time to find:
@@ -478,9 +413,9 @@ if __name__ == "__main__":
 
 8. Does your input affect the time complexity?
 
-| Provide your answer here.                        |
-| ------------------------------------------------ |
-| No! The complexity is not related to the inputs. |
+| Provide your answer here. |
+| ------------------------- |
+| ?                         |
 
 **:mount_fuji: The following tasks are challenging.**
 
@@ -494,42 +429,9 @@ if __name__ == "__main__":
 Then, run it for the whole dataset. Is it ever finished?
 
 ```python
-# Provide your solution here
-
 def check_duplicates1(file_path):
-    result=[]
-    try:
-        count=0
-        # Open the file and read all lines into a list
-        with open(file_path, 'r', encoding='ISO-8859-1') as file:
-            records = file.readlines()
-
-        # Clean whitespace and newlines from each line
-        records = [record.strip() for record in records]
-
-        # Compare each record with every other record
-        num_records = len(records)
-        for i in range(num_records):
-            if count==25:
-              break
-            for j in range(i + 1, num_records):
-                if records[i] == records[j]:
-                    # print(f"Duplicate record found: {records[i],i}")
-                    result.append(records[i])
-            count+=1
-        print(f"I stop to search in count: {count}")
-        return result
-
-        # If no duplicates are found after all comparisons
-        print("No duplicate records found.")
-        return False
-
-    except FileNotFoundError:
-        print("Error: The file does not exist.")
-        return False
-    except Exception as e:
-        print(f"An error occurred: {e}")
-        return False
+	# Provide your solution here
+  
 
 if __name__ == "__main__":
     file_path = "rockyou.txt"
@@ -549,38 +451,15 @@ if __name__ == "__main__":
 - Print a set of the duplicated values at the end.
 
 ```python
-# Provide your solution here
-
 def check_duplicates2(file_path):
-    seen = set()
-    duplicates = set()
-
-    try:
-        with open(file_path, 'r', encoding='ISO-8859-1') as file:
-            for line_number, line in enumerate(file, 1):
-                record = line.strip()
-                if record in seen:
-                    duplicates.add(record)
-                else:
-                    seen.add(record)
-
-        if duplicates:
-            print("Duplicates found:")
-            print(duplicates)
-            return True
-        else:
-            print("No duplicates found.")
-            return False
-
-    except FileNotFoundError:
-        print(f"The file {file_path} does not exist.")
+    # Provide your solution here
 
 if __name__ == "__main__":
     file_path = "rockyou.txt"
     check_duplicates2(file_path)
 ```
 
-12. What is the time and space complexity of this script if you don't use a set? What is when using sets?
+12. What is this script's time and space complexity if you don't use a set? What is when using sets?
 
 | Provide your answer here.                                    |
 | ------------------------------------------------------------ |
