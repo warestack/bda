@@ -98,7 +98,7 @@ if __name__ == "__main__":
 9. What is the time complexity of the following code?
 
 ```python
-def count_characters(filename):
+def count_lines(filename):
   count=0
   with open(filename, 'r') as file:
     for line in file:
