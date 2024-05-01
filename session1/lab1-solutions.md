@@ -231,7 +231,7 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-| O(n-1) ≈ O(n)             |
+| O(n^2)                    |
 
 17. Analyze the Provided Code.
 
