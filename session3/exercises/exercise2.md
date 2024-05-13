@@ -66,7 +66,7 @@ with open(filename, 'w', encoding='utf-8') as file:
 
 4. Compare the serial and parallel case, do you notice a difference?
 
-**Exercise 2**
+**Exercise 2 tasks**
 
 * Considering the above code samples, create a function to store a list of strings into a file. Use the following specification.
 
