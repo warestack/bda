@@ -1,5 +1,5 @@
 '''
-Tutorial 3:
+Tutorial 3 Script Overview:
 
 It utilizes the `concurrent.futures.ProcessPoolExecutor` to run a function in parallel across multiple processes, compared to a serial execution where tasks are processed sequentially.
 
