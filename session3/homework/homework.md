@@ -1,6 +1,6 @@
 **Homework**
 
-The next script processes a single image by applying a `GaussianBlur` filter with a radius of 25 and resizing it to a thumbnail size of `3400x3400`. The processed image is then saved to a specified directory. 
+The following script processes a single image by applying a `GaussianBlur` filter with a radius of 25 and resizing it to a thumbnail size of `3400x3400`. The processed image is then saved to a specified directory. 
 
 ```python
 from PIL import Image, ImageFilter
