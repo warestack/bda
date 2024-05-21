@@ -276,3 +276,134 @@ print("All documents have been printed.")
 
 ```
 
+### Threads mutex
+
+1. **Initialize a counter variable**: This line sets the initial value of the counter to 0.
+2. **Create a lock (mutex) for synchronizing access to shared resources**: This line initializes a lock to control access to shared resources and prevent race conditions.
+3. **Define a function to perform some task, simulating a delay**: This function prints a message and sleeps for 1 second to simulate a task.
+4. **Define a function to increment the counter safely using a lock**: This function increments the global counter variable, ensuring that only one thread can modify the counter at a time by using the lock.
+5. **Lists to hold thread objects**: These lines initialize empty lists to store the thread objects for the two different tasks.
+6. **Create and start threads**: This comment indicates the beginning of the section where threads are created and started.
+7. **Create a new thread for the do_something function**: This line creates a new thread object to execute the `do_something` function with the current loop index as an argument.
+8. **Create a new thread for the increment_counter function**: This line creates a new thread object to execute the `increment_counter` function.
+9. **Append the created threads to their respective lists**: This line adds the created thread objects to their respective lists.
+10. **Start the threads, beginning their execution**: This line starts the execution of the created threads.
+11. **Wait for all threads in threads1 to finish**: This comment indicates the beginning of the section where the script waits for all threads in `threads1` to complete.
+12. **Wait for all threads in threads2 to finish**: This comment indicates the beginning of the section where the script waits for all threads in `threads2` to complete.
+13. **Print the final value of the counter**: This line prints the final value of the counter after all threads have finished executing.
+
+```python
+import threading
+import time
+
+# Initialize a counter variable
+counter = 0
+
+# Create a lock (mutex) for synchronizing access to shared resources
+lock = threading.Lock()
+
+# Define a function to perform some task, simulating a delay
+def do_something(i):
+    print("In something thread", i)
+    time.sleep(1)
+
+# Define a function to increment the counter safely using a lock
+def increment_counter():
+    global counter
+    # Acquire the lock before accessing the shared counter
+    lock.acquire()
+    counter += 1
+    # Release the lock after modifying the shared counter
+    lock.release()
+
+# Lists to hold thread objects
+threads1 = []
+threads2 = []
+
+# Create and start threads
+for i in range(3):
+    # Create a new thread for the do_something function
+    thread1 = threading.Thread(target=do_something, args=[i])
+    # Create a new thread for the increment_counter function
+    thread2 = threading.Thread(target=increment_counter)
+
+    # Append the created threads to their respective lists
+    threads1.append(thread1)
+    threads2.append(thread2)
+    
+    # Start the threads, beginning their execution
+    thread1.start()
+    thread2.start()
+
+# Wait for all threads in threads1 to finish
+for thread in threads1:
+    thread.join()
+
+# Wait for all threads in threads2 to finish
+for thread in threads2:
+    thread.join()
+
+# Print the final value of the counter
+print(f"Final counter value: {counter}")
+```
+
+### Threads semaphore
+
+1. **Initialization**: A semaphore with a value of 2 is created, and the number of threads (`n`) is set to 5.
+
+2. **Function Definitions**: Two functions (`do_something` and `worker`) are defined. The `worker` function uses the semaphore to control access to its critical section.
+
+3. **Thread Pool**: A thread pool with a maximum of 5 threads is created using `ThreadPoolExecutor`.
+
+4. Submitting Tasks
+
+   :
+
+   - `do_something` tasks are submitted to the thread pool, creating 5 futures in `futures1`.
+   - `worker` tasks are submitted to the thread pool, creating 5 futures in `futures2`.
+
+5. **Optional Waiting**: The main thread can wait for all futures to complete if the commented-out section is uncommented.
+
+6. **Concurrency Control**: The semaphore ensures that only up to 2 `worker` threads can be in their critical section at the same time, demonstrating synchronization and concurrency control.
+
+By using the semaphore, this code ensures that the `worker` function's critical section is never accessed by more than 2 threads simultaneously, while the `do_something` function runs without such restrictions. The `ThreadPoolExecutor` manages the creation and execution of threads, simplifying the process of working with multiple threads.
+
+```python
+import concurrent.futures
+import threading
+import time
+
+# Initialize a semaphore with a value of 2, allowing up to 2 threads to access a resource simultaneously
+semaphore = threading.Semaphore(2)
+
+# Number of threads to be created
+n = 5
+
+def do_something(i):
+    # Function that simulates some work by printing a message and sleeping for 1 second
+    print("In something thread", i)
+    time.sleep(1)
+
+def worker(thread_id):
+    # Acquire the semaphore before performing the work
+    semaphore.acquire()
+    print(f"Thread {thread_id} is working")
+    time.sleep(1)  # Simulate some work by sleeping for 1 second
+    print(f"Thread {thread_id} is done")
+    # Release the semaphore after the work is done
+    semaphore.release()
+
+# Use a ThreadPoolExecutor to manage a pool of threads
+with concurrent.futures.ThreadPoolExecutor(max_workers=n) as executor:
+    # Submit 'do_something' tasks to the executor for each thread
+    futures1 = [executor.submit(do_something, i) for i in range(n)]
+    
+    # Submit 'worker' tasks to the executor for each thread
+    futures2 = [executor.submit(worker, i) for i in range(n)]
+    
+    # Optional: Wait for all futures to complete and retrieve their results
+    # Uncomment the following lines if you want to wait for all futures to complete
+    for future in concurrent.futures.as_completed(futures1 + futures2):
+        future.result()
+```
+
