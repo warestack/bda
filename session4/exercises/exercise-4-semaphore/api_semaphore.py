@@ -1,7 +1,7 @@
 import threading
 import requests
 
-# Create a semaphore with a count of 5 to limit concurrent connections
+# Create a semaphore with a count of 3 to limit concurrent connections
 connection_semaphore = threading.Semaphore(3)
 
 def fetch_currency_conversion(data):
