@@ -1,10 +1,10 @@
-### Lab1: Introduction to SQL
+### Lab5: Introduction to SQL
 
 #### What am I about to learn?
 
-Today's lab session is essential to have a solid start in this module. Make sure you complete all the tasks before the next class.
+Today's lab session is essential for a solid start in this module. Make sure you complete all the tasks before the next class.
 
-Lab 1 part 1 focuses on how to:
+Lab 5 part 1 focuses on how to:
 
 **Part A**    Connect to the Google Cloud Platform and start the SQL server.
 
@@ -16,31 +16,34 @@ Lab 1 part 1 focuses on how to:
 
 The labs are in the form of a complete step-by-step tutorial that you need to follow.
 
-- Do not just copy and paste the commands but try to understand the steps by typing in the commands.
+- Do not just copy and paste the commands, but try to understand the steps by typing in the commands.
 
 - Do not worry if you don't remember everything after the first class; we will have the opportunity to work with these commands repeatedly in the next ten weeks.
 
-- I suggest you create an online logbook (e.g., a GitHub page) to keep notes of the essential commands.
+- Do not be afraid to try the commands repeatedly or adapt and get used to them. During this lab, commands that could be potentially harmful (for example, deleting data, etc.) will be highlighted.
 
-- Do not be afraid to try the commands again and again or even adapt them and get used to them. Commands that could be potentially harmful (for example, delete data etc.) will be highlighted during this lab.
 
 
 ####  Part A
 
 * Follow the next video on how to perform this task. The video will show you how to connect to the Google Cloud Platform, redeem your coupon and configure an SQ server.
-* Firstly, watch the following video on how to configure MySQL on the GCP.  
+* Firstly, watch the following video on configuring MySQL on the GCP.  
 
 [![Watch the video](https://i.ytimg.com/vi/jWkeFjfrCxQ/hqdefault.jpg)](https://www.youtube.com/watch?v=jWkeFjfrCxQ)
 
-* Please make sure you complete **Part A** before you proceed further.
+* Please make sure you complete **Part A** before proceeding.
+
+**Here is the updated configuration page regarding the MySQL.**
+
+![](mysql-configuration.png)
 
 #### Part B
 
 The following tutorial describes a list of commands to interact with the MySQL server deployed on the GCP.
 
-1. First, you must set up your command line to the current project id.
+1. First, you must set up your command line to the current project ID.
 
-2. Type the following command and press enter. Make sure you replace the `<PROJECT_ID>` with your project id, as presented in the previous video.
+2. Type the following command and press enter. Make sure you replace the `<PROJECT_ID>` with your project ID, as presented in the previous video.
 
 ```shell
 $ gcloud config set project <PROJECT_ID>
@@ -55,7 +58,7 @@ Then, connect to the SQL server using the next command.
 $ gcloud sql connect <SQL-SERVER> --user=root
 ```
 
-3. Let us run some basic commands and learn how to use the MySQL command line interface (CLI).
+3. Let us run some basic commands and learn to use the MySQL command line interface (CLI).
 4. List the databases that are already created.
 
 ```sql
@@ -84,7 +87,7 @@ Query OK, 1 row affected (0.11 sec)
 
 > The database is now ready so that we can `use` it.
 >
-> If you run the `SHOW DATABASES` command once more, the new database, it will appear on the list.
+> If you run the `SHOW DATABASES` command once more, the new database will appear on the list.
 
 6. Select the `film_db` database as the current database to work on.
 
@@ -107,7 +110,7 @@ Database changed
 
 * `actor_id` is an integer so you will use an integer field `INT`. This field should accept unique values and cannot be empty.
 * `actor_firstname` is based on characters, so that you will use the `VARCHAR`. This field will accept a maximum of 30 characters per input.
-* `actor_last_name` is based on characters so we will use the `VARCHAR`. This field will accept a maximum of 30 characters per input.
+* `actor_last_name` is based on characters, so we will use the `VARCHAR`. This field will accept a maximum of 30 characters per input.
 * `actor_city` is based on characters, so you will use the `VARCHAR`. This field will accept a maximum of 30 characters per input.
 
 > Do not worry about the records for the moment; we only care about the creation of our table.
