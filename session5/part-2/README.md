@@ -1,15 +1,15 @@
-### Lab2: Advanced SQL commands
+### Lab5 part 2: Advanced SQL commands
 
 #### What am I about to learn?
 
-Today's lab session is essential to have a solid start in this module. Make sure you complete all the tasks before the next class.
+Today's lab session is essential for a solid start in this module. Make sure you complete all the tasks before the next class.
 
 
 ####  Running the commands on the GCP
 
-* **To run this tutorial, you should start your MySQL server on the GCP.** 
+* **You should start your MySQL server on the GCP to run this tutorial.** 
 
-1. First, you must set up your command line to the current project id.
+1. First, you must set up your command line to the current project ID.
 
 2. Type the following command and press enter. Make sure you replace the `<PROJECT_ID>` with your project id, as presented in the previous video.
 
@@ -20,14 +20,14 @@ $ gcloud config set project <PROJECT_ID>
 >  Enter a new password when prompted.
 >  :rotating_light: Do not expect to see any characters on the screen! 
 
-Then, connect to the SQL server using the next command, by replacing `<SQL-SERVER>` with your server.
+Then, connect to the SQL server using the following command, by replacing `<SQL-SERVER>` with your server.
 
 ```shell
 $ gcloud sql connect <SQL-SERVER> --user=root
 ```
 
 3. Let us run the following commands and learn how to use the MySQL command line interface (CLI).
-4. List the databases (e.g. the `film_db`) that you created in the previous class.
+4. List the databases (e.g. the `film_db`) you created in the previous class.
 
 ```sql
 mysql> SHOW DATABASES;

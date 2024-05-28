@@ -1,4 +1,4 @@
-### Lab1: Exercises
+### Lab5 part-1: Exercises
 
 Complete the following exercises by providing the appropriate SQL scripts. You can use the Google Cloud SQL server to complete this task.
 
