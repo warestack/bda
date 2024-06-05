@@ -54,7 +54,7 @@ Query OK, 1 row affected (0.11 sec)
 >
 > If you run the `SHOW DATABASES` command once more, the new database, it will appear on the list.
 
-6. Select the `film_db` database as the current database to work on.
+6. Select the `university_db` database as the current database to work on.
 
 ```sql
 mysql> USE university_db;
