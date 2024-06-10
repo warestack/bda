@@ -50,17 +50,9 @@ You must watch the following video on installing and running Apache Cassandra on
 
 [![Watch the video](https://i.ytimg.com/vi/79JVL6N0kuk/hqdefault.jpg)](https://youtu.be/79JVL6N0kuk)
 
-> You should run this tutorial on your GCP VM :white_check_mark:
-
 #### Phase 1: Setting up our environment
 
-2. To run this tutorial, you will need a GCP VM. If you don't remember creating a VM, please watch the video. For this tutorial, I used the following configuration.
-   * Zone: us-central1-a
-   * Machine type: e2-medium
-   * HTTP traffic: On
-   * HTTPS traffic: On
-   * Image: [ubuntu-1804-bionic-v20220131](https://console.cloud.google.com/compute/imagesDetail/projects/ubuntu-os-cloud/global/images/ubuntu-1804-bionic-v20220131?project=lab-7-270015)
-   * Size (GB): 30
+2. You will need to run this tutorial in your GCP VM. 
 3. Open a new terminal connection and run the follow the following commands. Make sure you understand the process. You don't have to memorise the commands.
 4. Let's update our system.
 
@@ -100,9 +92,8 @@ Processing triggers for ureadahead (0.100.0-21) ...
 
 > Docker is now installed on our VM; we can start trying a couple of tasks.
 >
-> We install docker once (in a VM), then we can use it.
 
-6. What is the Docker version? Run the next command
+6. What is the Docker version? Run the next command.
 
 ```bash
 $ sudo docker --version
@@ -242,13 +233,13 @@ $ docker inspect --format='{{ .NetworkSettings.IPAddress }}' cassandra-1
 ```
 
 14. There are different ways to create a cluster; the most common practice is to set up a cluster configuring the IP addresses of containers or VMs. Since we run everything in the same VM, we can use the container names rather than IPs.
-    * Before we proceed, let's make sure that our container is up and running. It should be up and running as we extracted the IP address.
+    * Before proceeding, let's ensure our container is up and running. It should be up and running as we extracted the IP address.
 
 ```bash
 $ docker ps -a
 ```
 
-> :rotating_light: In some cases, container creation might fail for many reasons, e.g. something went wrong in docker. In this unlikely case, stop (`docker stop <container-name>`) and delete the container (`docker rm <container-name>`) ; then run it again. 
+> :rotating_light: In many cases, container creation might fail for many reasons, e.g. something went wrong in docker. In this unlikely case, stop (`docker stop <container-name>`) and delete the container (`docker rm <container-name>`) ; then run it again. 
 >
 > * If you are want to learn more about setting Cassandra clusters using IP addresses, make sure you complete Appendix A, where you can see how to connect containers running on different VMs or servers.
 
