@@ -559,7 +559,7 @@ exit
 38. Let's install the required packages.
 
 ```bash
-$ sudo apt install python-pip
+$ sudo apt install python3-pip
 ```
 
 > Type `Y` when prompted.
