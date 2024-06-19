@@ -42,7 +42,7 @@ You must watch the following video on installing and running Apache Cassandra on
 
 ![0-create-vm-ports](assets/0-create-vm-ports.png)
 
-### Install Jupyter Notebook on GCP.
+### Create a VM and configure a Cassandra DB cluster
 
 > Take your time; make sure you double-check the commands before you run it
 
