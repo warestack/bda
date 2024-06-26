@@ -33,7 +33,7 @@ You will need to watch the following video on installing and running Spark on a 
 4. Let's update our system.
 
 ```bash
-$ sudo apt-get update
+sudo apt-get update
 
 Hit:1 http://us-central1.gce.archive.ubuntu.com/ubuntu bionic InRelease
 Get:2 http://us-central1.gce.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
@@ -54,7 +54,7 @@ Reading package lists... Done
 5. We can now install Docker; make sure you type `Y` for Yes when prompted.
 
 ```bash
-$ sudo apt-get install docker.io
+sudo apt-get install docker.io
 
 Reading package lists... Done
 Building dependency tree       
@@ -73,7 +73,7 @@ Processing triggers for ureadahead (0.100.0-21) ...
 6. What is the Docker version? Run the next command
 
 ```bash
-$ sudo docker --version
+sudo docker --version
 
 Docker version 20.10.7, build 20.10.7-0ubuntu5~18.04.3
 ```
@@ -81,7 +81,7 @@ Docker version 20.10.7, build 20.10.7-0ubuntu5~18.04.3
 7. Let's create a new user called docker-user. You can use this user to run our containers.
 
 ```bash
-$ sudo adduser docker-user
+sudo adduser docker-user
 
 Adding user `docker-user' ...
 Adding new group `docker-user' (1003) ...
@@ -106,7 +106,7 @@ Is the information correct? [Y/n] Y
 8. We will need to give `sudo` access to our new `docker-user`, so let's add it to the `sudo` group.
 
 ```bash
-$ sudo usermod -aG sudo docker-user
+sudo usermod -aG sudo docker-user
 ```
 
 > If we don't add the user in the `sudo` group, we will not run `sudo` commands.
@@ -114,25 +114,25 @@ $ sudo usermod -aG sudo docker-user
 9. Now, run the following command; this will allow us to give `sudo` permissions to docker to run our commands. 
 
 ```bash
-$ sudo usermod -aG docker docker-user
+sudo usermod -aG docker docker-user
 ```
 
 > This command ensures that our new `docker-user` can run docker commands without using the `sudo` keyword. For example, instead of running always: 
 >
 > ```bash
-> $ sudo docker <command> 
+> sudo docker <command> 
 > ```
 >
 > we will be able to run:
 >
 > ```bash
-> $ docker <command>
+> docker <command>
 > ```
 
 10. Let's switch users, type the following command.
 
 ```bash
-$ su - docker-user
+su - docker-user
 ```
 
 > The `-` symbol allows us to switch user (`su`) and change to the target user's home directory.
@@ -140,7 +140,7 @@ $ su - docker-user
 * We should be ready now! Try the following command to see if everything works fine.
 
 ```bash
-$ docker
+docker
 ```
 
 * You should be able to see a list of available options and commands. We can always refer to this when we need to explore using commands and options.
@@ -151,37 +151,37 @@ $ docker
 12. First, let us pull a Spark container.
 
 ```bash
-$ docker pull mjhea0/spark:2.4.1
+docker pull mjhea0/spark:2.4.1
 ```
 
 13. Let us check the docker images present on your system.
 
 ```bash
-$ docker images
+docker images
 ```
 
 14. The next step is to configure the environment variable in the IP of our VM. Do not worry for the moment about this command; we will discuss it in a while. 
 
 ```bash
-$ export EXTERNAL_IP=<YOUR_EXTERNAL_IP_ADDRESS>
+export EXTERNAL_IP=<YOUR_EXTERNAL_IP_ADDRESS>
 ```
 
 15. Let's clone the Spark repo with the sample scripts.
 
 ```bash
-$ git clone https://github.com/steliosot/spark-tutorial.git
+git clone https://github.com/steliosot/spark-tutorial.git
 ```
 
 > Let's enter in the `spark-tutorial` folder
 >
 > ```bash
-> $ cd spark-tutorial
+> cd spark-tutorial
 > ```
 
 16. Create a copy of the **docker-compose-ONE-WORKER.yml** file, as `docker-compose` file.
 
 ```bash
-$ cp docker-compose-ONE-WORKER.yml docker-compose.yml
+cp docker-compose-ONE-WORKER.yml docker-compose.yml
 ```
 
 >  Now, let us examine the `docker-compose.yml` file. 
@@ -229,13 +229,13 @@ services:
 17. Let's install the docker-compose utility.
 
 ```bash
-$ sudo apt install docker-compose
+sudo apt install docker-compose
 ```
 
 18. Then, run the following command to create your Spark cluster.
 
 ```bash
-$ docker-compose up -d
+docker-compose up -d
 ```
 
 19. Our cluster is ready! We have a Spark master and one worker up and running. Next step let us visit the Spark web interface and examine it.
@@ -274,19 +274,19 @@ if __name__ == "__main__":
     * Run the following command to export the container id of the master node, so we do not have to locate it manually and copy and paste it each time we need it.
 
 ```bash
-$ export CONTAINER_ID=$(docker ps --filter name=master --format "{{.ID}}")
+export CONTAINER_ID=$(docker ps --filter name=master --format "{{.ID}}")
 ```
 
 22. Next, copy `count.py` in the master container, inside the `tmp` directory.
 
 ```bash
-$ docker cp count.py $CONTAINER_ID:/tmp
+docker cp count.py $CONTAINER_ID:/tmp
 ```
 
 23. Finally, run the Spark job, this is one command to start our job.
 
 ```bash
-$ docker exec $CONTAINER_ID \
+docker exec $CONTAINER_ID \
   bin/spark-submit \
     --master spark://master:7077 \
     --class endpoint \
@@ -303,7 +303,7 @@ $ docker exec $CONTAINER_ID \
 > Let's examine this file. As you can see it is exactly the same as the previous compose file, but this one has an extra worker (`worker2`).
 >
 > ```bash
-> $ cp docker-compose-EXTRA-WORKER.yml docker-compose.yml
+> cp docker-compose-EXTRA-WORKER.yml docker-compose.yml
 > ```
 >
 > The docker file looks like this:
@@ -366,7 +366,7 @@ services:
 26. Let's build it!
 
 ```bash
-$ docker-compose up -d
+docker-compose up -d
 ```
 
 27. Let us refresh our Spark web interface; we should be able to see the node in our worker list. Now we have two workers (worker 1 and worker 2)!
@@ -418,13 +418,13 @@ if __name__ == "__main__":
 31. Let's move `example1.py` to the `tmp` directory of our container.
 
 ```bash
-$ docker cp example1.py $CONTAINER_ID:/tmp
+docker cp example1.py $CONTAINER_ID:/tmp
 ```
 
 32. Now, let's run it!
 
 ```bash
-$ docker exec $CONTAINER_ID bin/spark-submit --master spark://master:7077 --class endpoint /tmp/example1.py
+docker exec $CONTAINER_ID bin/spark-submit --master spark://master:7077 --class endpoint /tmp/example1.py
 ```
 
 33. Let us now run a computationally intensive task: the calculation of pi with Spark, like the Monte Carlo simulation example we ran last week on Hadoop MapReduce. This file is called `example2.py`.
@@ -455,13 +455,13 @@ if __name__ == "__main__":
 34. To run `example2.py`, we will need to copy the file in the spark master.
 
 ```bash
-$ docker cp example2.py $CONTAINER_ID:/tmp
+docker cp example2.py $CONTAINER_ID:/tmp
 ```
 
 35. Then run it!
 
 ```bash
-$ docker exec $CONTAINER_ID bin/spark-submit --master spark://master:7077 --class endpoint /tmp/example2.py
+docker exec $CONTAINER_ID bin/spark-submit --master spark://master:7077 --class endpoint /tmp/example2.py
 ```
 
 > You can increase the number of samples to have better accuracy on the pi calculation, e.g. runit(100) to runit(1000). In this case, you will need to copy the file back to the spark cluster.
@@ -471,7 +471,7 @@ $ docker exec $CONTAINER_ID bin/spark-submit --master spark://master:7077 --clas
     * Let us run the following command; as you can see, there are a lot of files for us there to play around with.
 
 ```bash
-$ docker exec $CONTAINER_ID hdfs dfs -ls examples/src/main/resources/
+docker exec $CONTAINER_ID hdfs dfs -ls examples/src/main/resources/
 
 Found 10 items
 -rw-r--r--   1 root root  130 2019-03-27 03:05 examples/src/main/resources/employees.json
@@ -489,7 +489,7 @@ Found 10 items
 37. Let's use the cat command to see the contents of a file in the terminal.
 
 ```bash
-$ docker exec $CONTAINER_ID hdfs dfs -cat examples/src/main/resources/people.json
+docker exec $CONTAINER_ID hdfs dfs -cat examples/src/main/resources/people.json
 
 {"name":"Michael"}
 {"name":"Andy", "age":30}
@@ -528,13 +528,13 @@ sqlDF.show()
 39. To run `example3.py`, we will need to copy the file in the spark master.
 
 ```bash
-$ docker cp example3.py $CONTAINER_ID:/tmp
+docker cp example3.py $CONTAINER_ID:/tmp
 ```
 
 40. Then run it!
 
 ```bash
-$ docker exec $CONTAINER_ID bin/spark-submit --master spark://master:7077 --class endpoint /tmp/example3.py
+docker exec $CONTAINER_ID bin/spark-submit --master spark://master:7077 --class endpoint /tmp/example3.py
 ```
 
 #### Appendix
