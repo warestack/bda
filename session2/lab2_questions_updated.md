@@ -1,6 +1,6 @@
 ### Lab 2 Questions
 
-1. **Explore the `rockyou.txt` file**
+1. Download the `rockyou.txt` file
    - Visit [Kaggle](https://www.kaggle.com/datasets/wjburns/common-password-list-rockyoutxt?resource=download), log in, and download the dataset.
    - Use the following script to open the file and load its contents into a list of lines.
 
@@ -14,7 +14,7 @@ with open("rockyou.txt", "r", encoding="latin-1") as file:
 
 ---
 
-2. **Print the first 5 lines from the file**
+2. Print the first 5 lines from the file
 
 ```python
 with open("rockyou.txt", "r", encoding="latin-1") as file:
@@ -33,7 +33,7 @@ for line in lines:
 
 ---
 
-3. **Use `strip()` to remove extra whitespace (like newlines) from each line**
+3. Use `strip()` to remove extra whitespace (like newlines) from each line
 
 ```python
 with open("rockyou.txt", "r", encoding="latin-1") as file:
@@ -52,7 +52,7 @@ for line in lines:
 
 ---
 
-4. **Define a linear search function in `fun.py`**
+4. Define a linear search function in `fun.py`
 
 ```python
 def linear_search(alist, key):
@@ -67,7 +67,7 @@ def linear_search(alist, key):
 
 ---
 
-5. **Move the file reading logic into a reusable function**
+5. Move the file reading logic into a reusable function
 
 ```python
 def read_txt(afile):
@@ -80,7 +80,7 @@ def read_txt(afile):
 
 ---
 
-6. **Use the `main` block to test functions when running `lab2.py` directly**
+6. Use the `main` block to test functions when running `lab2.py` directly
 
 ```python
 if __name__ == "__main__":
@@ -91,7 +91,7 @@ if __name__ == "__main__":
 
 ---
 
-7. **Print only the first `x` items in a list**
+7. Print only the first `x` items in a list
 
 ```python
 def my_head(alist, x):
@@ -108,7 +108,7 @@ def my_head(alist, x):
 
 ---
 
-8. **Count how many records (lines) exist in the list**
+8. Count how many records (lines) exist in the list
 
 ```python
 def my_len(alist):
@@ -123,7 +123,7 @@ def my_len(alist):
 
 ---
 
-9. **Count how many items in the list contain only digits**
+9. Count how many items in the list contain only digits
 
 ```python
 def count_string_digits(alist):
@@ -139,7 +139,7 @@ def count_string_digits(alist):
 
 ---
 
-10. **Check for duplicate entries using a set**
+10. Check for duplicate entries using a set
 
 ```python
 def has_duplicates(data):
@@ -157,7 +157,7 @@ def has_duplicates(data):
 
 ---
 
-11. **Check for duplicates using nested loops (inefficient)**
+11. Check for duplicates using nested loops (inefficient)
 
 ```python
 def has_duplicates_quadratic(data):
@@ -176,7 +176,7 @@ def has_duplicates_quadratic(data):
 
 ---
 
-12. **Measure the execution time of code using `time`**
+12. Measure the execution time of code using `time`
 
 ```python
 import time
@@ -193,7 +193,19 @@ print("Execution time:", end - start)
 
 ---
 
-13. **Sort the list in-place and print the first 5 items**
+13. Write a function called `bubble_sort` that takes a list of passwords and sorts it in ascending order using the Bubble Sort algorithm.
+
+```
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n-1-i):
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr
+```
+
+13. Sort the list in-place and print the first 5 items
 
 ```python
 lines.sort()
@@ -205,7 +217,7 @@ fun.my_head(lines, 5)
 
 ---
 
-14. **Binary search function for sorted lists**
+14. Binary search function for sorted lists
 
 ```python
 def binary_search(alist, key):
@@ -228,7 +240,7 @@ def binary_search(alist, key):
 
 ---
 
-15. **Create a frequency dictionary to count occurrences**
+15. Create a frequency dictionary to count occurrences
 
 ```python
 def frequency_dict(data):
@@ -247,7 +259,7 @@ def frequency_dict(data):
 
 ---
 
-16. **Find the most frequent item in a frequency dictionary**
+16. Find the most frequent item in a frequency dictionary
 
 ```python
 def get_most_frequent(freq_dict):
