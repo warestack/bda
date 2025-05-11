@@ -23,19 +23,19 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-|                           |
+|   Time: 0(10) or (0(n))     |   CORRECT.
 
 3. What is the space complexity of the above script?
 
 | Provide your answer here. |
 | ------------------------- |
-|                           |
+|  0(1)             |             CORRECT.
 
 4. Is this a computationally or data-intensive task?
 
 | Provide your answer here. |
 | ------------------------- |
-|                           |
+|  I think this is computationally intensive but not data intensive as the values are not important (?).     CORRECT.
 
 > [!TIP]
 >
@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-|                           |
+|  0(1)     |                         CORRECT.
 
 6. What is the time complexity of the following code?
 
@@ -69,7 +69,7 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-|                           |
+|  0(10 or 0(n))               |        SOLUTIONS SAY THIS JUST GETS FIRST ELEMENT AND ANSWER IS 0(1). THIS CONFUSED ME BUT IT'S BECAUSE IT RETURNS WITHIN THE FOR LOOP SO WILL END AS SOON AS ONE ANSWER IS RETURNED. TO GET ALL WOULD NEED TO USE PRINT().
 
 7. What is the time complexity of the following code?
 
@@ -87,14 +87,14 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-|                           |
+|  0(10 or 0(n))               |        CORRECT. IT PRINTS THE SUM OF ALL INTEGERS IN A GIVEN LIST.
 
 8. Is this a computationally or data-intensive task?
 
 | Provide your answer here. |
 | ------------------------- |
-|                           |
-
+|  This is both computationally intensive and data intensive as the values are important (?)   |   WRONG. IT IS COMPUTATIONALLY INTENSIVE BUT NOT DATA INTENSIVE.
+ 
 9. What is the time complexity of the following code?
 
 ```python
@@ -117,7 +117,7 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-|                           |
+| 0(n)  (n is the number of lines in the file)    |   CORRECT. 
 
 > [!IMPORTANT]
 >
@@ -127,13 +127,13 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-|                           |
+|  0(n)           |                   WRONG. IT IS SPACE COMPLEXITY 0(1).
 
 11. Is this a computationally or data-intensive task?
 
 | Provide your answer here. |
 | ------------------------- |
-|                           |
+| Computationally intensive?    |   WRONG. THIS IS DATA INTENSIVE ( Data (Input/Output)  )
 
 12. Compare the following scripts; which one do you prefer and why?
 
@@ -168,12 +168,13 @@ if __name__ == "__main__":
 
 | Provide your answer here. |
 | ------------------------- |
-|                           |
+|  I think reverse1 is better as only one new variable is created (although it's a list rather than integer so not sure.)    |  WRONG.
+SOLUTIONS SAY: `reverse2` is better as it uses in-place swappings and does not use space (no list compiled)
 
 12. What are the time and space complexities for reverse1 and reverse2?
 
 | Provide your answer here. |
 | ------------------------- |
-| `reverse1`:               |
-| `reverse2`:               |
+| `reverse1`:  Time: 0(n), space: 0(1)     |  WRONG. time: O(n), space O(n)
+| `reverse2`:  Time: 0(n), space: 0(2)     |  WRONG. Time: 0(n), space: 0(1)  (this is the list)
 
