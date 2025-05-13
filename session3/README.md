@@ -16,13 +16,28 @@
 Read the CSV data into a list of dictionaries, for later usage.
 
 ```python
+import csv
 
+with open('netflix_titles.csv', mode='r', newline='') as file:
+    reader = csv.DictReader(file)
+    data = [row for row in reader]
+
+print(data[1])
 ```
 
 **Here is the function implemenation.**
 
 ```python
+import csv
 
+def load_data(filename):
+    with open(filename, mode='r', newline='', encoding='utf-8') as file:
+        reader = csv.DictReader(file)
+        data = [row for row in reader]
+    return data
+
+netflix_data = load_data('netflix_titles.csv')
+print(netflix_data[0])  # Print first entry
 ```
 
 **Time Complexity**: `O(n·m)`
@@ -52,9 +67,9 @@ Read the CSV data into a list of dictionaries, for later usage.
 - It’s more efficient when you only need a few items from a large list or stream.
 - Works well in pipelines or streaming scenarios.
 
-Time Complexity: `O(k)` where `k = min(limit, len(alist))`
+Time Complexity: 
 
-Space complexity: `O(1)` — Just one item is in memory at any moment
+Space complexity:
 
 ---
 
@@ -64,9 +79,9 @@ Space complexity: `O(1)` — Just one item is in memory at any moment
 
 ```
 
-Time complexity: `O(n)` — worst case limit is the amount of data
+Time complexity: 
 
-Space Complexity: `O(k)` where `k = limit`  (You’re storing `limit` values, not `n`)
+Space Complexity: 
 
 ---
 
@@ -80,9 +95,9 @@ Space Complexity: `O(k)` where `k = limit`  (You’re storing `limit` values, no
 
 ```
 
-Time complexity: `O(n)` — where `n` is the number of rows in `data`
+Time complexity:
 
-Space complexity: `O(n)` — builds and stores a list of up to `limit` values in memory.
+Space complexity: 
 
 * **Solution with `yield`**
 
@@ -92,8 +107,9 @@ Space complexity: `O(n)` — builds and stores a list of up to `limit` values in
 
 **Why use `yield`?**
 
-- **Time Complexity**: `O(n)` — same as the original.
-- **Space Complexity**: `O(1)` — only one matching item is held in memory at a time.
+* Time complexity:
+
+* Space complexity: 
 
 ---
 
@@ -117,8 +133,8 @@ Complexities are the same as 5 `return`.
 
 **Complexity**
 
-- **Time Complexity**: `O(n)`
-- **Space Complexity**: `O(1)` — yields one item at a time, no list built in memory.
+- Time complexity:
+- Space complexity: 
 
 ---
 
@@ -138,9 +154,9 @@ Searches for titles containing the word `love` (case-insensitive).
 
 ```
 
-Time: `O(n·m)` — where `n` is the number of rows and `m` is the average length of each title (`lower()` and `'blood' in ...` are O(m) string operations per row).
+Time complexity:
 
-Space: `O(n)` — where `n` is the number of matching titles that contain "love".
+Space complexity: 
 
 ---
 
@@ -154,32 +170,15 @@ Finds all movies with a `PG-13` rating.
 
 ```
 
-**Time Complexity: `O(n)`**
-
-- The function loops over all `n` rows in the dataset once.
-- Each condition check and append operation is constant time.
-
- **Space Complexity: `O(k)`**
-
-- Where `k` is the number of matching entries (`PG-13` movies).
-- The function builds a list containing only the matches.
-
-* **Solution with `yield`**
+* Time complexity:
+* Space complexity: 
 
 ```python
 
 ```
 
-**Time Complexity: `O(n)`**
-
-- Loops through each of the `n` rows in `data`.
-- Performs constant-time comparisons and yields matches.
-- Same as the list version.
-
-**Space Complexity: `O(1)`**
-
-- **Does not** store results in a list.
-- Only holds **one matching title in memory at a time**.
+- Time complexity:
+- Space complexity: 
 
 ---
 
@@ -193,20 +192,10 @@ Counts the number of rows in the dataset.
 
 **Can I use yield?**
 
-No, you **should not use `yield`** for `my_len`, because:
+?
 
-- `yield` is used to **produce values one-by-one**
-- `my_len` is a function that returns a **single final count**, not a stream
-
-**Time Complexity: `O(n)`**
-
-- The loop runs once for every element in `alist`
-- Simple increment per item → linear time
-
- **Space Complexity: `O(1)`**
-
-- Only one variable (`count`) is used for tracking
-- No new data structures are created or stored
+- Time complexity:
+- Space complexity: 
 
 ---
 
@@ -218,15 +207,8 @@ Counts how many entries are `TV Show` vs. `Movie`.
 
 ```
 
-**Time Complexity: `O(n)`**
-
-- The function loops over all `n` rows in the dataset.
-- Each comparison and increment is constant time → total is linear.
-
- **Space Complexity: `O(1)`**
-
-- Only two counters (`tv` and `movie`) are maintained.
-- The final result is a fixed-size dictionary with two keys.
+- Time complexity:
+- Space complexity: 
 
 ------
 
@@ -259,18 +241,8 @@ Calculates average number of seasons for TV shows.
 
 ```
 
-**Time Complexity: `O(n)`**
-
-- Iterates through all `n` rows.
-- For each row, it performs:
-  - A string check (`'Season' in row['duration']`) → O(1)
-  - A string split and conversion to `int()` → O(1)
-- All operations inside the loop are constant time → **O(n)** overall.
-
-**Space Complexity: `O(1)`**
-
-- Only two variables (`total`, `count`) are used.
-- No new data structures or collections are created.
+- Time complexity:
+- Space complexity: 
 
 ---
 
