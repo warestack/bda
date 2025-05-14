@@ -9,6 +9,11 @@
 * Create summaries, counters, and frequency tables using `for` loops and dictionaries.
 * Perform basic sorting, aggregation, and statistical operations manually.
 
+Dataset:
+
+* Download the data from Kaggle:
+  * [Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+
 ---
 
 1. **Load the data in Python as a dictionary.**
