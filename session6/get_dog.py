@@ -1,6 +1,6 @@
 # This script fetches a random dog image from the Dog CEO API and saves it locally.
 # It prints the image URL and saves the image using the original filename from the URL.
-import requests
+import requests, os
 def fetch_and_save_dog_image(index):
     url = "https://dog.ceo/api/breeds/image/random"
     response = requests.get(url)
