@@ -1,0 +1,1001 @@
+movie_id,title,year,runtime_min,genres,rating_imdb,votes,revenue_musd,director,cast_top3,country,language,production_company,metascore
+1,Movie 1,2020,94,Romance,5.3,73658,590.5,Director 280,"Actor 90, Actor 605, Actor 433",USA,English,Studio 12,57
+2,Movie 2,1994,144,"Action, Animation, Thriller",7.9,,438.2,Director 113,"Actor 460, Actor 604, Actor 285",USA,Italian,Studio 21,84
+3,Movie 3,2001,115,Thriller,9.3,176972,86.3,Director 195,"Actor 100, Actor 368, Actor 353",Australia,French,Studio 6,88
+4,Movie 4,2014,95,"Comedy, Animation",5.6,330088,496.7,Director 186,"Actor 592, Actor 197, Actor 722",UK,English,Studio 85,59
+5,Movie 5,1998,90,Comedy,6.1,238217,510.4,Director 187,"Actor 167, Actor 380, Actor 364",France,Japanese,Studio 35,39
+6,Movie 6,2018,161,Animation,8.0,86169,372.5,Director 139,"Actor 656, Actor 705, Actor 571",France,Japanese,Studio 42,37
+7,Movie 7,1994,84,"Horror, Romance",4.4,479246,754.6,Director 162,"Actor 218, Actor 672, Actor 512",Japan,Japanese,Studio 59,48
+8,Movie 8,1996,97,Animation,7.0,392150,469.7,Director 299,"Actor 409, Actor 371, Actor 225",Canada,Hindi,Studio 64,41
+9,Movie 9,1983,94,Drama,8.4,221833,479.1,Director 198,"Actor 391, Actor 611, Actor 480",Italy,French,Studio 71,31
+10,Movie 10,2023,172,Animation,8.1,403467,514.6,Director 58,"Actor 301, Actor 446, Actor 162",Spain,English,Studio 93,63
+11,Movie 11,2012,177,Animation,9.0,456902,502.1,Director 260,"Actor 624, Actor 204, Actor 157",India,Italian,Studio 21,30
+12,Movie 12,2018,121,"Action, Comedy",9.1,461203,788.3,Director 158,"Actor 246, Actor 60, Actor 247",Australia,English,Studio 11,92
+13,Movie 13,1984,177,"Drama, Fantasy, Adventure",9.2,87074,215.7,Director 217,"Actor 217, Actor 553, Actor 774",France,Japanese,Studio 40,81
+14,Movie 14,2022,163,"Adventure, Animation",6.5,130473,183.6,Director 174,"Actor 22, Actor 603, Actor 568",France,Hindi,Studio 29,30
+15,Movie 15,1984,170,"Action, Thriller, Comedy",9.0,451196,267.7,Director 264,"Actor 244, Actor 286, Actor 686",Spain,Spanish,Studio 70,46
+16,Movie 16,2016,153,"Thriller, Adventure",8.4,100329,80.0,Director 221,"Actor 363, Actor 434, Actor 421",Spain,Italian,Studio 94,36
+17,Movie 17,2023,163,"Comedy, Action, Horror",8.0,420241,690.0,Director 128,"Actor 197, Actor 195, Actor 550",Spain,Spanish,Studio 55,53
+18,Movie 18,1997,139,Comedy,6.4,452094,685.5,Director 51,"Actor 52, Actor 668, Actor 554",USA,English,Studio 97,60
+19,Movie 19,1990,132,"Adventure, Thriller",8.8,473639,51.6,Director 195,"Actor 3, Actor 400, Actor 272",Spain,French,Studio 55,92
+20,Movie 20,1989,104,"Thriller, Action",7.2,284766,53.5,Director 161,"Actor 59, Actor 52, Actor 599",Spain,Hindi,Studio 68,50
+21,Movie 21,1983,145,Drama,4.4,36131,541.8,Director 121,"Actor 414, Actor 123, Actor 584",France,Hindi,Studio 77,35
+22,Movie 22,2019,90,"Fantasy, Animation",5.7,137216,167.4,Director 161,"Actor 245, Actor 272, Actor 406",Canada,Japanese,Studio 83,68
+23,Movie 23,2009,120,Action,6.5,295670,796.9,Director 38,"Actor 551, Actor 219, Actor 519",Germany,Spanish,Studio 45,38
+24,Movie 24,1995,127,"Drama, Adventure",8.6,369357,245.5,Director 271,"Actor 9, Actor 684, Actor 568",Germany,Japanese,Studio 14,47
+25,Movie 25,1996,94,Animation,4.9,148221,485.8,Director 176,"Actor 209, Actor 704, Actor 650",Germany,Hindi,Studio 63,62
+26,Movie 26,1983,91,"Horror, Romance, Action",4.0,404788,109.0,Director 135,"Actor 166, Actor 760, Actor 453",Italy,Japanese,Studio 55,31
+27,Movie 27,1987,89,"Drama, Animation, Action",8.6,305902,444.3,Director 221,"Actor 131, Actor 43, Actor 316",India,Italian,Studio 6,75
+28,Movie 28,1993,167,Comedy,5.9,294040,707.9,Director 209,"Actor 636, Actor 768, Actor 159",France,Italian,Studio 21,52
+29,Movie 29,2006,83,Sci-Fi,8.3,216356,642.8,Director 128,"Actor 274, Actor 164, Actor 719",UK,German,Studio 5,90
+30,Movie 30,1994,105,"Sci-Fi, Romance",8.5,457324,185.9,Director 13,"Actor 676, Actor 198, Actor 409",India,French,Studio 9,65
+31,Movie 31,2002,162,"Horror, Animation, Sci-Fi",9.2,60972,702.2,Director 134,"Actor 183, Actor 595, Actor 272",USA,English,Studio 77,85
+32,Movie 32,2002,173,"Horror, Animation",4.6,472099,463.4,Director 131,"Actor 46, Actor 726, Actor 447",USA,Hindi,Studio 69,55
+33,Movie 33,2003,135,Sci-Fi,7.4,348306,679.2,Director 154,"Actor 520, Actor 317, Actor 683",Japan,French,Studio 52,67
+34,Movie 34,2015,96,Horror,7.7,199281,543.5,Director 90,"Actor 631, Actor 583, Actor 309",Japan,Hindi,Studio 1,68
+35,Movie 35,1998,106,"Fantasy, Sci-Fi",6.6,232319,542.1,Director 262,"Actor 485, Actor 754, Actor 174",UK,French,Studio 66,72
+36,Movie 36,1985,176,Romance,5.2,104901,122.1,Director 24,"Actor 251, Actor 487, Actor 626",UK,German,Studio 54,54
+37,Movie 37,2025,169,"Adventure, Horror",5.3,344463,551.7,Director 55,"Actor 798, Actor 436, Actor 225",Canada,Italian,Studio 90,89
+38,Movie 38,1983,151,Comedy,6.5,420673,374.4,Director 272,"Actor 573, Actor 610, Actor 325",Spain,Hindi,Studio 93,94
+39,Movie 39,2007,150,"Drama, Adventure",6.5,394647,201.6,Director 142,"Actor 785, Actor 797, Actor 534",Spain,Japanese,Studio 31,65
+40,Movie 40,2008,89,"Romance, Thriller, Fantasy",5.8,468703,434.4,Director 71,"Actor 155, Actor 237, Actor 393",Canada,Japanese,Studio 28,38
+41,Movie 41,2006,132,"Animation, Adventure",6.3,108940,667.1,Director 200,"Actor 789, Actor 599, Actor 713",USA,Italian,Studio 98,78
+42,Movie 42,2010,80,"Romance, Horror",8.7,438662,338.1,Director 280,"Actor 618, Actor 226, Actor 500",France,French,Studio 56,92
+43,Movie 43,1981,129,"Horror, Drama",8.6,482604,106.5,Director 274,"Actor 28, Actor 404, Actor 607",Australia,Japanese,Studio 4,40
+44,Movie 44,2021,134,Adventure,5.0,136896,306.4,Director 109,"Actor 466, Actor 335, Actor 346",Japan,French,Studio 97,83
+45,Movie 45,1996,90,"Action, Animation",4.3,499580,283.2,Director 36,"Actor 800, Actor 668, Actor 42",USA,Spanish,Studio 26,32
+46,Movie 46,2019,99,Drama,6.6,60473,453.4,Director 112,"Actor 477, Actor 717, Actor 263",India,Spanish,Studio 78,44
+47,Movie 47,1990,119,Fantasy,4.1,164055,462.8,Director 193,"Actor 407, Actor 733, Actor 204",UK,Hindi,Studio 89,61
+48,Movie 48,1986,169,"Fantasy, Comedy",8.4,297211,627.2,Director 178,"Actor 546, Actor 439, Actor 678",India,English,Studio 65,73
+49,Movie 49,1980,133,"Comedy, Horror",9.3,333729,713.8,Director 236,"Actor 725, Actor 157, Actor 446",Canada,Japanese,Studio 67,64
+50,Movie 50,2019,148,"Adventure, Horror",8.5,311127,218.4,Director 126,"Actor 89, Actor 286, Actor 462",France,Italian,Studio 60,78
+51,Movie 51,2001,83,"Sci-Fi, Drama",6.7,186530,639.3,Director 175,"Actor 287, Actor 611, Actor 719",Germany,Hindi,Studio 2,54
+52,Movie 52,1985,110,"Horror, Adventure, Thriller",7.8,339139,570.9,Director 230,"Actor 18, Actor 96, Actor 302",France,German,Studio 89,61
+53,Movie 53,1999,164,"Sci-Fi, Adventure, Fantasy",6.3,391584,442.6,Director 181,"Actor 720, Actor 465, Actor 278",Germany,French,Studio 30,45
+54,Movie 54,1992,120,Animation,9.2,362344,152.2,Director 111,"Actor 757, Actor 496, Actor 284",Australia,Italian,Studio 68,66
+55,Movie 55,1986,104,"Thriller, Sci-Fi",5.0,7917,567.9,Director 65,"Actor 281, Actor 47, Actor 56",Italy,French,Studio 90,46
+56,Movie 56,2020,176,"Comedy, Action",7.2,246599,385.6,Director 175,"Actor 189, Actor 53, Actor 259",Spain,English,Studio 9,81
+57,Movie 57,2011,89,"Action, Drama, Animation",8.5,498115,246.5,Director 128,"Actor 122, Actor 572, Actor 783",Japan,Hindi,Studio 77,58
+58,Movie 58,2013,128,"Adventure, Romance",8.7,225330,247.8,Director 31,"Actor 625, Actor 758, Actor 102",France,Japanese,Studio 28,63
+59,Movie 59,2022,90,Thriller,5.0,39855,129.4,Director 210,"Actor 462, Actor 706, Actor 609",Spain,French,Studio 5,59
+60,Movie 60,1998,170,"Adventure, Comedy",7.8,484895,215.3,Director 102,"Actor 436, Actor 118, Actor 558",France,Japanese,Studio 20,64
+61,Movie 61,1989,89,Drama,8.4,312474,600.4,Director 292,"Actor 296, Actor 450, Actor 128",Spain,Japanese,Studio 39,81
+62,Movie 62,1997,144,"Adventure, Fantasy, Comedy",7.3,466813,348.5,Director 166,"Actor 619, Actor 257, Actor 27",UK,Spanish,Studio 87,32
+63,Movie 63,2023,114,"Action, Drama, Adventure",6.9,232355,733.3,Director 93,"Actor 600, Actor 447, Actor 651",Spain,English,Studio 61,74
+64,Movie 64,2006,122,"Comedy, Drama",5.8,364184,398.9,Director 206,"Actor 779, Actor 564, Actor 38",Spain,English,Studio 41,62
+65,Movie 65,2000,94,"Animation, Action",7.6,284975,372.3,Director 28,"Actor 193, Actor 531, Actor 371",Australia,Italian,Studio 64,86
+66,Movie 66,1983,106,"Animation, Drama",9.1,230199,705.3,Director 249,"Actor 125, Actor 30, Actor 646",Australia,Italian,Studio 31,50
+67,Movie 67,1999,150,Animation,6.2,118307,793.8,Director 59,"Actor 473, Actor 121, Actor 664",Canada,German,Studio 92,67
+68,Movie 68,2012,170,"Horror, Adventure",9.4,128285,368.1,Director 75,"Actor 393, Actor 196, Actor 614",Italy,Japanese,Studio 18,38
+69,Movie 69,1997,178,"Sci-Fi, Animation",5.5,1844,229.9,Director 153,"Actor 602, Actor 594, Actor 676",Spain,Italian,Studio 20,87
+70,Movie 70,2014,141,"Sci-Fi, Animation",8.2,198266,367.0,Director 165,"Actor 194, Actor 715, Actor 245",Australia,German,Studio 30,82
+71,Movie 71,1982,120,"Adventure, Horror, Animation",9.4,415942,657.5,Director 78,"Actor 508, Actor 38, Actor 130",Italy,Hindi,Studio 43,42
+72,Movie 72,2008,92,"Adventure, Action, Drama",6.3,343793,776.1,Director 39,"Actor 481, Actor 272, Actor 347",Australia,Japanese,Studio 51,40
+73,Movie 73,2001,166,"Horror, Sci-Fi, Adventure",8.8,19321,495.9,Director 121,"Actor 647, Actor 701, Actor 295",France,Japanese,Studio 12,85
+74,Movie 74,1986,177,"Comedy, Adventure, Drama",7.8,474154,28.0,Director 167,"Actor 58, Actor 301, Actor 368",India,German,Studio 19,61
+75,Movie 75,2013,132,"Drama, Fantasy, Animation",4.4,457070,309.1,Director 124,"Actor 510, Actor 598, Actor 147",France,German,Studio 82,62
+76,Movie 76,2009,112,"Action, Adventure, Romance",7.7,83324,63.7,Director 177,"Actor 602, Actor 307, Actor 655",Japan,Japanese,Studio 33,88
+77,Movie 77,1999,105,"Adventure, Comedy",5.3,300352,290.4,Director 152,"Actor 717, Actor 303, Actor 23",Japan,French,Studio 2,36
+78,Movie 78,2018,175,"Romance, Thriller",7.3,185217,179.1,Director 98,"Actor 636, Actor 257, Actor 695",Canada,Japanese,Studio 13,35
+79,Movie 79,1999,180,"Action, Sci-Fi",8.0,47755,728.2,Director 168,"Actor 766, Actor 426, Actor 180",France,Spanish,Studio 70,76
+80,Movie 80,2013,144,"Drama, Romance",9.0,495526,388.1,Director 152,"Actor 765, Actor 347, Actor 118",Spain,English,Studio 19,58
+81,Movie 81,2023,172,"Horror, Animation, Sci-Fi",4.5,207370,16.1,Director 275,"Actor 127, Actor 466, Actor 378",Germany,Hindi,Studio 49,77
+82,Movie 82,1986,166,Adventure,4.1,464093,754.8,Director 168,"Actor 625, Actor 227, Actor 664",UK,Japanese,Studio 60,68
+83,Movie 83,2021,132,Drama,4.2,20009,247.0,Director 253,"Actor 119, Actor 100, Actor 241",Italy,Spanish,Studio 50,88
+84,Movie 84,2003,165,"Animation, Horror, Drama",8.9,343867,83.7,Director 251,"Actor 631, Actor 418, Actor 287",USA,Japanese,Studio 48,57
+85,Movie 85,2008,136,Sci-Fi,4.5,359993,297.0,Director 184,"Actor 63, Actor 408, Actor 283",France,English,Studio 59,41
+86,Movie 86,2022,107,"Fantasy, Action, Animation",8.3,128200,791.1,Director 290,"Actor 211, Actor 71, Actor 784",Italy,Spanish,Studio 76,57
+87,Movie 87,1994,122,Fantasy,4.0,450552,787.3,Director 67,"Actor 554, Actor 257, Actor 179",UK,Japanese,Studio 4,46
+88,Movie 88,1980,125,Fantasy,5.8,91855,216.0,Director 65,"Actor 760, Actor 432, Actor 539",UK,Japanese,Studio 9,90
+89,Movie 89,2008,179,"Animation, Comedy",6.5,116655,756.6,Director 23,"Actor 745, Actor 675, Actor 534",Germany,German,Studio 83,33
+90,Movie 90,1983,141,"Horror, Comedy",6.7,477445,357.6,Director 42,"Actor 330, Actor 623, Actor 152",UK,Spanish,Studio 36,71
+91,Movie 91,2004,156,"Romance, Adventure, Horror",4.5,368434,96.0,Director 283,"Actor 739, Actor 221, Actor 441",Spain,Spanish,Studio 53,73
+92,Movie 92,2009,131,"Comedy, Sci-Fi",6.3,349208,207.6,Director 79,"Actor 704, Actor 486, Actor 69",UK,Italian,Studio 11,41
+93,Movie 93,2007,92,"Sci-Fi, Drama, Action",7.2,294933,451.5,Director 63,"Actor 421, Actor 363, Actor 682",Japan,Italian,Studio 93,36
+94,Movie 94,1998,156,"Sci-Fi, Comedy",7.2,112036,128.0,Director 247,"Actor 230, Actor 111, Actor 359",Italy,French,Studio 15,65
+95,Movie 95,2016,108,"Animation, Fantasy",4.1,487607,528.0,Director 137,"Actor 30, Actor 185, Actor 280",Germany,French,Studio 45,30
+96,Movie 96,1991,98,"Horror, Comedy, Drama",8.1,16573,77.9,Director 272,"Actor 221, Actor 386, Actor 430",Spain,French,Studio 21,77
+97,Movie 97,1999,172,"Fantasy, Comedy",8.9,82068,130.1,Director 26,"Actor 691, Actor 84, Actor 279",Spain,Japanese,Studio 55,92
+98,Movie 98,2018,136,"Romance, Thriller",8.2,60173,279.4,Director 57,"Actor 291, Actor 695, Actor 608",Spain,Hindi,Studio 86,69
+99,Movie 99,1982,108,"Fantasy, Action",4.0,158530,756.5,Director 71,"Actor 783, Actor 262, Actor 297",India,English,Studio 1,93
+100,Movie 100,2007,102,Horror,6.9,121144,402.7,Director 182,"Actor 74, Actor 407, Actor 760",USA,German,Studio 3,88
+101,Movie 101,1984,120,"Horror, Fantasy, Animation",5.6,212853,21.6,Director 167,"Actor 176, Actor 633, Actor 472",India,English,Studio 56,43
+102,Movie 102,1995,135,"Horror, Animation, Comedy",6.2,163173,597.9,Director 114,"Actor 342, Actor 798, Actor 173",UK,Hindi,Studio 82,44
+103,Movie 103,2013,145,Sci-Fi,5.9,429864,518.1,Director 76,"Actor 242, Actor 106, Actor 150",Germany,Spanish,Studio 23,49
+104,Movie 104,2021,89,Adventure,6.6,296059,609.1,Director 230,"Actor 698, Actor 579, Actor 659",Australia,French,Studio 81,70
+105,Movie 105,1989,136,Adventure,6.4,159265,638.1,Director 29,"Actor 361, Actor 520, Actor 76",Germany,German,Studio 58,34
+106,Movie 106,1983,127,"Comedy, Fantasy",7.4,266349,310.7,Director 298,"Actor 568, Actor 757, Actor 43",Spain,Italian,Studio 74,54
+107,Movie 107,2000,157,"Animation, Drama",9.3,236703,87.3,Director 176,"Actor 732, Actor 87, Actor 517",Canada,English,Studio 32,86
+108,Movie 108,2008,147,"Fantasy, Drama, Sci-Fi",6.1,148817,313.0,Director 174,"Actor 696, Actor 613, Actor 54",India,English,Studio 43,42
+109,Movie 109,2015,166,"Romance, Fantasy",8.0,344728,771.7,Director 77,"Actor 342, Actor 84, Actor 597",Canada,French,Studio 40,80
+110,Movie 110,1988,156,"Comedy, Romance, Horror",7.5,172716,651.5,Director 270,"Actor 96, Actor 662, Actor 687",Japan,Hindi,Studio 47,32
+111,Movie 111,2003,119,Thriller,5.9,402186,391.6,Director 116,"Actor 141, Actor 159, Actor 80",Germany,Italian,Studio 13,94
+112,Movie 112,2014,174,"Action, Sci-Fi, Drama",7.3,81372,134.0,Director 85,"Actor 739, Actor 449, Actor 45",Japan,French,Studio 87,60
+113,Movie 113,2008,158,"Adventure, Thriller",6.9,162750,772.6,Director 241,"Actor 199, Actor 377, Actor 695",Australia,German,Studio 60,66
+114,Movie 114,2004,144,"Horror, Drama, Thriller",8.4,73060,699.0,Director 27,"Actor 657, Actor 493, Actor 381",Italy,English,Studio 92,45
+115,Movie 115,1998,90,Romance,6.5,269644,122.1,Director 224,"Actor 94, Actor 228, Actor 462",India,English,Studio 54,36
+116,Movie 116,2005,144,"Thriller, Horror",9.5,197062,183.5,Director 164,"Actor 102, Actor 732, Actor 666",India,Italian,Studio 19,47
+117,Movie 117,1982,116,"Drama, Adventure",6.5,3253,725.2,Director 10,"Actor 263, Actor 221, Actor 154",Italy,Japanese,Studio 78,84
+118,Movie 118,1987,179,"Thriller, Romance",4.7,125510,338.8,Director 235,"Actor 65, Actor 114, Actor 512",Australia,Hindi,Studio 3,95
+119,Movie 119,2016,110,"Drama, Romance, Horror",4.0,185477,196.2,Director 214,"Actor 192, Actor 681, Actor 685",UK,Hindi,Studio 47,38
+120,Movie 120,2013,149,"Animation, Fantasy, Action",6.1,246986,39.6,Director 199,"Actor 383, Actor 260, Actor 766",USA,French,Studio 9,74
+121,Movie 121,1995,173,"Comedy, Sci-Fi, Drama",4.2,286768,274.1,Director 90,"Actor 798, Actor 702, Actor 476",Spain,Japanese,Studio 24,47
+122,Movie 122,1984,171,"Action, Romance",5.1,415269,163.6,Director 22,"Actor 324, Actor 318, Actor 528",Japan,Italian,Studio 70,90
+123,Movie 123,1996,84,"Thriller, Romance, Sci-Fi",8.7,25563,693.3,Director 170,"Actor 280, Actor 128, Actor 377",Japan,German,Studio 96,86
+124,Movie 124,2004,123,Adventure,7.8,193095,739.8,Director 266,"Actor 274, Actor 85, Actor 745",Japan,English,Studio 56,53
+125,Movie 125,2014,117,"Comedy, Fantasy",5.8,155500,248.7,Director 219,"Actor 171, Actor 707, Actor 455",India,German,Studio 6,75
+126,Movie 126,2019,135,"Action, Comedy",7.7,213471,293.8,Director 82,"Actor 32, Actor 147, Actor 623",Spain,English,Studio 17,38
+127,Movie 127,1995,179,"Sci-Fi, Fantasy, Horror",9.2,17479,486.1,Director 231,"Actor 380, Actor 381, Actor 455",UK,Hindi,Studio 18,76
+128,Movie 128,2005,120,"Romance, Thriller, Comedy",4.1,98042,401.7,Director 199,"Actor 576, Actor 121, Actor 269",Germany,Japanese,Studio 58,57
+129,Movie 129,2019,116,"Adventure, Thriller, Comedy",4.7,39324,364.4,Director 228,"Actor 90, Actor 699, Actor 328",India,Japanese,Studio 9,67
+130,Movie 130,1999,100,"Drama, Sci-Fi, Thriller",4.7,105871,634.7,Director 122,"Actor 506, Actor 27, Actor 370",Italy,Hindi,Studio 48,89
+131,Movie 131,2015,96,"Comedy, Fantasy, Romance",6.2,376379,576.5,Director 270,"Actor 421, Actor 788, Actor 420",Australia,English,Studio 17,70
+132,Movie 132,2021,89,"Adventure, Animation",5.9,460803,664.1,Director 283,"Actor 656, Actor 602, Actor 187",Canada,German,Studio 65,37
+133,Movie 133,1987,146,Romance,4.9,169667,748.1,Director 116,"Actor 355, Actor 532, Actor 291",UK,French,Studio 26,65
+134,Movie 134,1988,160,"Fantasy, Animation",4.5,336562,139.1,Director 298,"Actor 158, Actor 176, Actor 675",Australia,Japanese,Studio 78,73
+135,Movie 135,2016,85,Comedy,4.3,336806,618.0,Director 136,"Actor 667, Actor 216, Actor 786",Australia,German,Studio 80,33
+136,Movie 136,2011,160,"Romance, Fantasy, Adventure",5.3,423783,549.6,Director 153,"Actor 465, Actor 75, Actor 706",USA,Spanish,Studio 57,83
+137,Movie 137,2010,139,Sci-Fi,7.3,164383,689.9,Director 164,"Actor 752, Actor 354, Actor 409",Canada,Italian,Studio 48,95
+138,Movie 138,2015,93,"Thriller, Adventure",4.7,236217,202.1,Director 50,"Actor 52, Actor 298, Actor 394",Australia,German,Studio 32,50
+139,Movie 139,2000,153,"Sci-Fi, Thriller, Drama",6.7,270364,376.1,Director 158,"Actor 510, Actor 24, Actor 93",Japan,Hindi,Studio 59,60
+140,Movie 140,1993,154,"Action, Fantasy",5.5,313771,706.5,Director 241,"Actor 293, Actor 550, Actor 9",UK,German,Studio 18,63
+141,Movie 141,2003,177,"Sci-Fi, Action",6.2,299491,451.6,Director 186,"Actor 567, Actor 296, Actor 76",Japan,Hindi,Studio 58,65
+142,Movie 142,2019,167,"Comedy, Drama, Fantasy",6.2,417255,789.5,Director 286,"Actor 375, Actor 774, Actor 148",France,Hindi,Studio 66,81
+143,Movie 143,2012,85,Action,4.8,175109,644.2,Director 266,"Actor 468, Actor 153, Actor 621",Italy,Spanish,Studio 42,70
+144,Movie 144,1990,130,"Romance, Sci-Fi, Adventure",7.9,157676,382.5,Director 9,"Actor 378, Actor 340, Actor 690",UK,German,Studio 75,69
+145,Movie 145,2024,160,Fantasy,6.6,344218,627.4,Director 297,"Actor 592, Actor 234, Actor 739",USA,Hindi,Studio 62,51
+146,Movie 146,2013,160,"Fantasy, Horror, Drama",8.5,127480,30.1,Director 57,"Actor 196, Actor 20, Actor 452",India,German,Studio 20,82
+147,Movie 147,2024,106,"Animation, Adventure",8.8,386290,583.3,Director 71,"Actor 532, Actor 213, Actor 575",India,Japanese,Studio 62,78
+148,Movie 148,2000,102,"Animation, Sci-Fi",7.0,354849,618.7,Director 136,"Actor 625, Actor 496, Actor 197",France,French,Studio 72,68
+149,Movie 149,1994,118,"Thriller, Adventure",5.7,183373,450.6,Director 141,"Actor 295, Actor 125, Actor 588",Italy,German,Studio 51,74
+150,Movie 150,1989,117,Romance,9.3,41934,280.4,Director 227,"Actor 672, Actor 263, Actor 766",Spain,Spanish,Studio 26,64
+151,Movie 151,2015,169,"Drama, Comedy",7.4,308168,195.2,Director 26,"Actor 686, Actor 544, Actor 232",France,English,Studio 13,82
+152,Movie 152,2001,171,"Comedy, Drama",4.0,289043,782.4,Director 81,"Actor 417, Actor 669, Actor 488",Spain,Japanese,Studio 26,66
+153,Movie 153,2000,116,"Action, Comedy, Thriller",6.9,379621,681.0,Director 20,"Actor 180, Actor 428, Actor 181",USA,Italian,Studio 51,93
+154,Movie 154,1991,175,"Action, Fantasy",5.6,316531,90.3,Director 172,"Actor 292, Actor 466, Actor 657",Italy,Hindi,Studio 64,47
+155,Movie 155,2012,139,"Thriller, Comedy",5.8,383817,369.8,Director 132,"Actor 736, Actor 191, Actor 15",India,Italian,Studio 38,54
+156,Movie 156,1991,158,"Horror, Fantasy, Sci-Fi",4.5,351382,80.8,Director 72,"Actor 489, Actor 332, Actor 255",USA,French,Studio 50,60
+157,Movie 157,2008,176,"Sci-Fi, Romance",7.2,300852,14.1,Director 185,"Actor 710, Actor 242, Actor 64",UK,German,Studio 40,50
+158,Movie 158,2005,167,"Romance, Comedy, Fantasy",6.0,116288,179.2,Director 69,"Actor 490, Actor 157, Actor 466",Australia,French,Studio 54,90
+159,Movie 159,2014,165,Thriller,7.7,312878,699.1,Director 42,"Actor 539, Actor 458, Actor 541",India,English,Studio 73,44
+160,Movie 160,1983,150,"Thriller, Animation, Drama",4.9,448496,418.7,Director 60,"Actor 697, Actor 211, Actor 735",Australia,German,Studio 12,95
+161,Movie 161,2008,87,"Drama, Animation",6.3,296151,50.9,Director 237,"Actor 689, Actor 316, Actor 741",USA,German,Studio 33,30
+162,Movie 162,1993,154,Action,6.3,367703,55.7,Director 31,"Actor 71, Actor 484, Actor 33",Germany,German,Studio 24,47
+163,Movie 163,2021,173,"Horror, Sci-Fi, Fantasy",6.5,481332,725.9,Director 193,"Actor 83, Actor 700, Actor 678",Italy,Spanish,Studio 84,74
+164,Movie 164,1987,102,"Horror, Animation, Drama",8.0,117253,668.7,Director 12,"Actor 306, Actor 475, Actor 690",Italy,German,Studio 69,78
+165,Movie 165,1994,111,"Sci-Fi, Drama",5.5,491973,700.8,Director 58,"Actor 33, Actor 677, Actor 430",Australia,Italian,Studio 3,60
+166,Movie 166,1993,88,Fantasy,4.2,313911,539.3,Director 25,"Actor 251, Actor 759, Actor 46",Japan,German,Studio 30,57
+167,Movie 167,1983,97,"Romance, Thriller, Sci-Fi",7.2,405532,539.7,Director 165,"Actor 243, Actor 310, Actor 147",Italy,Spanish,Studio 53,68
+168,Movie 168,1997,87,"Fantasy, Drama, Horror",7.1,25080,778.0,Director 196,"Actor 538, Actor 327, Actor 714",Japan,German,Studio 20,68
+169,Movie 169,2004,103,"Adventure, Thriller, Animation",5.7,371474,119.8,Director 238,"Actor 60, Actor 576, Actor 423",Japan,Hindi,Studio 68,47
+170,Movie 170,2004,111,"Thriller, Sci-Fi",7.6,484012,362.6,Director 190,"Actor 95, Actor 549, Actor 742",France,English,Studio 35,78
+171,Movie 171,2023,157,"Action, Comedy, Thriller",8.4,308563,580.8,Director 287,"Actor 223, Actor 491, Actor 214",India,French,Studio 2,57
+172,Movie 172,1992,174,Adventure,9.0,365208,485.5,Director 105,"Actor 407, Actor 246, Actor 566",India,Italian,Studio 37,78
+173,Movie 173,2009,148,"Sci-Fi, Romance, Animation",6.0,463347,400.3,Director 51,"Actor 740, Actor 481, Actor 780",India,Spanish,Studio 48,70
+174,Movie 174,2006,85,"Thriller, Drama, Action",5.4,490582,469.3,Director 214,"Actor 303, Actor 157, Actor 201",India,Spanish,Studio 49,61
+175,Movie 175,2011,150,"Sci-Fi, Romance, Adventure",9.3,336932,593.0,Director 236,"Actor 173, Actor 751, Actor 361",Canada,Spanish,Studio 93,92
+176,Movie 176,1991,149,"Action, Animation, Fantasy",8.6,39470,756.4,Director 25,"Actor 783, Actor 7, Actor 423",Canada,Italian,Studio 81,59
+177,Movie 177,1984,170,Action,5.2,239580,301.7,Director 248,"Actor 676, Actor 500, Actor 17",USA,Hindi,Studio 71,82
+178,Movie 178,1980,82,"Romance, Animation, Fantasy",4.1,426828,559.8,Director 221,"Actor 184, Actor 110, Actor 99",Italy,Spanish,Studio 31,54
+179,Movie 179,2019,147,"Sci-Fi, Romance",8.4,41928,301.6,Director 208,"Actor 471, Actor 579, Actor 250",France,French,Studio 88,40
+180,Movie 180,2021,163,Comedy,6.2,198245,444.4,Director 29,"Actor 653, Actor 10, Actor 720",Canada,English,Studio 64,85
+181,Movie 181,2021,180,"Fantasy, Comedy",8.9,482400,38.8,Director 109,"Actor 709, Actor 581, Actor 487",Germany,English,Studio 10,65
+182,Movie 182,2014,152,"Action, Drama, Sci-Fi",4.1,109110,471.7,Director 204,"Actor 79, Actor 307, Actor 167",Australia,Spanish,Studio 73,79
+183,Movie 183,2023,149,"Horror, Drama",8.3,361897,580.7,Director 257,"Actor 764, Actor 355, Actor 55",UK,German,Studio 30,39
+184,Movie 184,2001,157,"Fantasy, Horror, Sci-Fi",4.2,143802,627.9,Director 231,"Actor 503, Actor 234, Actor 365",Italy,German,Studio 56,53
+185,Movie 185,2023,154,"Horror, Comedy, Romance",8.4,374374,63.4,Director 138,"Actor 158, Actor 390, Actor 729",Canada,Japanese,Studio 50,70
+186,Movie 186,2003,93,Action,9.2,233669,291.1,Director 139,"Actor 105, Actor 136, Actor 90",Canada,German,Studio 58,95
+187,Movie 187,2006,93,Comedy,5.9,49292,479.6,Director 167,"Actor 395, Actor 13, Actor 299",Japan,German,Studio 100,40
+188,Movie 188,2015,111,"Animation, Drama, Horror",4.9,141490,244.4,Director 253,"Actor 150, Actor 65, Actor 172",Japan,French,Studio 54,68
+189,Movie 189,2010,180,Sci-Fi,5.4,129784,578.1,Director 254,"Actor 609, Actor 632, Actor 201",Spain,English,Studio 18,68
+190,Movie 190,1980,130,"Fantasy, Horror",8.4,173274,355.0,Director 221,"Actor 667, Actor 609, Actor 140",Germany,French,Studio 78,55
+191,Movie 191,2010,120,Horror,9.3,153302,589.2,Director 252,"Actor 590, Actor 249, Actor 334",Japan,French,Studio 51,76
+192,Movie 192,1987,152,Fantasy,9.5,94833,547.0,Director 282,"Actor 28, Actor 745, Actor 473",France,German,Studio 38,38
+193,Movie 193,2006,166,"Drama, Romance",5.3,345829,127.5,Director 217,"Actor 387, Actor 76, Actor 460",Australia,German,Studio 75,81
+194,Movie 194,2014,144,"Horror, Animation, Action",8.3,188996,562.8,Director 275,"Actor 609, Actor 654, Actor 88",UK,Italian,Studio 32,75
+195,Movie 195,1990,162,"Action, Horror, Sci-Fi",9.3,226182,89.2,Director 51,"Actor 265, Actor 228, Actor 523",Italy,Hindi,Studio 75,58
+196,Movie 196,2008,127,"Adventure, Animation",4.8,13377,388.8,Director 152,"Actor 426, Actor 88, Actor 119",Canada,French,Studio 40,73
+197,Movie 197,2009,180,Animation,6.7,250146,82.6,Director 232,"Actor 327, Actor 69, Actor 308",USA,Italian,Studio 91,44
+198,Movie 198,1981,123,"Comedy, Drama, Thriller",6.8,289859,132.3,Director 287,"Actor 437, Actor 474, Actor 238",Japan,Japanese,Studio 24,53
+199,Movie 199,2020,164,"Horror, Action",8.1,463497,161.9,Director 220,"Actor 399, Actor 5, Actor 722",France,Spanish,Studio 36,38
+200,Movie 200,2016,93,"Drama, Sci-Fi, Animation",5.1,60245,213.6,Director 251,"Actor 541, Actor 655, Actor 321",Australia,German,Studio 79,80
+201,Movie 201,2017,94,"Sci-Fi, Adventure",7.4,427133,540.5,Director 153,"Actor 630, Actor 605, Actor 87",Canada,French,Studio 16,60
+202,Movie 202,1999,94,Sci-Fi,7.8,268319,313.8,Director 71,"Actor 589, Actor 393, Actor 434",Canada,German,Studio 82,52
+203,Movie 203,2015,101,"Romance, Drama",5.0,441942,363.5,Director 28,"Actor 368, Actor 10, Actor 497",Canada,Spanish,Studio 50,94
+204,Movie 204,2021,143,"Adventure, Horror",7.9,233206,393.5,Director 43,"Actor 579, Actor 32, Actor 780",France,French,Studio 5,65
+205,Movie 205,1994,148,"Drama, Adventure",7.1,405537,613.9,Director 282,"Actor 524, Actor 116, Actor 587",UK,French,Studio 100,76
+206,Movie 206,2014,176,Adventure,7.0,223403,86.4,Director 127,"Actor 305, Actor 34, Actor 461",Germany,French,Studio 12,86
+207,Movie 207,1987,179,Thriller,8.5,308741,552.9,Director 220,"Actor 170, Actor 631, Actor 143",France,Italian,Studio 27,37
+208,Movie 208,2016,124,"Romance, Animation, Drama",5.8,369626,237.6,Director 294,"Actor 274, Actor 527, Actor 696",UK,Spanish,Studio 97,82
+209,Movie 209,1983,115,"Drama, Fantasy, Thriller",4.8,169371,663.6,Director 202,"Actor 502, Actor 146, Actor 592",Germany,Japanese,Studio 54,78
+210,Movie 210,2008,89,"Comedy, Horror, Romance",7.8,460466,298.4,Director 250,"Actor 336, Actor 596, Actor 3",UK,Japanese,Studio 59,75
+211,Movie 211,1984,148,"Thriller, Horror",8.5,259873,218.5,Director 146,"Actor 346, Actor 561, Actor 592",Canada,Hindi,Studio 63,73
+212,Movie 212,2023,177,Action,4.5,411483,670.2,Director 9,"Actor 128, Actor 162, Actor 452",Spain,English,Studio 55,55
+213,Movie 213,2024,96,"Romance, Drama, Fantasy",4.5,189471,204.1,Director 191,"Actor 681, Actor 665, Actor 170",USA,German,Studio 81,69
+214,Movie 214,2024,176,Horror,7.6,369440,80.7,Director 110,"Actor 489, Actor 80, Actor 136",Australia,Spanish,Studio 67,86
+215,Movie 215,1980,81,"Sci-Fi, Comedy, Horror",7.8,250952,61.3,Director 197,"Actor 92, Actor 749, Actor 105",UK,French,Studio 48,68
+216,Movie 216,1988,128,Drama,4.4,295826,11.7,Director 85,"Actor 451, Actor 360, Actor 740",France,Japanese,Studio 96,49
+217,Movie 217,2006,158,"Adventure, Thriller, Comedy",8.9,73907,603.2,Director 197,"Actor 360, Actor 440, Actor 323",Canada,Spanish,Studio 36,40
+218,Movie 218,1995,150,"Fantasy, Romance, Action",8.7,345694,701.3,Director 106,"Actor 531, Actor 622, Actor 522",France,Japanese,Studio 51,67
+219,Movie 219,2021,86,Adventure,6.1,126896,402.2,Director 37,"Actor 541, Actor 13, Actor 370",India,Spanish,Studio 50,83
+220,Movie 220,2003,149,"Drama, Adventure, Comedy",4.1,35906,16.0,Director 111,"Actor 41, Actor 62, Actor 408",Italy,French,Studio 81,94
+221,Movie 221,2006,134,"Horror, Comedy, Drama",5.5,162980,67.8,Director 105,"Actor 160, Actor 550, Actor 335",Japan,Hindi,Studio 82,38
+222,Movie 222,1999,169,"Thriller, Action",5.3,485271,350.4,Director 233,"Actor 627, Actor 624, Actor 57",Germany,Japanese,Studio 95,52
+223,Movie 223,1987,81,"Drama, Action, Fantasy",6.7,182273,420.8,Director 133,"Actor 171, Actor 381, Actor 130",Germany,Japanese,Studio 16,33
+224,Movie 224,2001,134,"Animation, Comedy",5.4,302831,503.9,Director 255,"Actor 467, Actor 524, Actor 369",USA,German,Studio 73,51
+225,Movie 225,2003,100,"Comedy, Fantasy",5.3,267270,7.0,Director 7,"Actor 251, Actor 48, Actor 484",India,German,Studio 20,52
+226,Movie 226,1982,150,"Horror, Thriller, Sci-Fi",5.4,480671,577.6,Director 139,"Actor 80, Actor 586, Actor 382",UK,Hindi,Studio 87,36
+227,Movie 227,1991,108,"Action, Horror, Comedy",8.8,454550,229.4,Director 160,"Actor 336, Actor 89, Actor 567",Spain,English,Studio 48,55
+228,Movie 228,1998,152,"Fantasy, Thriller",6.6,310716,777.6,Director 101,"Actor 751, Actor 560, Actor 779",France,Spanish,Studio 1,82
+229,Movie 229,1981,109,"Sci-Fi, Action, Fantasy",4.0,345116,304.1,Director 158,"Actor 107, Actor 211, Actor 543",France,German,Studio 63,37
+230,Movie 230,1989,171,"Comedy, Action",9.1,470937,677.2,Director 212,"Actor 718, Actor 382, Actor 470",UK,Hindi,Studio 13,94
+231,Movie 231,1988,161,"Comedy, Action",6.4,69028,193.2,Director 134,"Actor 323, Actor 403, Actor 718",India,French,Studio 58,64
+232,Movie 232,1994,89,Drama,8.3,307055,91.6,Director 55,"Actor 169, Actor 461, Actor 478",India,German,Studio 16,75
+233,Movie 233,1993,137,"Adventure, Romance",8.7,47906,130.3,Director 156,"Actor 722, Actor 714, Actor 618",USA,Spanish,Studio 42,48
+234,Movie 234,1985,171,Sci-Fi,6.2,26164,543.4,Director 134,"Actor 179, Actor 32, Actor 415",Spain,Hindi,Studio 96,61
+235,Movie 235,1986,139,Drama,4.7,32832,665.1,Director 114,"Actor 134, Actor 203, Actor 411",India,Japanese,Studio 81,40
+236,Movie 236,2017,155,"Comedy, Action",9.5,104178,722.5,Director 228,"Actor 132, Actor 95, Actor 340",UK,English,Studio 60,36
+237,Movie 237,1990,153,"Horror, Adventure",4.2,358700,344.2,Director 182,"Actor 220, Actor 192, Actor 282",Germany,German,Studio 20,34
+238,Movie 238,2019,159,"Thriller, Romance, Adventure",6.3,289219,385.8,Director 45,"Actor 287, Actor 393, Actor 141",Japan,Spanish,Studio 83,61
+239,Movie 239,2020,149,Horror,8.3,188778,386.3,Director 249,"Actor 353, Actor 580, Actor 515",India,German,Studio 35,53
+240,Movie 240,1981,120,"Thriller, Action, Romance",4.3,247798,425.9,Director 300,"Actor 239, Actor 164, Actor 103",France,Japanese,Studio 31,64
+241,Movie 241,2014,174,Thriller,7.2,418562,313.8,Director 89,"Actor 181, Actor 243, Actor 607",India,Italian,Studio 95,75
+242,Movie 242,2017,83,"Sci-Fi, Drama, Thriller",8.6,425383,705.9,Director 253,"Actor 556, Actor 317, Actor 180",Spain,English,Studio 12,37
+243,Movie 243,1994,157,Action,6.9,858,268.7,Director 104,"Actor 134, Actor 349, Actor 735",Canada,Italian,Studio 42,37
+244,Movie 244,1981,98,"Drama, Comedy, Sci-Fi",9.3,196369,565.1,Director 203,"Actor 601, Actor 104, Actor 345",Germany,French,Studio 18,50
+245,Movie 245,2007,161,"Sci-Fi, Drama",7.9,295137,556.4,Director 183,"Actor 229, Actor 682, Actor 604",Canada,German,Studio 40,67
+246,Movie 246,1988,102,"Action, Horror, Fantasy",5.0,167337,737.2,Director 114,"Actor 655, Actor 580, Actor 107",Spain,Spanish,Studio 43,39
+247,Movie 247,1995,124,"Drama, Comedy",8.5,351785,513.1,Director 172,"Actor 458, Actor 12, Actor 272",France,Spanish,Studio 89,38
+248,Movie 248,2002,112,Action,4.3,230253,587.4,Director 86,"Actor 424, Actor 505, Actor 388",India,Hindi,Studio 49,42
+249,Movie 249,2010,180,"Thriller, Drama, Adventure",4.4,443923,31.6,Director 11,"Actor 327, Actor 268, Actor 108",UK,French,Studio 22,78
+250,Movie 250,1990,173,Animation,9.2,49313,273.7,Director 248,"Actor 722, Actor 32, Actor 442",Canada,Hindi,Studio 56,50
+251,Movie 251,1983,92,"Thriller, Fantasy",6.3,291014,579.0,Director 277,"Actor 272, Actor 677, Actor 289",Germany,Spanish,Studio 13,36
+252,Movie 252,2005,153,"Adventure, Drama, Action",6.0,224688,74.7,Director 246,"Actor 205, Actor 100, Actor 27",France,Spanish,Studio 82,67
+253,Movie 253,1985,140,Romance,8.3,247410,393.8,Director 136,"Actor 94, Actor 658, Actor 558",Japan,Spanish,Studio 48,78
+254,Movie 254,2003,103,"Action, Romance",6.4,138597,184.9,Director 138,"Actor 578, Actor 64, Actor 155",UK,English,Studio 86,74
+255,Movie 255,2014,132,"Thriller, Animation, Action",8.6,429580,420.5,Director 275,"Actor 704, Actor 487, Actor 587",France,German,Studio 39,40
+256,Movie 256,2005,171,Animation,7.1,271461,641.4,Director 76,"Actor 124, Actor 776, Actor 460",Canada,Spanish,Studio 28,54
+257,Movie 257,1988,85,"Comedy, Horror",5.1,431760,503.6,Director 133,"Actor 328, Actor 745, Actor 69",UK,German,Studio 72,80
+258,Movie 258,2015,121,"Animation, Adventure",9.0,6982,630.3,Director 268,"Actor 430, Actor 116, Actor 425",Canada,Spanish,Studio 73,42
+259,Movie 259,1986,152,Romance,8.8,461944,278.4,Director 211,"Actor 271, Actor 393, Actor 671",Spain,Hindi,Studio 78,90
+260,Movie 260,1982,102,"Horror, Drama",7.4,357442,556.5,Director 20,"Actor 406, Actor 340, Actor 708",France,English,Studio 96,90
+261,Movie 261,1997,127,Sci-Fi,8.5,159388,252.2,Director 252,"Actor 713, Actor 702, Actor 101",France,Spanish,Studio 39,86
+262,Movie 262,2000,114,"Horror, Comedy, Thriller",6.4,479401,660.1,Director 249,"Actor 778, Actor 529, Actor 383",USA,Hindi,Studio 21,38
+263,Movie 263,1999,170,"Horror, Drama, Action",5.0,459346,667.2,Director 30,"Actor 256, Actor 34, Actor 468",USA,French,Studio 91,55
+264,Movie 264,1997,127,"Animation, Horror",7.5,65445,546.5,Director 124,"Actor 382, Actor 501, Actor 609",Spain,Spanish,Studio 61,74
+265,Movie 265,2002,100,"Comedy, Romance",4.2,26531,134.5,Director 293,"Actor 799, Actor 220, Actor 227",France,Japanese,Studio 27,64
+266,Movie 266,2021,132,"Action, Fantasy, Adventure",9.0,339909,142.7,Director 5,"Actor 230, Actor 259, Actor 623",Germany,Japanese,Studio 91,65
+267,Movie 267,2007,128,"Adventure, Romance",5.2,158911,543.4,Director 204,"Actor 599, Actor 105, Actor 8",Italy,Japanese,Studio 48,66
+268,Movie 268,1999,167,Adventure,4.4,145456,514.3,Director 142,"Actor 268, Actor 672, Actor 729",Germany,Spanish,Studio 20,60
+269,Movie 269,1983,156,"Sci-Fi, Drama",8.0,344118,400.4,Director 152,"Actor 266, Actor 429, Actor 415",Japan,Japanese,Studio 5,54
+270,Movie 270,2001,172,"Thriller, Animation, Adventure",9.0,352752,290.0,Director 154,"Actor 175, Actor 674, Actor 572",Canada,French,Studio 13,90
+271,Movie 271,1988,174,"Animation, Drama",9.2,472144,271.8,Director 46,"Actor 228, Actor 364, Actor 229",Germany,German,Studio 43,77
+272,Movie 272,1996,154,"Adventure, Comedy",6.6,454739,509.3,Director 298,"Actor 636, Actor 73, Actor 484",France,Hindi,Studio 16,78
+273,Movie 273,2013,118,"Action, Drama",4.8,105513,277.4,Director 292,"Actor 469, Actor 147, Actor 324",Canada,Italian,Studio 11,92
+274,Movie 274,2001,160,Sci-Fi,7.5,2971,364.4,Director 108,"Actor 780, Actor 793, Actor 173",Australia,Italian,Studio 21,92
+275,Movie 275,1985,96,"Horror, Fantasy, Animation",6.4,250795,309.7,Director 20,"Actor 547, Actor 205, Actor 749",India,English,Studio 42,54
+276,Movie 276,1981,166,Thriller,5.2,460292,278.8,Director 67,"Actor 106, Actor 393, Actor 516",Australia,French,Studio 22,38
+277,Movie 277,1982,118,"Adventure, Animation",7.3,177622,349.8,Director 69,"Actor 351, Actor 502, Actor 368",France,Spanish,Studio 52,32
+278,Movie 278,1994,108,"Drama, Thriller, Action",7.2,89096,102.9,Director 20,"Actor 385, Actor 656, Actor 262",Italy,Hindi,Studio 7,36
+279,Movie 279,2022,93,"Action, Fantasy, Comedy",6.3,199862,103.3,Director 130,"Actor 486, Actor 719, Actor 157",France,Japanese,Studio 88,31
+280,Movie 280,1999,133,"Comedy, Animation, Romance",7.4,367882,114.0,Director 54,"Actor 524, Actor 737, Actor 633",UK,French,Studio 15,43
+281,Movie 281,2011,105,"Thriller, Romance, Fantasy",6.0,215330,239.8,Director 21,"Actor 562, Actor 509, Actor 213",Spain,French,Studio 31,30
+282,Movie 282,1980,165,Comedy,8.6,351260,397.8,Director 47,"Actor 799, Actor 524, Actor 77",UK,French,Studio 83,59
+283,Movie 283,2009,117,"Adventure, Action",4.5,92094,699.9,Director 149,"Actor 369, Actor 694, Actor 321",Japan,Japanese,Studio 15,42
+284,Movie 284,1982,81,Drama,5.8,469490,353.0,Director 138,"Actor 751, Actor 96, Actor 382",India,Spanish,Studio 15,81
+285,Movie 285,2005,138,"Horror, Adventure",8.4,340682,709.5,Director 86,"Actor 116, Actor 136, Actor 713",USA,Italian,Studio 21,43
+286,Movie 286,2006,155,"Fantasy, Adventure",5.0,199598,624.4,Director 15,"Actor 701, Actor 745, Actor 134",Spain,German,Studio 15,82
+287,Movie 287,2008,85,Romance,7.6,6980,565.1,Director 269,"Actor 786, Actor 762, Actor 591",Australia,Spanish,Studio 86,73
+288,Movie 288,2013,146,"Fantasy, Comedy, Horror",7.6,130825,388.1,Director 198,"Actor 153, Actor 572, Actor 628",USA,English,Studio 83,50
+289,Movie 289,2012,140,"Drama, Comedy",8.1,168604,196.5,Director 143,"Actor 52, Actor 520, Actor 229",Italy,Japanese,Studio 49,81
+290,Movie 290,1995,90,"Adventure, Fantasy",4.5,261834,360.4,Director 61,"Actor 510, Actor 764, Actor 670",USA,English,Studio 52,82
+291,Movie 291,1982,151,"Action, Comedy, Romance",8.9,295324,169.4,Director 234,"Actor 350, Actor 373, Actor 56",France,Italian,Studio 59,72
+292,Movie 292,2015,178,"Fantasy, Adventure, Sci-Fi",7.9,60281,82.5,Director 114,"Actor 3, Actor 350, Actor 364",Germany,Hindi,Studio 67,77
+293,Movie 293,2024,93,Drama,6.7,431380,574.9,Director 210,"Actor 110, Actor 261, Actor 626",France,Spanish,Studio 16,80
+294,Movie 294,1993,138,Sci-Fi,4.6,217801,42.0,Director 64,"Actor 791, Actor 462, Actor 469",Australia,Hindi,Studio 18,93
+295,Movie 295,1980,147,"Action, Animation, Horror",8.6,253695,739.9,Director 91,"Actor 709, Actor 593, Actor 178",Canada,English,Studio 50,71
+296,Movie 296,2012,129,"Fantasy, Thriller",5.5,180256,776.5,Director 232,"Actor 137, Actor 142, Actor 423",Australia,Japanese,Studio 96,95
+297,Movie 297,1999,169,"Sci-Fi, Animation, Thriller",5.1,327743,572.9,Director 177,"Actor 689, Actor 136, Actor 728",Canada,Hindi,Studio 70,71
+298,Movie 298,2025,94,"Animation, Adventure",7.2,494732,535.4,Director 214,"Actor 691, Actor 766, Actor 547",Germany,Italian,Studio 55,31
+299,Movie 299,2013,93,Horror,4.8,351906,50.0,Director 137,"Actor 769, Actor 165, Actor 294",Germany,Spanish,Studio 8,67
+300,Movie 300,1993,176,"Action, Sci-Fi, Adventure",4.6,455600,542.0,Director 288,"Actor 230, Actor 761, Actor 663",Italy,German,Studio 31,95
+301,Movie 301,2024,116,"Action, Horror, Animation",6.3,413697,780.8,Director 161,"Actor 566, Actor 56, Actor 14",Germany,Spanish,Studio 80,86
+302,Movie 302,1994,161,"Sci-Fi, Animation, Thriller",8.3,101948,238.9,Director 91,"Actor 700, Actor 77, Actor 192",Canada,Japanese,Studio 66,45
+303,Movie 303,2004,85,"Romance, Animation",5.5,84873,469.3,Director 131,"Actor 6, Actor 339, Actor 478",Canada,English,Studio 20,71
+304,Movie 304,2018,86,"Fantasy, Romance, Adventure",8.3,288942,289.7,Director 163,"Actor 539, Actor 226, Actor 189",Italy,English,Studio 65,50
+305,Movie 305,2006,149,"Horror, Comedy, Sci-Fi",5.2,112358,532.4,Director 170,"Actor 370, Actor 301, Actor 224",Australia,Hindi,Studio 61,31
+306,Movie 306,1987,165,"Adventure, Thriller",9.0,322256,735.3,Director 125,"Actor 41, Actor 699, Actor 329",Japan,Italian,Studio 15,79
+307,Movie 307,1996,149,"Romance, Action, Sci-Fi",6.8,267223,359.2,Director 23,"Actor 304, Actor 668, Actor 198",India,Hindi,Studio 11,42
+308,Movie 308,1990,178,"Animation, Action, Comedy",5.2,330546,620.0,Director 218,"Actor 107, Actor 211, Actor 551",Japan,Japanese,Studio 10,49
+309,Movie 309,1981,138,"Sci-Fi, Action, Comedy",4.4,93819,636.4,Director 286,"Actor 73, Actor 589, Actor 234",Germany,German,Studio 50,87
+310,Movie 310,2020,131,"Sci-Fi, Action",6.1,62526,430.2,Director 33,"Actor 775, Actor 764, Actor 600",USA,Japanese,Studio 10,75
+311,Movie 311,2012,93,"Romance, Comedy",5.5,486352,353.0,Director 203,"Actor 677, Actor 32, Actor 486",Canada,Hindi,Studio 29,47
+312,Movie 312,2005,149,"Drama, Romance",7.7,479787,772.5,Director 192,"Actor 12, Actor 567, Actor 569",Canada,English,Studio 6,30
+313,Movie 313,2016,156,"Animation, Fantasy",9.2,160245,172.0,Director 177,"Actor 217, Actor 423, Actor 662",Italy,Spanish,Studio 21,53
+314,Movie 314,1994,158,"Thriller, Comedy",5.0,419752,456.0,Director 28,"Actor 770, Actor 563, Actor 473",Italy,English,Studio 38,38
+315,Movie 315,1996,92,Fantasy,6.7,173961,288.9,Director 121,"Actor 103, Actor 292, Actor 635",UK,Spanish,Studio 41,92
+316,Movie 316,2008,122,"Romance, Drama, Sci-Fi",8.4,225056,139.1,Director 161,"Actor 253, Actor 227, Actor 730",Japan,French,Studio 47,47
+317,Movie 317,2023,173,"Adventure, Fantasy",6.4,406701,247.9,Director 283,"Actor 112, Actor 180, Actor 662",Australia,English,Studio 36,47
+318,Movie 318,2014,105,"Comedy, Fantasy",8.9,445928,408.2,Director 16,"Actor 596, Actor 593, Actor 415",Australia,Spanish,Studio 5,63
+319,Movie 319,2014,149,"Drama, Sci-Fi",6.2,467870,618.9,Director 149,"Actor 138, Actor 476, Actor 514",Italy,English,Studio 51,76
+320,Movie 320,2012,81,"Thriller, Drama, Animation",6.5,94423,455.3,Director 290,"Actor 676, Actor 150, Actor 754",Spain,French,Studio 6,58
+321,Movie 321,2011,109,Romance,6.0,22943,536.5,Director 266,"Actor 370, Actor 398, Actor 481",Spain,English,Studio 6,71
+322,Movie 322,1986,170,"Romance, Fantasy, Drama",6.1,198952,295.4,Director 40,"Actor 530, Actor 258, Actor 386",France,Hindi,Studio 52,75
+323,Movie 323,2002,142,"Fantasy, Action",6.8,73359,354.7,Director 118,"Actor 79, Actor 527, Actor 659",Germany,Spanish,Studio 20,53
+324,Movie 324,1990,126,"Comedy, Thriller, Horror",8.5,378121,95.1,Director 246,"Actor 491, Actor 216, Actor 605",Canada,Japanese,Studio 53,32
+325,Movie 325,1995,85,Fantasy,7.3,71134,505.5,Director 21,"Actor 587, Actor 151, Actor 58",Canada,French,Studio 24,81
+326,Movie 326,2018,152,"Action, Romance, Comedy",5.2,318494,794.3,Director 247,"Actor 175, Actor 225, Actor 421",Australia,Spanish,Studio 75,53
+327,Movie 327,2019,164,"Romance, Drama, Sci-Fi",9.1,313255,474.5,Director 118,"Actor 388, Actor 395, Actor 136",UK,English,Studio 26,94
+328,Movie 328,2023,133,Fantasy,4.5,249992,721.8,Director 20,"Actor 545, Actor 516, Actor 771",UK,English,Studio 62,46
+329,Movie 329,2018,149,Horror,6.9,194684,700.5,Director 272,"Actor 440, Actor 235, Actor 494",Japan,French,Studio 76,42
+330,Movie 330,2007,97,"Adventure, Thriller",9.0,44444,230.2,Director 279,"Actor 419, Actor 264, Actor 194",USA,Japanese,Studio 96,30
+331,Movie 331,2016,146,Animation,4.0,343670,168.3,Director 162,"Actor 419, Actor 371, Actor 110",Canada,German,Studio 84,62
+332,Movie 332,1996,148,"Fantasy, Sci-Fi",7.4,357333,321.0,Director 105,"Actor 424, Actor 566, Actor 571",Spain,Spanish,Studio 48,91
+333,Movie 333,1996,119,"Sci-Fi, Horror, Drama",8.7,346154,99.7,Director 118,"Actor 458, Actor 717, Actor 166",UK,Spanish,Studio 66,81
+334,Movie 334,2001,150,"Action, Drama, Horror",9.3,3273,644.5,Director 75,"Actor 483, Actor 615, Actor 446",UK,English,Studio 34,58
+335,Movie 335,2003,90,"Action, Horror, Animation",7.4,273656,232.7,Director 30,"Actor 793, Actor 180, Actor 656",Spain,German,Studio 2,55
+336,Movie 336,2022,146,"Thriller, Action",8.3,268174,415.1,Director 119,"Actor 630, Actor 174, Actor 691",USA,French,Studio 31,30
+337,Movie 337,1990,91,"Horror, Sci-Fi",7.7,213073,470.9,Director 266,"Actor 16, Actor 755, Actor 721",UK,English,Studio 71,66
+338,Movie 338,2015,154,"Sci-Fi, Romance",5.2,102487,366.5,Director 207,"Actor 589, Actor 5, Actor 268",Canada,German,Studio 65,43
+339,Movie 339,2015,89,"Romance, Sci-Fi, Comedy",8.4,135605,701.5,Director 295,"Actor 257, Actor 711, Actor 454",Japan,Hindi,Studio 62,61
+340,Movie 340,2001,179,"Adventure, Action",6.7,135671,58.7,Director 113,"Actor 694, Actor 719, Actor 236",India,German,Studio 46,31
+341,Movie 341,2024,113,Romance,4.5,353711,600.3,Director 176,"Actor 78, Actor 568, Actor 183",Spain,French,Studio 46,57
+342,Movie 342,2016,114,Thriller,6.7,105182,191.7,Director 124,"Actor 272, Actor 212, Actor 235",France,Italian,Studio 32,75
+343,Movie 343,1989,179,Comedy,9.1,354820,764.8,Director 253,"Actor 629, Actor 7, Actor 783",Italy,English,Studio 62,77
+344,Movie 344,2019,120,"Fantasy, Romance",6.7,401193,733.2,Director 144,"Actor 408, Actor 228, Actor 769",Australia,Spanish,Studio 7,84
+345,Movie 345,2010,149,Animation,5.9,451597,550.6,Director 90,"Actor 469, Actor 124, Actor 716",Italy,German,Studio 41,31
+346,Movie 346,1980,166,Horror,7.2,171122,292.5,Director 133,"Actor 192, Actor 562, Actor 270",France,French,Studio 61,73
+347,Movie 347,2003,103,"Horror, Thriller",6.3,394867,301.0,Director 206,"Actor 287, Actor 462, Actor 185",Australia,Spanish,Studio 74,59
+348,Movie 348,1986,172,"Thriller, Animation",6.4,200192,160.9,Director 77,"Actor 485, Actor 10, Actor 181",Japan,German,Studio 18,70
+349,Movie 349,2011,118,"Animation, Action",6.2,362543,134.9,Director 111,"Actor 261, Actor 488, Actor 645",UK,German,Studio 96,72
+350,Movie 350,1996,126,"Animation, Fantasy",9.1,135616,278.6,Director 211,"Actor 125, Actor 360, Actor 696",Australia,Spanish,Studio 74,52
+351,Movie 351,1998,125,"Animation, Adventure",8.3,234820,712.3,Director 196,"Actor 629, Actor 294, Actor 475",Canada,Italian,Studio 22,73
+352,Movie 352,2006,160,"Fantasy, Horror, Comedy",4.4,180658,186.4,Director 163,"Actor 669, Actor 299, Actor 728",Germany,Hindi,Studio 83,80
+353,Movie 353,1997,136,"Fantasy, Animation",9.3,217549,138.0,Director 12,"Actor 129, Actor 746, Actor 241",Germany,Japanese,Studio 90,40
+354,Movie 354,1993,101,"Comedy, Fantasy",4.4,461187,381.2,Director 28,"Actor 27, Actor 790, Actor 407",Italy,Italian,Studio 11,43
+355,Movie 355,1996,159,Comedy,7.6,464741,314.9,Director 118,"Actor 254, Actor 756, Actor 291",Spain,Japanese,Studio 17,46
+356,Movie 356,2013,101,Action,7.6,451581,732.6,Director 244,"Actor 479, Actor 554, Actor 279",Italy,German,Studio 18,52
+357,Movie 357,2017,156,"Fantasy, Horror",6.9,335796,429.4,Director 178,"Actor 494, Actor 553, Actor 233",UK,German,Studio 40,76
+358,Movie 358,2006,113,Romance,4.1,274868,653.2,Director 70,"Actor 353, Actor 294, Actor 481",Italy,English,Studio 89,92
+359,Movie 359,2010,118,Horror,8.4,313501,188.8,Director 4,"Actor 562, Actor 383, Actor 194",Japan,Hindi,Studio 56,80
+360,Movie 360,1995,100,"Horror, Fantasy, Thriller",5.4,221875,502.1,Director 265,"Actor 783, Actor 628, Actor 711",Germany,French,Studio 84,64
+361,Movie 361,2006,104,Drama,4.8,58358,511.3,Director 232,"Actor 279, Actor 718, Actor 638",Spain,Spanish,Studio 42,32
+362,Movie 362,1989,86,"Action, Drama, Comedy",5.6,66056,573.6,Director 5,"Actor 239, Actor 93, Actor 155",USA,German,Studio 28,73
+363,Movie 363,2006,119,"Sci-Fi, Adventure",7.8,17139,267.5,Director 75,"Actor 58, Actor 273, Actor 795",Japan,English,Studio 70,90
+364,Movie 364,1991,104,"Horror, Action",4.7,403229,573.2,Director 198,"Actor 790, Actor 454, Actor 254",USA,Spanish,Studio 59,42
+365,Movie 365,2013,165,Adventure,6.1,164135,749.3,Director 82,"Actor 645, Actor 746, Actor 44",Italy,Hindi,Studio 16,62
+366,Movie 366,2010,161,"Thriller, Sci-Fi",8.9,453305,535.0,Director 58,"Actor 242, Actor 649, Actor 445",India,English,Studio 22,65
+367,Movie 367,2017,95,"Thriller, Action",9.3,305151,627.9,Director 244,"Actor 705, Actor 611, Actor 159",India,Italian,Studio 12,61
+368,Movie 368,1990,143,Fantasy,5.9,398728,502.0,Director 31,"Actor 365, Actor 661, Actor 158",Italy,Italian,Studio 14,46
+369,Movie 369,2011,109,"Animation, Sci-Fi",8.4,230515,587.9,Director 11,"Actor 706, Actor 387, Actor 367",Canada,French,Studio 6,92
+370,Movie 370,2025,136,"Romance, Animation, Adventure",5.0,98346,437.2,Director 166,"Actor 750, Actor 480, Actor 282",Australia,Italian,Studio 71,50
+371,Movie 371,1984,147,Adventure,5.6,138570,435.6,Director 233,"Actor 1, Actor 795, Actor 654",Italy,German,Studio 94,53
+372,Movie 372,1981,159,"Fantasy, Thriller",5.8,33709,528.3,Director 276,"Actor 397, Actor 195, Actor 537",Spain,Italian,Studio 71,49
+373,Movie 373,2019,116,"Horror, Sci-Fi",4.6,274807,528.8,Director 23,"Actor 133, Actor 183, Actor 33",France,English,Studio 63,54
+374,Movie 374,1986,84,"Horror, Adventure, Romance",4.3,116222,486.7,Director 37,"Actor 14, Actor 214, Actor 672",Spain,Italian,Studio 11,89
+375,Movie 375,2020,87,"Animation, Horror",8.5,416915,568.2,Director 137,"Actor 542, Actor 42, Actor 752",UK,Italian,Studio 39,39
+376,Movie 376,1993,146,Comedy,8.0,279243,311.3,Director 99,"Actor 539, Actor 673, Actor 255",Australia,Japanese,Studio 23,83
+377,Movie 377,1986,178,"Fantasy, Sci-Fi, Adventure",7.9,224410,706.8,Director 86,"Actor 185, Actor 564, Actor 412",Italy,French,Studio 85,50
+378,Movie 378,2014,156,"Sci-Fi, Fantasy",7.0,170712,676.7,Director 212,"Actor 783, Actor 649, Actor 441",India,Hindi,Studio 31,57
+379,Movie 379,2004,178,"Romance, Sci-Fi, Adventure",6.5,208689,5.2,Director 18,"Actor 292, Actor 611, Actor 17",Italy,Spanish,Studio 39,30
+380,Movie 380,1999,108,Sci-Fi,4.1,431433,755.0,Director 142,"Actor 567, Actor 524, Actor 570",Australia,Hindi,Studio 20,42
+381,Movie 381,1982,138,"Drama, Fantasy",5.5,466919,467.8,Director 120,"Actor 263, Actor 308, Actor 95",Australia,German,Studio 73,57
+382,Movie 382,1984,172,"Adventure, Drama",6.7,471847,553.2,Director 296,"Actor 98, Actor 610, Actor 658",Germany,English,Studio 94,78
+383,Movie 383,1985,179,Sci-Fi,5.9,428917,350.3,Director 62,"Actor 789, Actor 233, Actor 766",Australia,English,Studio 82,78
+384,Movie 384,1983,119,"Action, Sci-Fi, Drama",5.8,366331,180.5,Director 26,"Actor 690, Actor 750, Actor 403",Spain,Italian,Studio 77,94
+385,Movie 385,1985,108,"Romance, Horror",4.8,176748,70.6,Director 293,"Actor 764, Actor 51, Actor 562",Japan,French,Studio 11,81
+386,Movie 386,2012,135,"Drama, Fantasy, Adventure",7.1,256279,319.3,Director 293,"Actor 201, Actor 575, Actor 631",Italy,Spanish,Studio 32,39
+387,Movie 387,1997,179,"Sci-Fi, Comedy",4.6,217336,341.7,Director 179,"Actor 196, Actor 329, Actor 353",Australia,Japanese,Studio 4,69
+388,Movie 388,1990,124,"Adventure, Drama, Fantasy",4.2,429457,190.6,Director 192,"Actor 160, Actor 776, Actor 746",UK,English,Studio 95,36
+389,Movie 389,1995,159,Romance,4.1,364248,644.4,Director 157,"Actor 461, Actor 483, Actor 24",India,Spanish,Studio 95,57
+390,Movie 390,1993,149,"Romance, Animation, Adventure",7.4,74606,557.6,Director 10,"Actor 386, Actor 597, Actor 680",Italy,English,Studio 33,51
+391,Movie 391,1983,116,Fantasy,5.5,244273,525.5,Director 5,"Actor 69, Actor 398, Actor 677",Germany,Japanese,Studio 85,76
+392,Movie 392,1986,82,"Horror, Thriller",9.4,267121,781.4,Director 51,"Actor 324, Actor 497, Actor 612",Italy,English,Studio 24,55
+393,Movie 393,2012,138,"Action, Fantasy, Thriller",9.1,160369,270.2,Director 202,"Actor 763, Actor 161, Actor 19",India,Japanese,Studio 46,75
+394,Movie 394,2020,118,Animation,5.5,33010,502.5,Director 199,"Actor 31, Actor 569, Actor 287",France,Spanish,Studio 44,80
+395,Movie 395,2022,97,Horror,6.9,355964,491.9,Director 117,"Actor 428, Actor 247, Actor 587",Canada,German,Studio 40,72
+396,Movie 396,2008,149,Thriller,7.6,305127,435.4,Director 104,"Actor 142, Actor 317, Actor 706",Italy,Spanish,Studio 56,48
+397,Movie 397,2021,152,Sci-Fi,4.4,279925,759.1,Director 61,"Actor 189, Actor 326, Actor 150",USA,Italian,Studio 41,82
+398,Movie 398,2006,118,"Romance, Drama",8.3,56478,109.6,Director 14,"Actor 781, Actor 627, Actor 632",Germany,Hindi,Studio 73,59
+399,Movie 399,2018,109,Action,6.0,361284,625.0,Director 69,"Actor 515, Actor 620, Actor 481",India,Spanish,Studio 50,92
+400,Movie 400,2010,97,Thriller,5.2,214718,612.8,Director 8,"Actor 277, Actor 423, Actor 228",France,Italian,Studio 27,38
+401,Movie 401,1991,136,"Adventure, Sci-Fi, Fantasy",8.9,224662,326.9,Director 22,"Actor 623, Actor 753, Actor 390",India,German,Studio 79,34
+402,Movie 402,2013,93,"Adventure, Action",8.8,129328,417.4,Director 203,"Actor 753, Actor 41, Actor 572",Japan,Hindi,Studio 98,36
+403,Movie 403,1992,117,"Horror, Romance",8.3,150401,371.8,Director 217,"Actor 302, Actor 628, Actor 56",Italy,Spanish,Studio 60,87
+404,Movie 404,1985,172,"Comedy, Drama, Animation",6.2,170086,363.5,Director 92,"Actor 465, Actor 605, Actor 730",France,German,Studio 12,62
+405,Movie 405,2000,168,"Drama, Comedy, Animation",4.6,236114,509.1,Director 44,"Actor 537, Actor 725, Actor 394",Italy,Hindi,Studio 21,78
+406,Movie 406,2015,128,Drama,9.0,296980,697.7,Director 77,"Actor 167, Actor 149, Actor 184",USA,German,Studio 40,69
+407,Movie 407,2008,116,"Drama, Comedy, Fantasy",9.3,2352,499.9,Director 130,"Actor 13, Actor 470, Actor 510",Spain,Hindi,Studio 1,93
+408,Movie 408,1995,107,"Adventure, Fantasy, Horror",6.4,315710,482.1,Director 126,"Actor 561, Actor 285, Actor 635",Italy,Italian,Studio 27,36
+409,Movie 409,1991,98,Sci-Fi,4.2,448152,30.8,Director 296,"Actor 618, Actor 306, Actor 340",UK,English,Studio 14,83
+410,Movie 410,1991,100,"Romance, Animation, Drama",9.3,393367,465.3,Director 19,"Actor 96, Actor 787, Actor 307",India,French,Studio 49,38
+411,Movie 411,2007,150,Romance,6.6,64475,557.2,Director 141,"Actor 338, Actor 540, Actor 424",Italy,Spanish,Studio 90,56
+412,Movie 412,2019,87,Fantasy,8.0,330265,425.5,Director 45,"Actor 496, Actor 742, Actor 706",Australia,Italian,Studio 91,66
+413,Movie 413,2007,157,"Romance, Animation",7.2,327259,286.3,Director 67,"Actor 630, Actor 577, Actor 509",Italy,Japanese,Studio 81,93
+414,Movie 414,2011,103,"Thriller, Romance, Fantasy",4.0,13075,374.6,Director 61,"Actor 756, Actor 213, Actor 631",Japan,German,Studio 6,72
+415,Movie 415,2002,151,"Thriller, Action, Fantasy",7.8,133888,633.2,Director 158,"Actor 308, Actor 519, Actor 564",India,Italian,Studio 1,44
+416,Movie 416,2023,122,"Horror, Action",8.6,102220,267.8,Director 174,"Actor 689, Actor 491, Actor 486",USA,Japanese,Studio 18,91
+417,Movie 417,1989,160,"Animation, Sci-Fi",6.5,427357,334.1,Director 29,"Actor 534, Actor 307, Actor 579",India,Hindi,Studio 69,32
+418,Movie 418,1993,153,"Sci-Fi, Fantasy, Comedy",9.3,147541,673.4,Director 174,"Actor 385, Actor 642, Actor 548",Canada,Hindi,Studio 78,79
+419,Movie 419,1991,156,Romance,7.9,165388,569.3,Director 140,"Actor 424, Actor 89, Actor 509",France,French,Studio 58,68
+420,Movie 420,1993,147,"Drama, Comedy",6.1,20105,623.3,Director 48,"Actor 455, Actor 519, Actor 26",Spain,Hindi,Studio 20,54
+421,Movie 421,2001,141,"Animation, Romance, Sci-Fi",4.8,457573,83.1,Director 265,"Actor 693, Actor 136, Actor 211",USA,German,Studio 50,44
+422,Movie 422,1980,119,Fantasy,8.8,175239,376.2,Director 24,"Actor 106, Actor 534, Actor 785",Germany,English,Studio 74,69
+423,Movie 423,2020,106,"Thriller, Fantasy",5.6,279565,258.7,Director 226,"Actor 688, Actor 121, Actor 280",Canada,Spanish,Studio 36,44
+424,Movie 424,1980,159,"Animation, Comedy, Thriller",7.0,288525,258.2,Director 73,"Actor 722, Actor 291, Actor 588",France,Spanish,Studio 10,69
+425,Movie 425,2019,123,"Adventure, Action, Drama",4.2,474085,542.0,Director 55,"Actor 393, Actor 56, Actor 89",Japan,German,Studio 23,87
+426,Movie 426,2019,125,"Sci-Fi, Thriller",7.9,352229,648.4,Director 41,"Actor 774, Actor 783, Actor 477",Australia,Spanish,Studio 12,89
+427,Movie 427,1986,138,"Adventure, Fantasy",5.3,117832,119.3,Director 133,"Actor 373, Actor 402, Actor 188",India,Italian,Studio 42,88
+428,Movie 428,2011,83,Adventure,4.6,251451,371.7,Director 88,"Actor 290, Actor 787, Actor 357",Australia,Hindi,Studio 17,95
+429,Movie 429,1986,131,"Comedy, Sci-Fi, Fantasy",8.4,279812,371.5,Director 212,"Actor 245, Actor 636, Actor 250",Italy,Spanish,Studio 62,79
+430,Movie 430,1984,123,Fantasy,6.4,228750,455.9,Director 176,"Actor 558, Actor 711, Actor 242",Canada,Japanese,Studio 86,39
+431,Movie 431,2025,153,"Comedy, Adventure",5.8,51698,658.5,Director 91,"Actor 316, Actor 416, Actor 72",Australia,English,Studio 88,78
+432,Movie 432,2000,143,"Action, Comedy, Thriller",8.5,465680,466.7,Director 1,"Actor 776, Actor 151, Actor 677",Canada,German,Studio 69,67
+433,Movie 433,2004,158,"Adventure, Thriller, Animation",7.7,166488,243.3,Director 156,"Actor 446, Actor 736, Actor 353",UK,Hindi,Studio 2,95
+434,Movie 434,2005,96,"Action, Sci-Fi",9.0,28354,5.7,Director 287,"Actor 368, Actor 113, Actor 289",USA,Spanish,Studio 56,80
+435,Movie 435,2020,120,"Horror, Fantasy, Animation",6.4,111238,531.7,Director 244,"Actor 143, Actor 193, Actor 569",Japan,Italian,Studio 47,83
+436,Movie 436,1989,116,"Drama, Fantasy, Action",4.4,8735,119.5,Director 250,"Actor 674, Actor 448, Actor 140",UK,Spanish,Studio 83,83
+437,Movie 437,2009,180,"Fantasy, Horror, Drama",6.5,222863,443.9,Director 231,"Actor 394, Actor 364, Actor 232",Canada,German,Studio 78,30
+438,Movie 438,2016,143,"Thriller, Animation, Romance",6.3,286848,463.2,Director 18,"Actor 39, Actor 582, Actor 495",India,English,Studio 75,91
+439,Movie 439,2024,90,Animation,9.4,394021,624.2,Director 239,"Actor 530, Actor 81, Actor 536",Australia,English,Studio 32,90
+440,Movie 440,2020,174,"Comedy, Animation, Romance",7.4,474238,278.1,Director 6,"Actor 481, Actor 465, Actor 525",Spain,Hindi,Studio 94,72
+441,Movie 441,2006,125,"Romance, Drama",4.2,484346,480.1,Director 156,"Actor 745, Actor 578, Actor 267",USA,Japanese,Studio 61,51
+442,Movie 442,2016,86,"Romance, Action, Fantasy",6.7,66990,406.9,Director 143,"Actor 259, Actor 136, Actor 631",Germany,French,Studio 33,31
+443,Movie 443,1987,157,Fantasy,8.1,346087,360.1,Director 90,"Actor 268, Actor 718, Actor 242",Spain,Spanish,Studio 68,34
+444,Movie 444,2001,90,Fantasy,9.1,81319,670.9,Director 212,"Actor 789, Actor 393, Actor 244",Spain,Japanese,Studio 82,51
+445,Movie 445,1993,153,"Sci-Fi, Action, Romance",8.2,61314,46.8,Director 238,"Actor 409, Actor 488, Actor 309",Spain,Japanese,Studio 97,59
+446,Movie 446,2004,167,"Horror, Adventure, Romance",4.8,456776,350.6,Director 148,"Actor 460, Actor 392, Actor 695",India,Hindi,Studio 88,35
+447,Movie 447,1986,148,"Sci-Fi, Horror, Romance",5.8,140530,642.8,Director 131,"Actor 671, Actor 599, Actor 401",Spain,Italian,Studio 87,60
+448,Movie 448,2023,155,Animation,5.9,362404,794.6,Director 161,"Actor 561, Actor 11, Actor 689",USA,Italian,Studio 9,31
+449,Movie 449,2006,92,"Comedy, Adventure, Sci-Fi",5.2,149029,205.3,Director 18,"Actor 25, Actor 635, Actor 95",USA,Hindi,Studio 85,57
+450,Movie 450,2018,161,Comedy,4.5,317529,108.3,Director 290,"Actor 190, Actor 114, Actor 713",Canada,French,Studio 38,89
+451,Movie 451,2022,89,"Adventure, Romance, Horror",7.8,350503,617.1,Director 166,"Actor 264, Actor 166, Actor 800",UK,French,Studio 100,37
+452,Movie 452,2004,129,"Action, Romance",9.3,139260,146.5,Director 36,"Actor 504, Actor 206, Actor 625",Japan,Spanish,Studio 83,92
+453,Movie 453,1986,98,"Horror, Thriller, Comedy",9.0,375575,210.9,Director 18,"Actor 75, Actor 73, Actor 586",Germany,Italian,Studio 58,32
+454,Movie 454,2011,99,"Action, Fantasy, Horror",5.5,367530,267.2,Director 201,"Actor 589, Actor 4, Actor 528",Spain,German,Studio 56,81
+455,Movie 455,1984,149,Action,6.1,361871,655.3,Director 247,"Actor 125, Actor 581, Actor 549",India,French,Studio 88,68
+456,Movie 456,2005,87,"Comedy, Sci-Fi, Animation",4.4,241483,609.6,Director 149,"Actor 664, Actor 208, Actor 181",Italy,English,Studio 50,54
+457,Movie 457,1999,169,"Comedy, Sci-Fi",6.7,464607,508.1,Director 98,"Actor 144, Actor 37, Actor 198",USA,Japanese,Studio 76,60
+458,Movie 458,2011,129,Animation,7.5,262478,429.5,Director 231,"Actor 17, Actor 38, Actor 348",USA,French,Studio 93,35
+459,Movie 459,2005,95,Animation,6.5,356008,696.8,Director 275,"Actor 153, Actor 759, Actor 594",France,English,Studio 5,48
+460,Movie 460,2011,163,Adventure,9.0,324705,41.4,Director 67,"Actor 15, Actor 177, Actor 648",USA,French,Studio 13,88
+461,Movie 461,2019,101,"Comedy, Fantasy, Animation",6.7,419497,494.4,Director 33,"Actor 208, Actor 437, Actor 346",Japan,French,Studio 16,47
+462,Movie 462,2000,107,Fantasy,5.0,33646,101.0,Director 73,"Actor 776, Actor 426, Actor 173",India,Hindi,Studio 22,86
+463,Movie 463,1995,154,Drama,4.5,444764,507.6,Director 193,"Actor 797, Actor 162, Actor 17",Spain,English,Studio 1,30
+464,Movie 464,1991,91,"Fantasy, Romance, Horror",7.8,415862,619.2,Director 65,"Actor 212, Actor 147, Actor 656",Germany,Hindi,Studio 58,82
+465,Movie 465,1995,102,"Action, Drama, Adventure",7.4,46648,503.6,Director 155,"Actor 357, Actor 429, Actor 5",Italy,Spanish,Studio 25,45
+466,Movie 466,2013,92,"Sci-Fi, Animation, Thriller",6.6,328947,529.2,Director 142,"Actor 55, Actor 199, Actor 116",Canada,Japanese,Studio 61,93
+467,Movie 467,1991,100,"Action, Fantasy, Sci-Fi",5.6,228393,204.8,Director 233,"Actor 45, Actor 107, Actor 759",USA,Hindi,Studio 23,50
+468,Movie 468,1981,142,"Comedy, Fantasy, Thriller",8.0,311248,465.9,Director 215,"Actor 204, Actor 766, Actor 694",India,Spanish,Studio 100,44
+469,Movie 469,2000,109,Thriller,8.1,456570,164.0,Director 113,"Actor 76, Actor 483, Actor 600",Spain,English,Studio 56,48
+470,Movie 470,1993,158,"Drama, Horror",6.1,240487,577.3,Director 184,"Actor 277, Actor 208, Actor 344",Canada,English,Studio 89,37
+471,Movie 471,1997,97,Adventure,6.5,90258,609.5,Director 113,"Actor 303, Actor 619, Actor 161",Australia,Spanish,Studio 74,59
+472,Movie 472,1985,132,"Adventure, Thriller, Fantasy",8.6,146865,16.5,Director 220,"Actor 754, Actor 253, Actor 254",India,German,Studio 75,58
+473,Movie 473,2017,99,"Action, Horror, Fantasy",4.2,247257,588.1,Director 259,"Actor 35, Actor 436, Actor 544",Japan,German,Studio 90,42
+474,Movie 474,2008,143,Comedy,7.1,7013,556.1,Director 209,"Actor 224, Actor 136, Actor 368",Germany,Spanish,Studio 83,41
+475,Movie 475,1981,141,"Romance, Drama, Adventure",8.7,392293,469.0,Director 233,"Actor 475, Actor 791, Actor 142",Japan,Spanish,Studio 48,89
+476,Movie 476,2025,161,Comedy,6.1,362652,269.7,Director 17,"Actor 304, Actor 437, Actor 771",Germany,Japanese,Studio 79,56
+477,Movie 477,2023,90,"Sci-Fi, Action, Fantasy",8.9,58678,309.4,Director 239,"Actor 634, Actor 42, Actor 375",India,Spanish,Studio 83,38
+478,Movie 478,2015,170,Drama,9.4,125612,434.0,Director 245,"Actor 756, Actor 771, Actor 595",France,Italian,Studio 96,58
+479,Movie 479,2000,125,"Animation, Horror",5.5,33723,301.4,Director 232,"Actor 498, Actor 514, Actor 540",UK,German,Studio 91,67
+480,Movie 480,2008,159,"Comedy, Thriller",8.9,240557,74.4,Director 201,"Actor 184, Actor 296, Actor 79",UK,Spanish,Studio 36,44
+481,Movie 481,2024,98,"Drama, Thriller",6.9,329373,23.0,Director 214,"Actor 699, Actor 555, Actor 136",Spain,French,Studio 54,86
+482,Movie 482,2021,82,"Thriller, Comedy",4.1,420973,189.7,Director 267,"Actor 661, Actor 344, Actor 422",Australia,French,Studio 84,71
+483,Movie 483,2011,155,"Animation, Fantasy, Adventure",6.5,297903,109.9,Director 157,"Actor 176, Actor 267, Actor 233",Spain,French,Studio 37,36
+484,Movie 484,1989,125,"Adventure, Drama",7.4,84800,570.9,Director 147,"Actor 187, Actor 180, Actor 726",Canada,Spanish,Studio 31,44
+485,Movie 485,1982,120,"Drama, Adventure, Romance",6.0,108060,452.2,Director 18,"Actor 682, Actor 325, Actor 353",Canada,French,Studio 58,50
+486,Movie 486,2014,118,Action,6.2,262338,616.0,Director 235,"Actor 328, Actor 160, Actor 5",Italy,Hindi,Studio 43,67
+487,Movie 487,2010,117,"Drama, Adventure, Sci-Fi",7.8,384090,385.8,Director 21,"Actor 143, Actor 695, Actor 565",UK,French,Studio 4,81
+488,Movie 488,2019,108,"Sci-Fi, Comedy",5.8,319346,514.8,Director 299,"Actor 540, Actor 228, Actor 786",Germany,Spanish,Studio 3,40
+489,Movie 489,2014,137,"Comedy, Animation, Horror",5.1,167096,484.5,Director 262,"Actor 58, Actor 683, Actor 370",Japan,Spanish,Studio 92,84
+490,Movie 490,2003,129,"Action, Romance",5.9,162025,782.1,Director 288,"Actor 90, Actor 221, Actor 746",Spain,Japanese,Studio 54,86
+491,Movie 491,1998,100,"Horror, Fantasy, Drama",8.6,313990,73.4,Director 107,"Actor 311, Actor 487, Actor 538",India,English,Studio 76,78
+492,Movie 492,1985,80,"Romance, Horror",5.0,242783,569.6,Director 71,"Actor 205, Actor 191, Actor 391",Germany,Hindi,Studio 63,35
+493,Movie 493,1999,154,"Adventure, Animation",8.1,118213,26.3,Director 2,"Actor 158, Actor 269, Actor 308",Spain,English,Studio 84,66
+494,Movie 494,2006,102,"Thriller, Action",4.7,145841,397.0,Director 35,"Actor 614, Actor 764, Actor 371",Australia,German,Studio 73,85
+495,Movie 495,1996,160,"Adventure, Comedy, Sci-Fi",6.8,302103,18.9,Director 133,"Actor 167, Actor 596, Actor 60",Canada,French,Studio 60,47
+496,Movie 496,2002,100,Romance,6.0,334076,730.1,Director 183,"Actor 50, Actor 297, Actor 299",Italy,Japanese,Studio 10,95
+497,Movie 497,1992,178,"Drama, Comedy, Fantasy",7.0,457911,256.4,Director 155,"Actor 278, Actor 702, Actor 715",India,English,Studio 69,75
+498,Movie 498,1989,81,Animation,5.5,408819,390.5,Director 175,"Actor 167, Actor 105, Actor 224",Canada,Hindi,Studio 29,54
+499,Movie 499,2015,158,"Animation, Fantasy, Comedy",6.3,480764,65.7,Director 68,"Actor 18, Actor 492, Actor 357",Germany,Japanese,Studio 47,47
+500,Movie 500,2008,156,"Sci-Fi, Drama, Romance",4.2,427571,99.3,Director 66,"Actor 711, Actor 146, Actor 705",France,French,Studio 17,56
+501,Movie 501,1988,90,"Comedy, Fantasy",4.1,254389,607.1,Director 22,"Actor 202, Actor 111, Actor 34",Italy,Hindi,Studio 8,90
+502,Movie 502,1987,112,Comedy,5.7,5885,604.9,Director 64,"Actor 617, Actor 211, Actor 602",France,Spanish,Studio 86,74
+503,Movie 503,1981,91,Romance,9.2,182866,285.0,Director 257,"Actor 800, Actor 747, Actor 628",France,Hindi,Studio 73,38
+504,Movie 504,1986,154,Animation,5.2,100926,771.6,Director 88,"Actor 773, Actor 551, Actor 5",UK,Spanish,Studio 65,90
+505,Movie 505,2003,169,"Drama, Adventure, Comedy",5.0,186529,785.1,Director 218,"Actor 220, Actor 527, Actor 234",Japan,English,Studio 98,70
+506,Movie 506,1987,139,Animation,4.7,400150,292.2,Director 148,"Actor 571, Actor 740, Actor 42",UK,French,Studio 64,44
+507,Movie 507,2004,116,"Fantasy, Romance",7.8,441473,357.9,Director 284,"Actor 418, Actor 298, Actor 439",France,Italian,Studio 9,90
+508,Movie 508,2023,127,Action,9.5,258265,539.3,Director 203,"Actor 449, Actor 536, Actor 675",UK,English,Studio 19,80
+509,Movie 509,2005,168,"Comedy, Drama, Fantasy",6.0,104878,274.2,Director 207,"Actor 126, Actor 239, Actor 435",Spain,French,Studio 98,64
+510,Movie 510,2021,131,"Adventure, Horror",9.4,268628,226.7,Director 233,"Actor 111, Actor 126, Actor 257",Spain,German,Studio 30,47
+511,Movie 511,1981,92,"Action, Comedy, Adventure",7.7,94397,309.2,Director 168,"Actor 157, Actor 311, Actor 637",Australia,English,Studio 98,39
+512,Movie 512,2022,176,"Adventure, Fantasy, Thriller",5.6,261542,394.7,Director 134,"Actor 556, Actor 352, Actor 554",Italy,English,Studio 98,34
+513,Movie 513,2007,95,"Adventure, Sci-Fi",8.7,232526,370.4,Director 17,"Actor 182, Actor 571, Actor 676",Germany,Japanese,Studio 22,92
+514,Movie 514,2007,97,"Horror, Adventure",8.2,298743,541.6,Director 284,"Actor 702, Actor 553, Actor 586",Spain,German,Studio 72,50
+515,Movie 515,2012,87,"Romance, Adventure",7.3,198574,495.5,Director 181,"Actor 785, Actor 292, Actor 329",USA,English,Studio 76,35
+516,Movie 516,1988,126,"Fantasy, Action",8.2,328260,276.3,Director 50,"Actor 439, Actor 354, Actor 366",Japan,French,Studio 8,61
+517,Movie 517,1995,110,"Romance, Comedy, Animation",8.8,60515,273.4,Director 11,"Actor 552, Actor 334, Actor 39",Spain,Japanese,Studio 55,95
+518,Movie 518,2006,114,Adventure,7.2,166444,305.3,Director 200,"Actor 331, Actor 587, Actor 101",Spain,English,Studio 89,56
+519,Movie 519,2001,143,"Sci-Fi, Drama, Romance",6.0,229084,165.4,Director 39,"Actor 549, Actor 220, Actor 295",Germany,English,Studio 39,81
+520,Movie 520,1994,159,"Comedy, Fantasy, Sci-Fi",5.5,297471,641.9,Director 244,"Actor 438, Actor 215, Actor 356",UK,Japanese,Studio 39,94
+521,Movie 521,1999,135,"Animation, Sci-Fi, Thriller",6.3,132235,501.8,Director 233,"Actor 688, Actor 782, Actor 561",Canada,English,Studio 81,53
+522,Movie 522,2016,143,Adventure,5.5,334957,428.5,Director 223,"Actor 580, Actor 745, Actor 642",USA,Hindi,Studio 26,76
+523,Movie 523,2009,98,Drama,8.1,401858,243.7,Director 223,"Actor 421, Actor 327, Actor 66",France,Italian,Studio 53,64
+524,Movie 524,1998,162,Romance,7.8,124300,327.7,Director 59,"Actor 154, Actor 197, Actor 29",France,Italian,Studio 40,89
+525,Movie 525,2011,151,"Horror, Action",5.1,143479,113.5,Director 133,"Actor 285, Actor 675, Actor 564",Canada,Japanese,Studio 6,92
+526,Movie 526,1981,87,Sci-Fi,7.3,455147,55.5,Director 209,"Actor 373, Actor 688, Actor 674",UK,German,Studio 93,47
+527,Movie 527,1995,94,"Animation, Comedy, Romance",6.7,47816,194.3,Director 63,"Actor 792, Actor 321, Actor 338",Australia,Japanese,Studio 50,60
+528,Movie 528,2007,107,Comedy,5.0,144441,354.4,Director 131,"Actor 604, Actor 58, Actor 503",Italy,French,Studio 90,44
+529,Movie 529,2000,149,"Adventure, Thriller",9.3,461576,628.5,Director 75,"Actor 372, Actor 487, Actor 733",India,Italian,Studio 40,32
+530,Movie 530,2021,157,Action,7.8,414059,538.9,Director 130,"Actor 566, Actor 394, Actor 317",India,Italian,Studio 88,45
+531,Movie 531,2014,110,"Horror, Action",9.0,206532,742.4,Director 131,"Actor 309, Actor 93, Actor 775",France,French,Studio 27,50
+532,Movie 532,2008,160,"Horror, Action",5.5,42492,659.4,Director 252,"Actor 483, Actor 755, Actor 423",India,Japanese,Studio 55,42
+533,Movie 533,1990,169,"Animation, Comedy",5.9,316182,584.7,Director 281,"Actor 756, Actor 335, Actor 465",USA,Italian,Studio 7,53
+534,Movie 534,2020,136,"Drama, Action, Horror",5.1,160694,254.4,Director 43,"Actor 114, Actor 162, Actor 256",Italy,Japanese,Studio 99,46
+535,Movie 535,2018,167,"Sci-Fi, Adventure",6.6,385941,111.1,Director 89,"Actor 704, Actor 608, Actor 336",Germany,Spanish,Studio 11,83
+536,Movie 536,2003,103,"Horror, Thriller",4.1,12542,738.9,Director 118,"Actor 92, Actor 474, Actor 204",Germany,Japanese,Studio 22,36
+537,Movie 537,2005,159,"Fantasy, Romance",4.8,193396,140.2,Director 291,"Actor 121, Actor 15, Actor 736",Italy,German,Studio 99,88
+538,Movie 538,2023,143,Thriller,7.9,100400,757.1,Director 137,"Actor 295, Actor 765, Actor 507",Japan,Spanish,Studio 56,56
+539,Movie 539,2018,107,"Thriller, Horror",5.0,415979,121.0,Director 149,"Actor 269, Actor 242, Actor 633",Spain,Spanish,Studio 48,88
+540,Movie 540,1985,81,"Drama, Sci-Fi",9.4,208933,551.0,Director 197,"Actor 726, Actor 434, Actor 754",Australia,French,Studio 10,42
+541,Movie 541,2015,87,Sci-Fi,9.1,247404,727.0,Director 24,"Actor 6, Actor 260, Actor 517",Australia,German,Studio 39,80
+542,Movie 542,2022,127,Animation,4.2,94542,211.9,Director 258,"Actor 505, Actor 348, Actor 480",Canada,English,Studio 41,85
+543,Movie 543,1989,113,Sci-Fi,4.2,67541,401.9,Director 144,"Actor 766, Actor 370, Actor 441",Germany,French,Studio 79,63
+544,Movie 544,2013,120,"Drama, Sci-Fi",8.1,258069,612.1,Director 78,"Actor 570, Actor 674, Actor 652",Spain,English,Studio 25,49
+545,Movie 545,1983,109,Action,6.6,86249,566.2,Director 224,"Actor 119, Actor 507, Actor 42",Spain,French,Studio 91,92
+546,Movie 546,2009,143,Drama,4.7,49561,167.0,Director 146,"Actor 185, Actor 173, Actor 768",Italy,Italian,Studio 35,57
+547,Movie 547,2017,80,"Fantasy, Drama, Horror",9.1,129557,615.8,Director 49,"Actor 337, Actor 27, Actor 292",UK,German,Studio 48,43
+548,Movie 548,2000,99,Comedy,6.5,371542,529.3,Director 233,"Actor 644, Actor 276, Actor 609",USA,French,Studio 6,87
+549,Movie 549,2000,173,"Fantasy, Drama, Thriller",8.7,420747,516.7,Director 166,"Actor 57, Actor 762, Actor 73",Italy,Hindi,Studio 49,41
+550,Movie 550,2005,112,Thriller,9.3,454279,322.1,Director 11,"Actor 214, Actor 167, Actor 398",Japan,French,Studio 83,49
+551,Movie 551,1987,118,"Horror, Romance",9.0,316914,109.4,Director 50,"Actor 377, Actor 525, Actor 205",Spain,German,Studio 50,90
+552,Movie 552,1997,152,"Horror, Comedy, Fantasy",8.5,322343,153.2,Director 219,"Actor 96, Actor 42, Actor 526",India,German,Studio 87,58
+553,Movie 553,2021,167,"Drama, Adventure, Comedy",5.6,229800,68.0,Director 245,"Actor 308, Actor 153, Actor 131",Germany,Italian,Studio 32,84
+554,Movie 554,1998,152,Animation,4.4,24142,413.2,Director 262,"Actor 436, Actor 423, Actor 97",Spain,Japanese,Studio 93,62
+555,Movie 555,2002,112,"Comedy, Animation, Action",4.6,347357,373.0,Director 94,"Actor 403, Actor 47, Actor 86",Japan,Japanese,Studio 39,70
+556,Movie 556,2017,172,"Adventure, Romance",5.9,481855,697.7,Director 96,"Actor 217, Actor 190, Actor 81",Australia,French,Studio 87,43
+557,Movie 557,2007,148,Action,6.2,7475,141.5,Director 245,"Actor 472, Actor 709, Actor 415",Australia,Japanese,Studio 63,68
+558,Movie 558,2019,158,"Horror, Romance",4.5,71338,16.0,Director 58,"Actor 17, Actor 713, Actor 193",USA,Spanish,Studio 62,48
+559,Movie 559,2021,110,"Animation, Thriller",4.5,404055,373.4,Director 243,"Actor 433, Actor 23, Actor 120",Canada,Spanish,Studio 95,86
+560,Movie 560,2011,140,Adventure,7.2,106059,239.4,Director 201,"Actor 53, Actor 342, Actor 9",UK,Japanese,Studio 92,85
+561,Movie 561,2006,143,"Fantasy, Animation, Romance",4.2,210047,391.5,Director 250,"Actor 238, Actor 732, Actor 63",Italy,English,Studio 55,70
+562,Movie 562,2015,88,"Horror, Adventure",4.6,326972,751.5,Director 178,"Actor 460, Actor 715, Actor 447",USA,Spanish,Studio 37,54
+563,Movie 563,2010,124,"Thriller, Animation",5.2,477114,549.6,Director 240,"Actor 135, Actor 301, Actor 741",Japan,German,Studio 87,76
+564,Movie 564,2010,100,"Thriller, Romance, Comedy",7.7,68183,142.8,Director 81,"Actor 621, Actor 504, Actor 104",Japan,German,Studio 39,60
+565,Movie 565,1993,151,Action,6.0,137238,288.8,Director 82,"Actor 179, Actor 516, Actor 33",UK,French,Studio 56,44
+566,Movie 566,2019,109,Animation,5.2,135673,795.0,Director 182,"Actor 788, Actor 48, Actor 789",Italy,French,Studio 20,95
+567,Movie 567,2018,165,Action,9.1,230047,640.2,Director 57,"Actor 109, Actor 626, Actor 625",UK,Italian,Studio 72,35
+568,Movie 568,2012,93,Comedy,8.8,478118,292.5,Director 150,"Actor 726, Actor 453, Actor 781",Italy,German,Studio 94,42
+569,Movie 569,1989,162,"Sci-Fi, Drama",4.7,106348,354.1,Director 213,"Actor 788, Actor 7, Actor 252",Spain,French,Studio 37,94
+570,Movie 570,1990,90,"Sci-Fi, Horror",6.0,349149,200.1,Director 272,"Actor 432, Actor 234, Actor 142",Japan,German,Studio 53,88
+571,Movie 571,2013,167,"Action, Adventure",4.8,5715,575.5,Director 265,"Actor 72, Actor 87, Actor 347",India,German,Studio 99,51
+572,Movie 572,2007,87,"Action, Drama",9.0,30808,782.3,Director 267,"Actor 303, Actor 430, Actor 412",Italy,Italian,Studio 39,70
+573,Movie 573,2002,81,"Animation, Drama",7.9,234431,516.9,Director 279,"Actor 640, Actor 634, Actor 668",Spain,Japanese,Studio 45,81
+574,Movie 574,1992,118,Action,7.0,204968,581.5,Director 65,"Actor 533, Actor 554, Actor 291",France,English,Studio 66,69
+575,Movie 575,2013,123,"Drama, Action, Animation",8.9,283580,476.0,Director 124,"Actor 793, Actor 312, Actor 744",Japan,Hindi,Studio 15,37
+576,Movie 576,2003,113,"Animation, Sci-Fi, Comedy",4.3,341791,753.4,Director 230,"Actor 306, Actor 587, Actor 755",USA,German,Studio 44,60
+577,Movie 577,2017,152,"Animation, Thriller, Sci-Fi",5.6,350159,628.9,Director 294,"Actor 689, Actor 144, Actor 732",Japan,Hindi,Studio 95,61
+578,Movie 578,1986,121,"Fantasy, Thriller, Sci-Fi",6.5,77336,570.8,Director 211,"Actor 84, Actor 95, Actor 64",Japan,Spanish,Studio 61,57
+579,Movie 579,2008,89,"Animation, Horror",7.2,272576,624.2,Director 136,"Actor 599, Actor 511, Actor 652",Japan,German,Studio 89,92
+580,Movie 580,2006,100,Animation,4.7,373347,368.9,Director 263,"Actor 542, Actor 121, Actor 712",France,German,Studio 61,34
+581,Movie 581,1990,151,"Comedy, Horror",4.6,194269,459.6,Director 21,"Actor 536, Actor 157, Actor 121",India,French,Studio 48,68
+582,Movie 582,1998,142,Drama,4.8,309632,340.3,Director 157,"Actor 291, Actor 221, Actor 188",Spain,English,Studio 16,74
+583,Movie 583,1984,85,"Adventure, Romance",7.1,472509,273.6,Director 194,"Actor 487, Actor 738, Actor 621",Canada,Italian,Studio 18,94
+584,Movie 584,2020,138,"Adventure, Drama",8.8,171006,76.0,Director 210,"Actor 397, Actor 239, Actor 405",India,Hindi,Studio 6,86
+585,Movie 585,1997,162,Drama,7.9,300390,505.9,Director 159,"Actor 575, Actor 661, Actor 127",Italy,English,Studio 25,36
+586,Movie 586,2016,146,Adventure,6.8,10285,100.6,Director 273,"Actor 185, Actor 20, Actor 282",France,Spanish,Studio 91,86
+587,Movie 587,1985,148,"Sci-Fi, Horror, Action",6.7,490105,23.5,Director 224,"Actor 185, Actor 425, Actor 25",Italy,French,Studio 49,62
+588,Movie 588,1985,94,Animation,4.9,76015,150.2,Director 46,"Actor 158, Actor 315, Actor 418",Canada,English,Studio 79,71
+589,Movie 589,1991,83,"Action, Romance, Horror",4.5,75190,333.2,Director 166,"Actor 265, Actor 385, Actor 124",USA,Spanish,Studio 31,60
+590,Movie 590,2011,145,"Horror, Comedy, Romance",4.3,244201,444.7,Director 34,"Actor 496, Actor 30, Actor 418",France,English,Studio 35,42
+591,Movie 591,1995,177,"Drama, Romance, Horror",6.5,444193,510.5,Director 105,"Actor 146, Actor 383, Actor 554",Canada,Italian,Studio 32,84
+592,Movie 592,2015,137,Action,8.5,435329,498.5,Director 86,"Actor 1, Actor 62, Actor 494",Germany,Hindi,Studio 33,78
+593,Movie 593,2002,160,Fantasy,8.6,147988,41.2,Director 274,"Actor 577, Actor 72, Actor 308",UK,German,Studio 90,45
+594,Movie 594,1988,172,"Romance, Horror, Thriller",7.4,421008,258.1,Director 176,"Actor 651, Actor 268, Actor 771",Spain,French,Studio 32,71
+595,Movie 595,2001,106,"Fantasy, Sci-Fi",4.1,363226,111.3,Director 2,"Actor 624, Actor 488, Actor 5",USA,Japanese,Studio 23,82
+596,Movie 596,2015,169,"Adventure, Horror, Comedy",8.3,340813,522.8,Director 276,"Actor 32, Actor 688, Actor 456",UK,French,Studio 49,75
+597,Movie 597,2004,102,"Action, Comedy, Adventure",6.0,101682,358.4,Director 114,"Actor 761, Actor 21, Actor 777",Germany,Japanese,Studio 91,75
+598,Movie 598,1992,91,"Romance, Thriller, Animation",9.4,190816,34.3,Director 253,"Actor 721, Actor 724, Actor 621",France,English,Studio 26,80
+599,Movie 599,1987,115,"Animation, Adventure, Drama",7.0,346445,592.4,Director 290,"Actor 180, Actor 67, Actor 603",Canada,Japanese,Studio 9,46
+600,Movie 600,1996,152,Animation,8.0,144326,157.5,Director 12,"Actor 710, Actor 695, Actor 546",Australia,French,Studio 88,88
+601,Movie 601,1980,134,"Action, Sci-Fi, Horror",8.6,213820,222.9,Director 266,"Actor 478, Actor 508, Actor 371",Italy,Italian,Studio 6,58
+602,Movie 602,1983,115,"Animation, Adventure",5.7,205946,159.7,Director 42,"Actor 586, Actor 26, Actor 756",France,Japanese,Studio 55,39
+603,Movie 603,1995,105,Sci-Fi,5.7,328701,502.1,Director 15,"Actor 492, Actor 443, Actor 25",Australia,Italian,Studio 81,72
+604,Movie 604,1996,111,Adventure,5.3,179178,666.9,Director 171,"Actor 533, Actor 243, Actor 75",Australia,Hindi,Studio 57,42
+605,Movie 605,2020,137,"Comedy, Fantasy, Action",9.0,198363,254.1,Director 34,"Actor 131, Actor 64, Actor 453",USA,French,Studio 79,85
+606,Movie 606,1984,93,"Action, Animation, Fantasy",5.6,200492,324.3,Director 211,"Actor 239, Actor 614, Actor 676",Australia,English,Studio 59,79
+607,Movie 607,2009,134,"Fantasy, Comedy, Sci-Fi",7.6,354801,627.4,Director 233,"Actor 530, Actor 337, Actor 602",France,English,Studio 14,31
+608,Movie 608,2018,171,Fantasy,8.3,102009,724.0,Director 65,"Actor 653, Actor 522, Actor 263",India,German,Studio 62,86
+609,Movie 609,1991,111,Action,4.3,163903,469.7,Director 263,"Actor 668, Actor 773, Actor 367",Germany,Hindi,Studio 70,48
+610,Movie 610,1989,140,"Fantasy, Sci-Fi",5.6,4737,416.6,Director 75,"Actor 59, Actor 244, Actor 520",Italy,Italian,Studio 7,84
+611,Movie 611,2002,105,Thriller,8.3,179571,155.5,Director 244,"Actor 712, Actor 709, Actor 479",Australia,Japanese,Studio 43,72
+612,Movie 612,2019,118,"Sci-Fi, Drama",4.6,459831,632.4,Director 22,"Actor 508, Actor 225, Actor 4",France,Japanese,Studio 30,89
+613,Movie 613,2019,107,Adventure,8.0,499930,652.6,Director 193,"Actor 211, Actor 410, Actor 189",USA,French,Studio 2,39
+614,Movie 614,2002,83,"Comedy, Drama, Romance",6.4,331501,470.6,Director 185,"Actor 45, Actor 31, Actor 204",France,French,Studio 23,58
+615,Movie 615,1996,172,Sci-Fi,8.7,129456,146.9,Director 12,"Actor 181, Actor 269, Actor 104",USA,Italian,Studio 87,47
+616,Movie 616,2004,163,Sci-Fi,9.1,160445,367.7,Director 190,"Actor 382, Actor 677, Actor 176",Italy,Italian,Studio 80,85
+617,Movie 617,2025,88,Drama,8.9,69074,636.9,Director 99,"Actor 546, Actor 388, Actor 712",India,French,Studio 77,84
+618,Movie 618,2020,111,Fantasy,7.2,448470,430.7,Director 77,"Actor 336, Actor 254, Actor 55",Germany,Italian,Studio 17,95
+619,Movie 619,2017,142,Comedy,8.3,415210,532.5,Director 34,"Actor 172, Actor 521, Actor 398",Italy,French,Studio 64,89
+620,Movie 620,1991,121,"Sci-Fi, Animation, Adventure",7.9,259913,381.6,Director 298,"Actor 411, Actor 654, Actor 598",USA,Spanish,Studio 29,55
+621,Movie 621,2008,110,"Thriller, Romance",6.3,198200,459.2,Director 192,"Actor 261, Actor 564, Actor 87",Canada,Italian,Studio 11,67
+622,Movie 622,2008,146,"Thriller, Action",6.6,326148,272.4,Director 231,"Actor 479, Actor 443, Actor 419",India,Italian,Studio 64,70
+623,Movie 623,1997,128,Drama,6.4,139763,518.1,Director 184,"Actor 85, Actor 302, Actor 514",Italy,Hindi,Studio 83,40
+624,Movie 624,1997,109,Comedy,4.4,20570,439.1,Director 171,"Actor 202, Actor 692, Actor 338",Germany,French,Studio 96,65
+625,Movie 625,1992,170,"Drama, Animation, Romance",4.0,157510,229.1,Director 178,"Actor 414, Actor 416, Actor 594",USA,German,Studio 84,95
+626,Movie 626,1989,130,Thriller,8.0,110534,382.2,Director 265,"Actor 602, Actor 566, Actor 776",Spain,Japanese,Studio 60,73
+627,Movie 627,1985,120,Horror,8.2,366422,337.1,Director 225,"Actor 461, Actor 572, Actor 31",India,Spanish,Studio 74,46
+628,Movie 628,1999,174,Adventure,8.5,437912,287.0,Director 116,"Actor 430, Actor 436, Actor 703",Japan,Italian,Studio 100,68
+629,Movie 629,2000,155,Fantasy,8.3,483969,115.6,Director 170,"Actor 582, Actor 645, Actor 618",Australia,Hindi,Studio 51,78
+630,Movie 630,1993,130,Animation,6.1,249420,91.4,Director 292,"Actor 463, Actor 655, Actor 312",UK,Spanish,Studio 14,52
+631,Movie 631,1982,168,"Adventure, Action, Drama",5.1,478307,770.6,Director 146,"Actor 211, Actor 239, Actor 299",Italy,English,Studio 59,37
+632,Movie 632,2003,146,Drama,5.8,477503,331.6,Director 81,"Actor 114, Actor 133, Actor 550",Japan,German,Studio 96,38
+633,Movie 633,2004,106,Thriller,5.7,429313,569.2,Director 244,"Actor 163, Actor 619, Actor 589",Germany,Hindi,Studio 26,94
+634,Movie 634,2025,167,"Romance, Thriller",4.0,75311,359.4,Director 205,"Actor 620, Actor 253, Actor 539",India,Hindi,Studio 63,88
+635,Movie 635,2009,153,Comedy,5.6,462394,735.5,Director 178,"Actor 718, Actor 729, Actor 305",Japan,Hindi,Studio 23,83
+636,Movie 636,1995,102,"Horror, Adventure, Fantasy",9.0,96677,560.3,Director 49,"Actor 403, Actor 716, Actor 45",France,Italian,Studio 21,65
+637,Movie 637,2020,148,"Comedy, Thriller",9.0,216128,793.9,Director 284,"Actor 125, Actor 378, Actor 79",UK,Hindi,Studio 99,71
+638,Movie 638,2006,137,Romance,5.1,23901,372.4,Director 38,"Actor 655, Actor 712, Actor 692",Spain,German,Studio 44,81
+639,Movie 639,1992,130,Action,5.4,372272,734.1,Director 168,"Actor 687, Actor 767, Actor 476",Spain,German,Studio 9,40
+640,Movie 640,2015,164,Adventure,4.8,430639,226.9,Director 83,"Actor 175, Actor 19, Actor 622",UK,Spanish,Studio 38,45
+641,Movie 641,2014,174,"Drama, Comedy",7.7,6377,543.5,Director 79,"Actor 452, Actor 367, Actor 183",France,Japanese,Studio 5,57
+642,Movie 642,2008,169,Animation,7.5,376105,529.7,Director 53,"Actor 400, Actor 707, Actor 316",Spain,English,Studio 77,30
+643,Movie 643,1983,178,"Thriller, Fantasy",6.1,125563,164.0,Director 9,"Actor 432, Actor 29, Actor 15",India,Italian,Studio 25,38
+644,Movie 644,1994,92,"Drama, Fantasy, Action",6.3,56957,653.4,Director 166,"Actor 576, Actor 642, Actor 195",Australia,Spanish,Studio 70,80
+645,Movie 645,2007,95,Thriller,4.6,170037,143.0,Director 206,"Actor 670, Actor 324, Actor 13",Japan,Spanish,Studio 59,58
+646,Movie 646,1984,164,"Fantasy, Sci-Fi",4.2,464736,178.8,Director 155,"Actor 786, Actor 614, Actor 512",UK,Japanese,Studio 69,51
+647,Movie 647,1996,92,"Sci-Fi, Horror, Drama",5.8,333608,610.6,Director 163,"Actor 683, Actor 494, Actor 70",India,English,Studio 78,87
+648,Movie 648,2004,145,"Thriller, Animation, Action",5.3,323644,608.4,Director 64,"Actor 317, Actor 243, Actor 756",Japan,Italian,Studio 32,40
+649,Movie 649,1983,97,"Adventure, Romance",5.1,197500,167.5,Director 20,"Actor 244, Actor 743, Actor 613",Spain,Japanese,Studio 43,47
+650,Movie 650,1997,120,"Action, Animation, Horror",7.6,151733,601.7,Director 118,"Actor 751, Actor 340, Actor 351",France,Spanish,Studio 70,36
+651,Movie 651,2022,111,"Thriller, Horror, Sci-Fi",5.0,330687,9.8,Director 252,"Actor 72, Actor 198, Actor 54",Canada,Spanish,Studio 17,41
+652,Movie 652,1991,155,"Thriller, Fantasy, Comedy",6.3,245381,252.6,Director 102,"Actor 251, Actor 435, Actor 181",Australia,Spanish,Studio 39,66
+653,Movie 653,2016,137,"Thriller, Romance, Adventure",4.4,189024,321.6,Director 86,"Actor 483, Actor 452, Actor 433",Italy,Hindi,Studio 95,85
+654,Movie 654,1989,141,Horror,6.4,44137,608.3,Director 154,"Actor 610, Actor 551, Actor 157",Italy,Japanese,Studio 23,62
+655,Movie 655,2004,139,"Adventure, Romance",6.1,318231,387.3,Director 171,"Actor 140, Actor 733, Actor 481",France,Spanish,Studio 25,30
+656,Movie 656,1980,144,"Sci-Fi, Adventure, Horror",9.1,493480,318.7,Director 192,"Actor 394, Actor 502, Actor 316",Australia,English,Studio 53,34
+657,Movie 657,1987,129,"Drama, Thriller, Horror",9.3,404867,730.9,Director 179,"Actor 522, Actor 727, Actor 501",India,Japanese,Studio 8,79
+658,Movie 658,2007,174,Thriller,6.6,483614,651.4,Director 15,"Actor 715, Actor 682, Actor 661",Canada,French,Studio 78,88
+659,Movie 659,2023,98,"Thriller, Drama",4.1,404711,78.4,Director 197,"Actor 408, Actor 724, Actor 601",UK,Hindi,Studio 25,84
+660,Movie 660,1990,134,"Romance, Animation",9.3,345736,709.9,Director 158,"Actor 752, Actor 422, Actor 771",UK,English,Studio 82,74
+661,Movie 661,1989,114,"Thriller, Horror, Romance",4.0,88789,654.0,Director 1,"Actor 100, Actor 72, Actor 793",Japan,Hindi,Studio 54,66
+662,Movie 662,2007,101,Sci-Fi,5.0,70928,162.4,Director 94,"Actor 515, Actor 113, Actor 462",Australia,Italian,Studio 28,53
+663,Movie 663,1992,87,"Drama, Thriller, Romance",9.4,457477,330.0,Director 56,"Actor 652, Actor 171, Actor 82",Germany,English,Studio 49,45
+664,Movie 664,1997,88,"Action, Thriller",6.6,353243,609.6,Director 5,"Actor 63, Actor 273, Actor 770",USA,Japanese,Studio 75,35
+665,Movie 665,1986,107,"Action, Horror, Romance",9.1,248609,606.7,Director 220,"Actor 345, Actor 380, Actor 699",India,French,Studio 31,76
+666,Movie 666,2022,131,"Fantasy, Action",9.4,458244,267.6,Director 52,"Actor 4, Actor 468, Actor 716",Japan,Japanese,Studio 18,33
+667,Movie 667,2018,95,"Romance, Thriller, Sci-Fi",6.5,360258,528.8,Director 244,"Actor 528, Actor 424, Actor 677",France,English,Studio 82,71
+668,Movie 668,1981,161,"Action, Sci-Fi",7.7,122951,487.4,Director 205,"Actor 757, Actor 628, Actor 84",India,German,Studio 61,42
+669,Movie 669,2004,117,"Thriller, Drama, Action",4.7,418263,74.2,Director 281,"Actor 479, Actor 173, Actor 457",UK,German,Studio 85,60
+670,Movie 670,1995,107,Comedy,4.6,375767,28.2,Director 168,"Actor 393, Actor 785, Actor 288",France,Japanese,Studio 33,90
+671,Movie 671,2022,95,"Drama, Animation, Adventure",4.5,363194,269.6,Director 115,"Actor 590, Actor 785, Actor 616",UK,Japanese,Studio 44,78
+672,Movie 672,2025,175,"Horror, Animation, Fantasy",8.4,117705,211.0,Director 149,"Actor 90, Actor 115, Actor 92",India,Japanese,Studio 76,54
+673,Movie 673,1987,153,"Drama, Sci-Fi",9.2,302970,590.8,Director 160,"Actor 64, Actor 605, Actor 549",France,Italian,Studio 50,84
+674,Movie 674,2000,178,"Drama, Animation",7.7,310236,181.6,Director 203,"Actor 10, Actor 552, Actor 472",India,Spanish,Studio 38,58
+675,Movie 675,2011,167,"Drama, Romance",4.8,349335,680.1,Director 18,"Actor 614, Actor 328, Actor 317",Italy,Japanese,Studio 16,65
+676,Movie 676,2025,153,"Thriller, Adventure",5.6,198003,51.8,Director 171,"Actor 157, Actor 734, Actor 216",France,Japanese,Studio 95,36
+677,Movie 677,1991,142,"Horror, Romance, Drama",9.5,287779,316.9,Director 217,"Actor 695, Actor 485, Actor 357",Japan,German,Studio 10,66
+678,Movie 678,1998,169,Animation,6.2,69129,262.1,Director 298,"Actor 56, Actor 727, Actor 312",Spain,Japanese,Studio 21,47
+679,Movie 679,2008,169,"Romance, Drama",5.2,422215,600.0,Director 5,"Actor 371, Actor 744, Actor 590",UK,Japanese,Studio 19,78
+680,Movie 680,2007,166,Action,4.5,248947,147.8,Director 27,"Actor 121, Actor 528, Actor 666",India,Hindi,Studio 56,49
+681,Movie 681,2020,172,"Thriller, Action",4.7,208456,393.5,Director 89,"Actor 669, Actor 764, Actor 385",UK,Italian,Studio 60,78
+682,Movie 682,1997,160,"Adventure, Sci-Fi, Action",4.7,43825,102.0,Director 261,"Actor 231, Actor 24, Actor 601",Australia,Hindi,Studio 62,65
+683,Movie 683,2024,175,Fantasy,5.0,254355,800.0,Director 223,"Actor 306, Actor 586, Actor 129",UK,French,Studio 9,53
+684,Movie 684,2005,169,Horror,7.1,281736,627.9,Director 272,"Actor 501, Actor 66, Actor 532",Australia,Hindi,Studio 92,45
+685,Movie 685,1993,164,Drama,8.7,364993,148.1,Director 285,"Actor 458, Actor 322, Actor 126",USA,Spanish,Studio 74,56
+686,Movie 686,2021,100,Animation,5.4,395324,32.8,Director 64,"Actor 519, Actor 306, Actor 373",Italy,Spanish,Studio 55,30
+687,Movie 687,1995,118,Animation,9.0,154324,529.0,Director 228,"Actor 144, Actor 591, Actor 503",India,Hindi,Studio 46,95
+688,Movie 688,1993,168,Action,5.3,99104,117.6,Director 111,"Actor 138, Actor 617, Actor 566",France,Hindi,Studio 46,65
+689,Movie 689,1988,173,"Horror, Comedy, Romance",5.4,341166,723.4,Director 205,"Actor 468, Actor 86, Actor 261",Japan,Japanese,Studio 19,56
+690,Movie 690,1984,160,"Romance, Thriller, Sci-Fi",7.1,340118,657.3,Director 84,"Actor 430, Actor 158, Actor 324",Japan,German,Studio 4,61
+691,Movie 691,1984,114,Animation,4.6,288003,328.4,Director 169,"Actor 656, Actor 92, Actor 372",India,Italian,Studio 35,48
+692,Movie 692,1994,115,Comedy,6.1,117010,306.0,Director 54,"Actor 127, Actor 180, Actor 540",Germany,Hindi,Studio 63,42
+693,Movie 693,2013,124,"Fantasy, Romance, Animation",7.3,470561,43.1,Director 163,"Actor 770, Actor 399, Actor 186",India,Italian,Studio 95,81
+694,Movie 694,2010,155,Romance,4.1,269756,572.0,Director 65,"Actor 147, Actor 388, Actor 582",Germany,English,Studio 93,77
+695,Movie 695,2025,179,Fantasy,6.3,240512,150.6,Director 182,"Actor 480, Actor 515, Actor 294",Germany,German,Studio 67,59
+696,Movie 696,1999,161,Romance,6.2,164464,677.0,Director 41,"Actor 79, Actor 748, Actor 246",UK,Spanish,Studio 74,37
+697,Movie 697,1985,175,"Animation, Adventure",8.4,6107,769.9,Director 218,"Actor 694, Actor 521, Actor 749",Canada,German,Studio 64,95
+698,Movie 698,2023,166,"Comedy, Horror, Action",7.4,478066,666.0,Director 4,"Actor 732, Actor 436, Actor 720",Italy,Japanese,Studio 45,61
+699,Movie 699,2022,147,"Fantasy, Action, Adventure",9.3,354143,744.5,Director 269,"Actor 231, Actor 180, Actor 77",India,Italian,Studio 18,95
+700,Movie 700,2002,86,"Adventure, Horror",4.9,59866,273.7,Director 128,"Actor 553, Actor 785, Actor 121",Germany,French,Studio 62,67
+701,Movie 701,1996,107,Fantasy,6.2,484447,247.3,Director 264,"Actor 37, Actor 475, Actor 633",Spain,English,Studio 46,30
+702,Movie 702,2019,138,"Romance, Sci-Fi",4.6,183854,712.7,Director 96,"Actor 412, Actor 364, Actor 10",UK,German,Studio 63,55
+703,Movie 703,1985,147,"Drama, Horror, Comedy",9.0,4123,128.7,Director 129,"Actor 232, Actor 482, Actor 405",India,French,Studio 47,84
+704,Movie 704,1991,148,"Comedy, Adventure",7.6,230849,133.7,Director 182,"Actor 766, Actor 445, Actor 6",India,Italian,Studio 91,55
+705,Movie 705,1987,104,"Action, Drama",6.2,390530,268.3,Director 17,"Actor 165, Actor 683, Actor 204",Spain,Japanese,Studio 35,45
+706,Movie 706,2006,142,"Adventure, Drama, Sci-Fi",8.1,409621,706.0,Director 257,"Actor 744, Actor 760, Actor 399",Canada,English,Studio 14,32
+707,Movie 707,1988,99,"Animation, Action",8.2,124496,46.4,Director 176,"Actor 440, Actor 612, Actor 756",USA,German,Studio 62,67
+708,Movie 708,1998,142,Horror,5.4,80451,584.8,Director 96,"Actor 256, Actor 288, Actor 786",UK,Italian,Studio 34,61
+709,Movie 709,2022,134,Adventure,7.9,425148,86.9,Director 258,"Actor 626, Actor 186, Actor 194",Australia,Japanese,Studio 82,49
+710,Movie 710,1994,95,Horror,4.2,101256,743.6,Director 219,"Actor 19, Actor 632, Actor 205",UK,Italian,Studio 7,78
+711,Movie 711,2006,147,"Thriller, Fantasy",5.8,251736,53.8,Director 219,"Actor 660, Actor 53, Actor 312",UK,French,Studio 47,65
+712,Movie 712,2002,171,"Thriller, Sci-Fi",8.9,95790,37.5,Director 27,"Actor 677, Actor 763, Actor 330",France,French,Studio 61,65
+713,Movie 713,2018,92,"Drama, Romance",9.2,191121,270.8,Director 58,"Actor 100, Actor 686, Actor 14",Italy,Italian,Studio 17,72
+714,Movie 714,2003,174,"Fantasy, Animation",7.3,125412,521.9,Director 108,"Actor 599, Actor 394, Actor 90",UK,Spanish,Studio 81,45
+715,Movie 715,1982,155,"Thriller, Fantasy, Adventure",9.1,39758,753.7,Director 176,"Actor 309, Actor 743, Actor 486",France,Hindi,Studio 93,49
+716,Movie 716,1982,96,Horror,7.0,132896,713.8,Director 287,"Actor 356, Actor 375, Actor 460",UK,German,Studio 9,91
+717,Movie 717,2006,147,"Action, Drama, Romance",7.8,68098,235.3,Director 290,"Actor 63, Actor 711, Actor 195",Japan,German,Studio 88,95
+718,Movie 718,1984,101,"Animation, Horror",7.1,205101,323.7,Director 140,"Actor 212, Actor 189, Actor 4",Canada,Hindi,Studio 28,31
+719,Movie 719,2012,138,"Animation, Romance, Fantasy",8.7,155879,568.1,Director 283,"Actor 122, Actor 176, Actor 230",USA,Hindi,Studio 31,67
+720,Movie 720,1982,161,Romance,9.1,142285,699.3,Director 27,"Actor 658, Actor 255, Actor 216",Italy,English,Studio 1,74
+721,Movie 721,2020,157,"Sci-Fi, Comedy",9.2,463963,441.7,Director 69,"Actor 419, Actor 627, Actor 302",India,English,Studio 81,31
+722,Movie 722,2002,108,"Romance, Drama, Fantasy",9.3,282246,527.6,Director 299,"Actor 109, Actor 740, Actor 764",Japan,Japanese,Studio 33,56
+723,Movie 723,2008,108,"Romance, Thriller",7.2,423984,687.3,Director 203,"Actor 160, Actor 457, Actor 238",Japan,French,Studio 19,91
+724,Movie 724,1985,143,Adventure,5.0,452620,145.0,Director 292,"Actor 503, Actor 747, Actor 185",Germany,English,Studio 40,50
+725,Movie 725,1991,130,"Fantasy, Thriller, Comedy",4.8,224053,200.0,Director 207,"Actor 103, Actor 742, Actor 540",Canada,Japanese,Studio 97,31
+726,Movie 726,2018,92,"Horror, Action",4.6,7605,611.9,Director 23,"Actor 136, Actor 255, Actor 789",UK,French,Studio 19,31
+727,Movie 727,1980,93,"Sci-Fi, Comedy, Thriller",4.8,398786,452.5,Director 228,"Actor 168, Actor 315, Actor 340",Spain,Spanish,Studio 32,37
+728,Movie 728,2014,168,"Animation, Comedy",4.1,23844,86.7,Director 152,"Actor 106, Actor 524, Actor 426",Canada,English,Studio 29,33
+729,Movie 729,1994,134,"Drama, Sci-Fi",7.6,118928,737.7,Director 197,"Actor 704, Actor 733, Actor 116",Spain,Spanish,Studio 15,58
+730,Movie 730,1986,116,"Comedy, Sci-Fi",4.7,484585,740.1,Director 44,"Actor 45, Actor 620, Actor 155",Canada,German,Studio 68,72
+731,Movie 731,2018,103,"Horror, Drama, Romance",7.4,150973,282.0,Director 54,"Actor 278, Actor 512, Actor 678",India,French,Studio 92,39
+732,Movie 732,1980,99,"Drama, Sci-Fi, Fantasy",6.1,378691,638.5,Director 245,"Actor 69, Actor 116, Actor 592",Japan,Japanese,Studio 36,48
+733,Movie 733,1985,121,Drama,8.2,185368,258.9,Director 218,"Actor 493, Actor 711, Actor 424",Australia,Italian,Studio 82,72
+734,Movie 734,1988,163,Horror,6.3,261124,433.3,Director 253,"Actor 546, Actor 550, Actor 236",Japan,English,Studio 75,83
+735,Movie 735,2013,153,"Thriller, Comedy, Fantasy",6.0,107077,795.2,Director 9,"Actor 372, Actor 572, Actor 486",Canada,English,Studio 8,74
+736,Movie 736,2003,179,Romance,6.5,438412,683.4,Director 216,"Actor 249, Actor 216, Actor 230",USA,Japanese,Studio 18,45
+737,Movie 737,2024,170,Horror,8.0,365468,772.1,Director 191,"Actor 56, Actor 719, Actor 109",Australia,English,Studio 62,50
+738,Movie 738,1981,98,"Drama, Comedy",5.3,7041,457.5,Director 214,"Actor 154, Actor 784, Actor 187",Spain,Japanese,Studio 18,68
+739,Movie 739,2010,132,"Sci-Fi, Adventure, Action",5.6,82229,52.7,Director 17,"Actor 619, Actor 770, Actor 178",Italy,Spanish,Studio 2,80
+740,Movie 740,2007,167,"Animation, Romance",9.1,263625,248.3,Director 117,"Actor 434, Actor 161, Actor 279",UK,Hindi,Studio 49,46
+741,Movie 741,1993,131,"Action, Thriller, Horror",5.0,391616,780.9,Director 40,"Actor 710, Actor 480, Actor 489",India,Japanese,Studio 83,81
+742,Movie 742,2004,101,Sci-Fi,7.6,102594,219.6,Director 54,"Actor 80, Actor 372, Actor 618",India,English,Studio 31,66
+743,Movie 743,1990,149,Comedy,5.2,6255,606.4,Director 159,"Actor 193, Actor 565, Actor 207",USA,Spanish,Studio 35,40
+744,Movie 744,2016,152,Fantasy,9.4,254154,41.3,Director 162,"Actor 96, Actor 317, Actor 9",India,Italian,Studio 37,80
+745,Movie 745,2012,104,"Horror, Sci-Fi",9.4,368894,541.4,Director 170,"Actor 418, Actor 760, Actor 516",UK,Hindi,Studio 100,49
+746,Movie 746,1981,155,"Adventure, Action",5.6,79949,547.5,Director 41,"Actor 641, Actor 96, Actor 736",France,Spanish,Studio 88,48
+747,Movie 747,2025,100,"Animation, Fantasy, Sci-Fi",6.5,69285,274.5,Director 185,"Actor 639, Actor 442, Actor 41",Japan,Spanish,Studio 27,39
+748,Movie 748,1989,152,"Adventure, Comedy, Action",4.8,456870,251.1,Director 45,"Actor 511, Actor 97, Actor 466",India,Spanish,Studio 38,50
+749,Movie 749,1984,115,"Sci-Fi, Fantasy, Comedy",4.4,373087,618.7,Director 133,"Actor 485, Actor 263, Actor 782",Spain,Japanese,Studio 18,45
+750,Movie 750,2016,142,Sci-Fi,8.7,210707,330.2,Director 67,"Actor 452, Actor 376, Actor 525",Australia,French,Studio 48,40
+751,Movie 751,2023,132,"Adventure, Romance, Action",7.4,338071,50.4,Director 126,"Actor 717, Actor 575, Actor 9",Canada,Italian,Studio 14,67
+752,Movie 752,2004,100,"Horror, Comedy, Thriller",6.1,242867,537.0,Director 179,"Actor 478, Actor 480, Actor 658",Italy,Italian,Studio 60,43
+753,Movie 753,1985,103,"Comedy, Horror, Animation",5.1,172844,56.3,Director 176,"Actor 619, Actor 498, Actor 218",Spain,English,Studio 36,88
+754,Movie 754,1982,149,Adventure,4.8,112419,259.5,Director 17,"Actor 616, Actor 793, Actor 390",USA,Italian,Studio 47,85
+755,Movie 755,2010,107,Thriller,8.8,499960,608.1,Director 217,"Actor 277, Actor 259, Actor 651",Canada,English,Studio 19,38
+756,Movie 756,1997,131,Romance,8.8,237174,697.7,Director 269,"Actor 220, Actor 686, Actor 266",Canada,Italian,Studio 7,41
+757,Movie 757,2007,123,"Drama, Thriller",5.9,220229,387.9,Director 275,"Actor 706, Actor 165, Actor 714",Japan,French,Studio 89,79
+758,Movie 758,1980,151,"Thriller, Comedy, Drama",5.8,432253,751.5,Director 163,"Actor 15, Actor 155, Actor 470",Canada,German,Studio 41,44
+759,Movie 759,2023,132,"Animation, Action",9.4,495073,666.8,Director 65,"Actor 650, Actor 461, Actor 655",Australia,English,Studio 5,57
+760,Movie 760,1992,133,"Animation, Drama, Horror",5.2,110476,762.1,Director 296,"Actor 15, Actor 380, Actor 373",USA,French,Studio 40,94
+761,Movie 761,1987,169,"Adventure, Horror",6.3,185160,663.4,Director 219,"Actor 536, Actor 784, Actor 344",UK,Spanish,Studio 59,84
+762,Movie 762,2003,102,"Fantasy, Drama, Horror",6.1,443571,529.4,Director 224,"Actor 650, Actor 291, Actor 719",Australia,Italian,Studio 13,41
+763,Movie 763,1986,91,"Action, Horror, Comedy",6.7,394621,500.9,Director 279,"Actor 103, Actor 649, Actor 455",Italy,Hindi,Studio 5,67
+764,Movie 764,2006,107,Adventure,7.0,60531,160.5,Director 241,"Actor 128, Actor 360, Actor 476",Japan,Italian,Studio 83,80
+765,Movie 765,1980,127,Animation,5.6,461667,528.7,Director 158,"Actor 425, Actor 690, Actor 248",USA,German,Studio 5,31
+766,Movie 766,1981,99,"Animation, Sci-Fi",5.8,300491,794.3,Director 124,"Actor 570, Actor 401, Actor 198",Australia,Japanese,Studio 51,36
+767,Movie 767,2016,134,Horror,9.4,91577,325.5,Director 163,"Actor 530, Actor 163, Actor 448",France,English,Studio 91,46
+768,Movie 768,2012,95,"Fantasy, Horror, Romance",8.6,83889,759.2,Director 105,"Actor 96, Actor 27, Actor 448",USA,Japanese,Studio 99,49
+769,Movie 769,1981,159,"Animation, Comedy, Horror",4.1,385416,108.8,Director 233,"Actor 650, Actor 647, Actor 797",India,Spanish,Studio 31,58
+770,Movie 770,1999,104,"Thriller, Horror, Romance",7.6,144660,71.0,Director 74,"Actor 643, Actor 24, Actor 654",Australia,Italian,Studio 14,44
+771,Movie 771,2009,156,Comedy,4.8,137860,716.2,Director 48,"Actor 80, Actor 507, Actor 371",France,German,Studio 13,92
+772,Movie 772,1981,132,Adventure,9.3,40509,172.2,Director 215,"Actor 385, Actor 322, Actor 649",Spain,Italian,Studio 21,53
+773,Movie 773,1999,81,Fantasy,7.5,448666,30.0,Director 176,"Actor 356, Actor 496, Actor 629",Australia,Hindi,Studio 1,50
+774,Movie 774,2013,174,"Comedy, Thriller",7.3,281494,23.3,Director 263,"Actor 780, Actor 157, Actor 222",India,English,Studio 28,33
+775,Movie 775,2000,97,Comedy,8.0,493251,105.6,Director 141,"Actor 494, Actor 205, Actor 95",India,Japanese,Studio 71,67
+776,Movie 776,2009,175,"Horror, Animation",9.2,484076,158.5,Director 89,"Actor 203, Actor 704, Actor 735",Germany,German,Studio 14,69
+777,Movie 777,1990,106,"Adventure, Horror, Fantasy",6.3,392184,221.0,Director 164,"Actor 638, Actor 111, Actor 622",Japan,German,Studio 26,75
+778,Movie 778,2003,160,Adventure,4.9,18199,766.7,Director 130,"Actor 601, Actor 420, Actor 301",Australia,Italian,Studio 83,75
+779,Movie 779,2005,83,Drama,8.4,225622,633.8,Director 184,"Actor 252, Actor 75, Actor 221",India,French,Studio 19,70
+780,Movie 780,1987,81,"Action, Sci-Fi",5.2,298017,637.2,Director 120,"Actor 576, Actor 68, Actor 395",Germany,Hindi,Studio 28,57
+781,Movie 781,1986,151,"Fantasy, Comedy",7.2,339331,340.3,Director 223,"Actor 326, Actor 328, Actor 203",France,English,Studio 64,93
+782,Movie 782,1982,115,"Comedy, Fantasy",6.5,315822,264.9,Director 197,"Actor 243, Actor 591, Actor 22",Germany,English,Studio 83,30
+783,Movie 783,2009,116,Horror,4.2,280190,734.8,Director 21,"Actor 346, Actor 661, Actor 17",UK,German,Studio 13,83
+784,Movie 784,1999,115,"Sci-Fi, Horror",4.4,406620,254.0,Director 25,"Actor 403, Actor 306, Actor 714",Spain,German,Studio 83,45
+785,Movie 785,2003,159,Action,5.2,433276,13.3,Director 54,"Actor 331, Actor 705, Actor 742",Japan,Spanish,Studio 22,41
+786,Movie 786,1992,172,"Animation, Action",9.1,455589,46.7,Director 23,"Actor 114, Actor 50, Actor 312",UK,French,Studio 43,78
+787,Movie 787,1997,169,Drama,7.2,63362,105.4,Director 76,"Actor 772, Actor 599, Actor 424",Spain,Japanese,Studio 16,60
+788,Movie 788,2016,141,"Adventure, Romance, Sci-Fi",8.2,253577,184.5,Director 136,"Actor 785, Actor 304, Actor 729",UK,French,Studio 72,61
+789,Movie 789,2022,162,"Thriller, Comedy, Animation",9.3,32097,173.9,Director 111,"Actor 480, Actor 395, Actor 193",Spain,English,Studio 44,56
+790,Movie 790,2017,177,"Animation, Sci-Fi, Romance",7.9,344060,127.4,Director 259,"Actor 109, Actor 134, Actor 225",India,German,Studio 58,95
+791,Movie 791,1992,179,"Thriller, Comedy",5.5,86586,550.6,Director 296,"Actor 664, Actor 105, Actor 151",Spain,English,Studio 96,44
+792,Movie 792,1995,82,"Drama, Romance",4.2,347518,427.1,Director 181,"Actor 272, Actor 122, Actor 564",UK,French,Studio 56,57
+793,Movie 793,1989,130,"Horror, Animation, Sci-Fi",4.3,143415,299.0,Director 26,"Actor 665, Actor 392, Actor 750",Japan,Spanish,Studio 38,54
+794,Movie 794,2005,102,"Romance, Animation, Adventure",6.9,57744,546.5,Director 128,"Actor 114, Actor 225, Actor 118",USA,English,Studio 74,64
+795,Movie 795,1995,88,"Comedy, Romance, Thriller",8.9,367245,574.1,Director 201,"Actor 403, Actor 104, Actor 226",Germany,German,Studio 27,51
+796,Movie 796,1993,124,"Romance, Fantasy, Action",4.5,264342,726.7,Director 245,"Actor 757, Actor 313, Actor 705",France,Spanish,Studio 41,38
+797,Movie 797,1990,103,"Adventure, Drama",9.3,349692,382.3,Director 172,"Actor 22, Actor 182, Actor 271",UK,Spanish,Studio 87,31
+798,Movie 798,2018,125,"Fantasy, Action",6.7,130266,380.7,Director 24,"Actor 18, Actor 581, Actor 697",Germany,Italian,Studio 30,94
+799,Movie 799,1990,176,Comedy,4.5,421971,590.3,Director 232,"Actor 503, Actor 753, Actor 360",Italy,French,Studio 85,92
+800,Movie 800,1996,126,"Action, Sci-Fi",5.7,175475,713.6,Director 248,"Actor 116, Actor 277, Actor 703",Italy,Japanese,Studio 82,32
+801,Movie 801,1989,132,Drama,6.0,16702,199.3,Director 221,"Actor 369, Actor 212, Actor 763",UK,Spanish,Studio 49,43
+802,Movie 802,1997,160,"Animation, Adventure, Drama",5.5,356526,282.3,Director 170,"Actor 401, Actor 604, Actor 428",Germany,French,Studio 25,35
+803,Movie 803,2017,146,"Sci-Fi, Comedy, Horror",8.4,297594,774.7,Director 178,"Actor 296, Actor 113, Actor 9",Spain,Japanese,Studio 19,89
+804,Movie 804,2023,99,"Romance, Animation, Drama",5.7,151631,56.4,Director 151,"Actor 16, Actor 465, Actor 42",France,French,Studio 76,45
+805,Movie 805,1983,142,"Action, Horror",5.9,437813,5.5,Director 129,"Actor 142, Actor 359, Actor 291",Italy,Japanese,Studio 99,49
+806,Movie 806,1985,171,"Drama, Thriller",6.4,481932,69.2,Director 113,"Actor 33, Actor 485, Actor 364",France,Italian,Studio 87,79
+807,Movie 807,2007,131,Romance,9.1,313520,252.0,Director 289,"Actor 447, Actor 696, Actor 331",Australia,Spanish,Studio 88,55
+808,Movie 808,1996,97,"Animation, Thriller",5.7,45377,241.4,Director 237,"Actor 559, Actor 188, Actor 385",Japan,English,Studio 18,86
+809,Movie 809,2024,120,"Sci-Fi, Adventure, Fantasy",6.4,220966,769.4,Director 237,"Actor 29, Actor 573, Actor 28",Japan,English,Studio 97,47
+810,Movie 810,2019,118,Fantasy,6.8,67228,498.6,Director 290,"Actor 301, Actor 55, Actor 774",Japan,Spanish,Studio 52,30
+811,Movie 811,2009,177,"Adventure, Action, Comedy",4.3,435603,789.0,Director 55,"Actor 342, Actor 609, Actor 100",Germany,Hindi,Studio 62,72
+812,Movie 812,1983,95,"Fantasy, Animation, Action",7.9,271171,119.6,Director 254,"Actor 140, Actor 229, Actor 692",Canada,French,Studio 81,69
+813,Movie 813,1980,142,"Thriller, Comedy, Animation",4.0,317060,704.5,Director 267,"Actor 100, Actor 254, Actor 210",UK,German,Studio 4,94
+814,Movie 814,2008,130,Comedy,5.6,254108,786.2,Director 121,"Actor 560, Actor 267, Actor 628",Spain,Italian,Studio 85,45
+815,Movie 815,2007,98,"Action, Drama, Animation",8.5,345201,196.3,Director 262,"Actor 760, Actor 717, Actor 560",France,German,Studio 62,67
+816,Movie 816,1998,165,Fantasy,6.7,350566,223.8,Director 198,"Actor 715, Actor 110, Actor 476",Japan,Italian,Studio 55,48
+817,Movie 817,1981,116,"Comedy, Horror",4.1,159234,32.1,Director 228,"Actor 44, Actor 364, Actor 143",Spain,Japanese,Studio 59,65
+818,Movie 818,1980,100,"Animation, Fantasy",5.2,473696,566.4,Director 200,"Actor 526, Actor 65, Actor 179",Canada,French,Studio 84,73
+819,Movie 819,2009,171,Romance,8.3,345714,245.8,Director 202,"Actor 70, Actor 661, Actor 496",Japan,German,Studio 78,53
+820,Movie 820,2016,170,"Animation, Romance, Drama",7.8,309228,764.4,Director 179,"Actor 599, Actor 633, Actor 414",UK,English,Studio 4,50
+821,Movie 821,1994,92,"Comedy, Adventure, Animation",5.8,121890,785.2,Director 122,"Actor 108, Actor 179, Actor 746",Japan,Italian,Studio 54,38
+822,Movie 822,1983,158,"Comedy, Action",8.7,38710,356.0,Director 192,"Actor 622, Actor 647, Actor 31",Canada,French,Studio 14,87
+823,Movie 823,2004,97,"Fantasy, Animation, Thriller",5.1,257979,352.8,Director 147,"Actor 231, Actor 207, Actor 760",Canada,German,Studio 68,54
+824,Movie 824,1985,154,Comedy,5.1,425177,116.7,Director 3,"Actor 369, Actor 793, Actor 418",Australia,Hindi,Studio 10,73
+825,Movie 825,1991,167,"Animation, Adventure, Thriller",8.6,299538,662.9,Director 257,"Actor 361, Actor 366, Actor 634",Italy,Italian,Studio 18,38
+826,Movie 826,2008,134,"Horror, Comedy, Animation",4.7,271686,242.1,Director 61,"Actor 511, Actor 237, Actor 53",Australia,Hindi,Studio 43,32
+827,Movie 827,1994,117,"Horror, Sci-Fi",4.4,457403,130.5,Director 148,"Actor 77, Actor 548, Actor 590",France,Italian,Studio 67,94
+828,Movie 828,1999,131,"Action, Animation, Comedy",7.2,491719,734.3,Director 135,"Actor 669, Actor 31, Actor 34",India,German,Studio 34,55
+829,Movie 829,2001,177,Drama,5.1,428718,588.4,Director 32,"Actor 242, Actor 506, Actor 75",Australia,Hindi,Studio 90,34
+830,Movie 830,2002,89,"Fantasy, Comedy",8.9,251514,757.5,Director 139,"Actor 741, Actor 43, Actor 107",USA,German,Studio 65,58
+831,Movie 831,2021,124,"Adventure, Romance",8.3,460012,777.3,Director 11,"Actor 57, Actor 27, Actor 793",France,Hindi,Studio 78,78
+832,Movie 832,2023,167,"Action, Animation, Adventure",4.3,401937,304.9,Director 65,"Actor 441, Actor 719, Actor 438",Italy,Spanish,Studio 15,86
+833,Movie 833,1987,158,"Sci-Fi, Thriller",5.9,481832,51.0,Director 119,"Actor 95, Actor 603, Actor 11",France,German,Studio 96,35
+834,Movie 834,1980,172,Action,4.4,66935,353.7,Director 145,"Actor 45, Actor 322, Actor 359",Australia,Japanese,Studio 32,67
+835,Movie 835,1988,157,"Adventure, Comedy",7.6,40544,203.9,Director 279,"Actor 211, Actor 507, Actor 723",India,Italian,Studio 29,86
+836,Movie 836,2025,118,"Animation, Romance",8.8,128534,423.8,Director 137,"Actor 327, Actor 715, Actor 555",Italy,English,Studio 7,74
+837,Movie 837,2006,170,"Adventure, Romance, Comedy",5.1,72396,673.9,Director 267,"Actor 237, Actor 313, Actor 760",Italy,Spanish,Studio 16,77
+838,Movie 838,1989,84,Adventure,7.6,238402,762.7,Director 11,"Actor 511, Actor 35, Actor 277",Germany,Hindi,Studio 50,68
+839,Movie 839,1985,87,"Fantasy, Horror",6.7,452841,309.2,Director 228,"Actor 46, Actor 230, Actor 211",Japan,Spanish,Studio 85,85
+840,Movie 840,2014,86,"Romance, Action, Sci-Fi",9.2,477630,488.9,Director 173,"Actor 269, Actor 772, Actor 606",France,Italian,Studio 4,73
+841,Movie 841,2019,135,"Action, Comedy",7.0,499870,578.4,Director 148,"Actor 548, Actor 475, Actor 435",Australia,Japanese,Studio 73,63
+842,Movie 842,1990,128,"Thriller, Drama",9.0,147667,640.7,Director 141,"Actor 88, Actor 256, Actor 790",Italy,French,Studio 44,80
+843,Movie 843,1982,158,"Sci-Fi, Romance",7.6,410716,524.2,Director 7,"Actor 128, Actor 315, Actor 583",India,Italian,Studio 34,52
+844,Movie 844,2008,139,Adventure,4.0,19900,772.9,Director 246,"Actor 654, Actor 570, Actor 224",Japan,English,Studio 75,40
+845,Movie 845,1997,158,"Sci-Fi, Comedy, Adventure",5.0,402092,630.5,Director 133,"Actor 507, Actor 131, Actor 233",Canada,Spanish,Studio 80,36
+846,Movie 846,1994,94,"Action, Drama, Adventure",7.2,22496,445.0,Director 117,"Actor 63, Actor 732, Actor 266",Germany,English,Studio 87,75
+847,Movie 847,2014,171,Fantasy,5.3,57733,66.6,Director 228,"Actor 116, Actor 524, Actor 80",France,Spanish,Studio 42,77
+848,Movie 848,2023,133,Horror,8.8,75514,24.6,Director 185,"Actor 344, Actor 418, Actor 668",India,German,Studio 38,33
+849,Movie 849,1990,127,Romance,9.1,478583,475.0,Director 55,"Actor 624, Actor 217, Actor 321",Italy,Japanese,Studio 100,95
+850,Movie 850,2017,171,"Thriller, Horror",8.6,17591,527.4,Director 77,"Actor 391, Actor 781, Actor 665",UK,English,Studio 29,94
+851,Movie 851,2016,160,"Horror, Animation, Comedy",8.7,277196,639.6,Director 242,"Actor 676, Actor 538, Actor 533",Spain,French,Studio 35,54
+852,Movie 852,2016,117,Sci-Fi,5.3,402966,782.1,Director 119,"Actor 467, Actor 323, Actor 767",UK,Japanese,Studio 31,86
+853,Movie 853,2006,126,Sci-Fi,7.1,40578,732.1,Director 248,"Actor 620, Actor 236, Actor 460",Japan,Spanish,Studio 73,46
+854,Movie 854,2014,111,"Fantasy, Drama",7.3,417757,233.1,Director 161,"Actor 121, Actor 84, Actor 419",Japan,Hindi,Studio 19,93
+855,Movie 855,2020,178,Drama,8.8,8632,137.6,Director 215,"Actor 270, Actor 784, Actor 568",Spain,Japanese,Studio 13,46
+856,Movie 856,1982,135,Drama,9.4,69904,414.3,Director 272,"Actor 398, Actor 433, Actor 363",Canada,German,Studio 90,60
+857,Movie 857,2025,117,Sci-Fi,8.9,471496,272.6,Director 56,"Actor 740, Actor 47, Actor 76",India,German,Studio 53,87
+858,Movie 858,2007,117,"Drama, Fantasy",8.0,309598,733.5,Director 261,"Actor 86, Actor 156, Actor 8",Australia,Hindi,Studio 48,88
+859,Movie 859,2004,121,"Drama, Animation",8.0,146933,756.1,Director 50,"Actor 238, Actor 305, Actor 506",India,English,Studio 73,95
+860,Movie 860,2007,116,"Horror, Sci-Fi",8.2,75576,38.3,Director 108,"Actor 441, Actor 532, Actor 285",Australia,Hindi,Studio 41,42
+861,Movie 861,2002,116,Comedy,5.6,255637,353.9,Director 87,"Actor 296, Actor 266, Actor 621",UK,Spanish,Studio 86,65
+862,Movie 862,1989,92,Animation,8.6,396266,139.2,Director 21,"Actor 553, Actor 551, Actor 200",USA,German,Studio 4,77
+863,Movie 863,1993,116,"Horror, Adventure, Drama",8.6,155134,734.8,Director 62,"Actor 456, Actor 443, Actor 506",Germany,English,Studio 18,65
+864,Movie 864,2022,94,"Comedy, Thriller",8.0,172002,129.6,Director 172,"Actor 283, Actor 465, Actor 646",Italy,Japanese,Studio 100,39
+865,Movie 865,2025,168,"Action, Horror",4.6,370177,636.4,Director 163,"Actor 195, Actor 572, Actor 677",USA,Japanese,Studio 81,31
+866,Movie 866,1995,97,"Horror, Thriller, Animation",5.5,79894,390.2,Director 96,"Actor 752, Actor 509, Actor 290",Canada,Spanish,Studio 82,41
+867,Movie 867,2013,172,"Thriller, Action, Horror",4.4,292914,490.9,Director 92,"Actor 40, Actor 429, Actor 705",Germany,Hindi,Studio 49,60
+868,Movie 868,2020,124,"Animation, Drama",8.8,441264,189.4,Director 150,"Actor 685, Actor 497, Actor 502",Japan,Hindi,Studio 46,91
+869,Movie 869,1998,92,Comedy,9.3,470691,605.2,Director 148,"Actor 430, Actor 458, Actor 334",France,Japanese,Studio 55,44
+870,Movie 870,1991,139,"Comedy, Sci-Fi",7.8,370028,106.8,Director 248,"Actor 501, Actor 616, Actor 422",France,English,Studio 38,64
+871,Movie 871,2012,107,"Action, Animation",8.2,137656,541.6,Director 211,"Actor 401, Actor 453, Actor 436",Japan,French,Studio 7,64
+872,Movie 872,2011,173,Sci-Fi,7.5,24422,250.3,Director 210,"Actor 227, Actor 587, Actor 171",Italy,Spanish,Studio 100,44
+873,Movie 873,2019,158,"Drama, Animation",4.1,379155,21.8,Director 195,"Actor 93, Actor 800, Actor 722",India,French,Studio 99,38
+874,Movie 874,2021,86,"Thriller, Sci-Fi, Fantasy",9.4,439931,430.9,Director 118,"Actor 298, Actor 166, Actor 383",India,German,Studio 28,61
+875,Movie 875,1980,84,Animation,4.6,209133,634.1,Director 22,"Actor 161, Actor 290, Actor 309",USA,Spanish,Studio 81,61
+876,Movie 876,1982,114,"Comedy, Horror, Animation",4.7,388748,701.9,Director 44,"Actor 79, Actor 76, Actor 517",Japan,English,Studio 2,49
+877,Movie 877,1986,174,"Horror, Thriller, Romance",8.3,223402,412.3,Director 12,"Actor 310, Actor 281, Actor 470",France,English,Studio 34,90
+878,Movie 878,2004,117,"Comedy, Thriller",9.3,294623,226.5,Director 146,"Actor 720, Actor 547, Actor 519",France,German,Studio 3,93
+879,Movie 879,2005,127,"Comedy, Adventure, Thriller",7.2,13550,320.9,Director 119,"Actor 458, Actor 379, Actor 489",Australia,English,Studio 83,69
+880,Movie 880,2001,98,"Comedy, Fantasy, Drama",5.1,494428,394.4,Director 128,"Actor 86, Actor 145, Actor 413",Australia,Italian,Studio 61,59
+881,Movie 881,1983,178,"Romance, Horror",5.7,177640,668.3,Director 19,"Actor 330, Actor 706, Actor 579",Australia,German,Studio 1,64
+882,Movie 882,2024,106,"Adventure, Animation, Fantasy",5.7,342340,192.4,Director 237,"Actor 726, Actor 495, Actor 527",Italy,Italian,Studio 95,40
+883,Movie 883,1986,134,"Comedy, Horror, Drama",8.2,85483,418.4,Director 63,"Actor 171, Actor 203, Actor 449",UK,English,Studio 55,93
+884,Movie 884,1990,160,"Adventure, Drama, Horror",6.2,156083,98.5,Director 151,"Actor 738, Actor 693, Actor 278",Italy,French,Studio 79,77
+885,Movie 885,2016,163,Drama,5.6,359649,167.5,Director 191,"Actor 532, Actor 620, Actor 258",Spain,German,Studio 27,72
+886,Movie 886,1988,101,"Adventure, Action, Sci-Fi",6.3,79326,379.0,Director 3,"Actor 320, Actor 719, Actor 193",France,Japanese,Studio 13,88
+887,Movie 887,2001,92,Fantasy,6.6,82526,58.1,Director 287,"Actor 232, Actor 354, Actor 644",USA,Spanish,Studio 36,66
+888,Movie 888,2007,154,"Romance, Sci-Fi, Horror",9.1,294684,435.1,Director 104,"Actor 80, Actor 607, Actor 157",UK,Japanese,Studio 28,65
+889,Movie 889,1991,113,"Comedy, Drama, Horror",5.8,405239,683.5,Director 142,"Actor 755, Actor 631, Actor 685",Spain,Spanish,Studio 22,30
+890,Movie 890,1994,107,Fantasy,4.8,86912,383.0,Director 1,"Actor 332, Actor 80, Actor 54",Canada,Hindi,Studio 57,84
+891,Movie 891,2022,140,"Romance, Animation",8.2,126734,450.3,Director 194,"Actor 793, Actor 395, Actor 724",Spain,French,Studio 40,70
+892,Movie 892,2013,90,"Thriller, Drama, Romance",7.9,440836,352.6,Director 227,"Actor 502, Actor 712, Actor 257",UK,Hindi,Studio 56,74
+893,Movie 893,1991,83,"Adventure, Sci-Fi",8.0,112582,495.5,Director 98,"Actor 392, Actor 384, Actor 184",USA,Spanish,Studio 57,76
+894,Movie 894,2013,104,Fantasy,5.7,49839,729.3,Director 130,"Actor 515, Actor 14, Actor 622",Germany,English,Studio 83,65
+895,Movie 895,2021,141,"Action, Romance",5.5,30503,777.1,Director 16,"Actor 736, Actor 483, Actor 623",Spain,German,Studio 23,90
+896,Movie 896,2021,176,"Comedy, Action, Sci-Fi",4.2,469352,572.1,Director 91,"Actor 135, Actor 85, Actor 430",UK,English,Studio 57,37
+897,Movie 897,2000,92,"Romance, Thriller, Action",5.8,352816,679.3,Director 163,"Actor 727, Actor 174, Actor 601",India,Hindi,Studio 2,81
+898,Movie 898,2006,165,"Action, Comedy, Thriller",8.5,263443,122.3,Director 137,"Actor 86, Actor 177, Actor 455",USA,French,Studio 78,55
+899,Movie 899,2024,144,"Drama, Action",5.7,294394,283.8,Director 175,"Actor 478, Actor 582, Actor 714",UK,Hindi,Studio 60,41
+900,Movie 900,1987,91,Comedy,5.0,310432,503.2,Director 11,"Actor 786, Actor 174, Actor 11",France,Japanese,Studio 48,88
+901,Movie 901,1985,172,Romance,8.6,337259,754.4,Director 98,"Actor 766, Actor 774, Actor 756",Canada,French,Studio 7,78
+902,Movie 902,2025,116,Romance,4.8,165934,334.1,Director 97,"Actor 280, Actor 205, Actor 182",Germany,French,Studio 90,86
+903,Movie 903,1996,91,"Sci-Fi, Fantasy",5.9,337001,420.8,Director 88,"Actor 38, Actor 600, Actor 395",Canada,Hindi,Studio 73,56
+904,Movie 904,2024,135,"Romance, Thriller",5.9,264618,443.5,Director 138,"Actor 93, Actor 526, Actor 792",France,French,Studio 28,89
+905,Movie 905,1996,84,Animation,7.6,98240,382.8,Director 240,"Actor 601, Actor 331, Actor 382",Australia,German,Studio 85,34
+906,Movie 906,2000,169,Sci-Fi,8.8,4640,131.2,Director 244,"Actor 343, Actor 345, Actor 664",UK,Spanish,Studio 46,69
+907,Movie 907,1990,139,"Drama, Action, Adventure",8.5,239808,476.9,Director 223,"Actor 749, Actor 409, Actor 485",France,French,Studio 93,77
+908,Movie 908,2018,123,"Horror, Romance",4.2,487558,702.6,Director 260,"Actor 111, Actor 432, Actor 437",Germany,Hindi,Studio 52,33
+909,Movie 909,1990,145,Romance,8.9,366259,754.6,Director 102,"Actor 582, Actor 770, Actor 143",Canada,Japanese,Studio 43,36
+910,Movie 910,1985,119,Sci-Fi,6.5,87186,371.2,Director 76,"Actor 206, Actor 177, Actor 309",Germany,English,Studio 24,60
+911,Movie 911,1993,135,Thriller,4.8,291662,677.3,Director 192,"Actor 6, Actor 489, Actor 164",India,English,Studio 61,80
+912,Movie 912,2024,107,"Horror, Adventure",7.9,400561,734.0,Director 199,"Actor 132, Actor 326, Actor 782",Canada,German,Studio 99,71
+913,Movie 913,1998,166,"Horror, Fantasy, Comedy",5.9,351708,593.6,Director 14,"Actor 228, Actor 624, Actor 183",France,French,Studio 47,73
+914,Movie 914,2012,80,"Fantasy, Horror, Comedy",7.6,72893,402.5,Director 23,"Actor 217, Actor 310, Actor 446",UK,French,Studio 50,53
+915,Movie 915,2007,99,"Romance, Horror",7.7,252500,32.7,Director 216,"Actor 184, Actor 168, Actor 408",Italy,Italian,Studio 14,89
+916,Movie 916,1985,124,"Comedy, Horror, Action",4.9,67996,461.9,Director 197,"Actor 703, Actor 466, Actor 12",Spain,Japanese,Studio 86,81
+917,Movie 917,2007,178,Romance,6.3,389555,509.1,Director 231,"Actor 515, Actor 382, Actor 800",Spain,Japanese,Studio 43,76
+918,Movie 918,1987,180,Horror,6.9,201549,696.9,Director 41,"Actor 154, Actor 8, Actor 346",Australia,French,Studio 26,95
+919,Movie 919,2019,173,"Horror, Action",6.6,21389,101.6,Director 251,"Actor 472, Actor 376, Actor 52",Australia,Japanese,Studio 48,62
+920,Movie 920,2007,123,"Romance, Action, Fantasy",5.0,187610,336.6,Director 229,"Actor 333, Actor 305, Actor 652",USA,Hindi,Studio 15,75
+921,Movie 921,1982,148,"Horror, Thriller, Drama",4.5,50083,105.2,Director 75,"Actor 649, Actor 506, Actor 442",Germany,French,Studio 59,61
+922,Movie 922,2013,152,"Action, Comedy",5.8,20573,121.7,Director 52,"Actor 392, Actor 525, Actor 743",UK,French,Studio 82,68
+923,Movie 923,2007,131,Drama,9.2,135167,578.7,Director 41,"Actor 444, Actor 120, Actor 197",Australia,French,Studio 39,95
+924,Movie 924,2014,111,"Action, Sci-Fi, Adventure",5.2,490960,352.4,Director 96,"Actor 284, Actor 514, Actor 688",USA,Hindi,Studio 52,53
+925,Movie 925,2023,116,"Action, Horror",5.1,410519,334.4,Director 67,"Actor 282, Actor 274, Actor 474",Australia,Italian,Studio 82,70
+926,Movie 926,1986,108,Action,7.9,116397,55.7,Director 148,"Actor 746, Actor 730, Actor 624",Spain,Hindi,Studio 54,72
+927,Movie 927,2014,129,"Animation, Action",5.9,168084,280.4,Director 228,"Actor 156, Actor 474, Actor 761",Spain,Spanish,Studio 69,51
+928,Movie 928,2023,129,"Horror, Action",7.6,300032,774.3,Director 250,"Actor 575, Actor 354, Actor 86",France,Japanese,Studio 68,77
+929,Movie 929,1999,117,"Adventure, Fantasy",4.2,328108,470.0,Director 181,"Actor 579, Actor 442, Actor 426",USA,Italian,Studio 37,92
+930,Movie 930,1995,128,"Drama, Horror, Comedy",4.5,114954,173.0,Director 57,"Actor 585, Actor 297, Actor 183",Canada,Italian,Studio 100,81
+931,Movie 931,2015,132,"Thriller, Horror",9.0,146713,258.9,Director 186,"Actor 646, Actor 109, Actor 681",India,Hindi,Studio 69,80
+932,Movie 932,1994,131,"Adventure, Romance",8.5,236144,129.8,Director 91,"Actor 410, Actor 296, Actor 4",Italy,Italian,Studio 43,89
+933,Movie 933,2021,102,"Comedy, Horror, Animation",9.4,215612,155.2,Director 15,"Actor 634, Actor 230, Actor 142",Australia,Hindi,Studio 65,40
+934,Movie 934,2018,153,"Horror, Action, Sci-Fi",7.4,87772,457.6,Director 242,"Actor 701, Actor 94, Actor 380",USA,Japanese,Studio 77,79
+935,Movie 935,2015,145,Drama,6.5,379591,700.3,Director 90,"Actor 484, Actor 730, Actor 205",India,Spanish,Studio 38,38
+936,Movie 936,1981,106,"Adventure, Fantasy, Thriller",7.8,233102,791.8,Director 91,"Actor 473, Actor 513, Actor 657",UK,Italian,Studio 78,72
+937,Movie 937,1990,111,"Comedy, Action",8.1,358076,543.1,Director 267,"Actor 482, Actor 395, Actor 73",Japan,French,Studio 92,45
+938,Movie 938,2025,179,"Animation, Action, Adventure",6.6,381149,52.5,Director 204,"Actor 743, Actor 788, Actor 41",India,German,Studio 92,95
+939,Movie 939,2020,163,"Horror, Comedy",4.6,444608,213.7,Director 297,"Actor 772, Actor 115, Actor 740",Canada,French,Studio 53,73
+940,Movie 940,1989,111,"Thriller, Romance",4.5,337111,556.5,Director 235,"Actor 727, Actor 504, Actor 771",France,Italian,Studio 34,73
+941,Movie 941,1998,168,"Sci-Fi, Adventure",7.8,298416,223.9,Director 19,"Actor 780, Actor 144, Actor 152",Italy,French,Studio 4,58
+942,Movie 942,2003,152,"Romance, Fantasy",9.2,83496,456.3,Director 157,"Actor 487, Actor 731, Actor 451",Germany,Spanish,Studio 96,46
+943,Movie 943,1989,157,"Horror, Romance",7.5,15182,681.5,Director 299,"Actor 311, Actor 152, Actor 599",USA,French,Studio 47,95
+944,Movie 944,2013,131,"Fantasy, Drama",9.3,338063,128.9,Director 257,"Actor 322, Actor 536, Actor 384",Japan,Italian,Studio 63,51
+945,Movie 945,2013,141,Adventure,8.9,7961,536.7,Director 34,"Actor 351, Actor 231, Actor 317",France,Spanish,Studio 20,65
+946,Movie 946,2018,179,"Comedy, Thriller, Sci-Fi",6.7,299033,730.6,Director 7,"Actor 765, Actor 537, Actor 234",France,French,Studio 86,34
+947,Movie 947,2005,160,Sci-Fi,6.8,142830,444.9,Director 274,"Actor 760, Actor 551, Actor 82",USA,German,Studio 73,61
+948,Movie 948,1995,112,"Drama, Thriller, Animation",7.8,239609,146.1,Director 137,"Actor 566, Actor 285, Actor 94",France,Japanese,Studio 9,46
+949,Movie 949,2013,118,Thriller,5.3,307563,610.5,Director 245,"Actor 476, Actor 101, Actor 550",USA,French,Studio 82,39
+950,Movie 950,1992,141,Adventure,4.5,103992,84.4,Director 111,"Actor 613, Actor 499, Actor 308",Australia,English,Studio 75,85
+951,Movie 951,1987,172,"Thriller, Adventure",9.5,132488,604.9,Director 139,"Actor 505, Actor 647, Actor 181",India,Hindi,Studio 62,95
+952,Movie 952,1998,162,"Romance, Animation",5.4,144830,543.9,Director 258,"Actor 317, Actor 641, Actor 451",UK,Italian,Studio 24,92
+953,Movie 953,1980,120,"Adventure, Fantasy, Drama",5.0,399188,348.5,Director 156,"Actor 97, Actor 454, Actor 351",Italy,Italian,Studio 24,54
+954,Movie 954,1986,177,Thriller,5.7,160609,259.4,Director 272,"Actor 484, Actor 106, Actor 702",Germany,Hindi,Studio 27,49
+955,Movie 955,2000,100,Horror,8.3,447380,130.6,Director 81,"Actor 334, Actor 529, Actor 486",Australia,Italian,Studio 54,64
+956,Movie 956,1994,113,"Romance, Sci-Fi",4.8,175466,582.7,Director 162,"Actor 461, Actor 316, Actor 436",Australia,German,Studio 98,83
+957,Movie 957,1980,177,"Action, Horror",5.9,422746,116.2,Director 234,"Actor 786, Actor 281, Actor 20",France,Spanish,Studio 85,62
+958,Movie 958,1998,127,Sci-Fi,6.4,200991,263.9,Director 287,"Actor 757, Actor 205, Actor 221",Australia,Hindi,Studio 57,65
+959,Movie 959,1986,89,Drama,5.8,251991,753.5,Director 241,"Actor 48, Actor 800, Actor 676",Japan,Japanese,Studio 91,92
+960,Movie 960,1995,115,"Fantasy, Horror, Action",4.6,335849,277.4,Director 276,"Actor 379, Actor 449, Actor 292",UK,German,Studio 18,39
+961,Movie 961,2000,179,"Horror, Drama, Animation",7.2,301487,164.0,Director 46,"Actor 449, Actor 252, Actor 336",Australia,Hindi,Studio 98,63
+962,Movie 962,2015,147,"Action, Drama",8.2,36153,697.2,Director 161,"Actor 370, Actor 792, Actor 457",France,Spanish,Studio 42,89
+963,Movie 963,1994,138,"Sci-Fi, Thriller",7.7,369630,210.9,Director 12,"Actor 144, Actor 123, Actor 658",Japan,German,Studio 51,92
+964,Movie 964,1983,147,Animation,6.1,297097,352.6,Director 17,"Actor 517, Actor 335, Actor 552",Spain,French,Studio 74,72
+965,Movie 965,2020,88,"Comedy, Fantasy, Animation",6.9,419191,413.2,Director 45,"Actor 588, Actor 480, Actor 625",France,Italian,Studio 10,85
+966,Movie 966,1997,139,"Drama, Sci-Fi",4.4,340154,462.3,Director 233,"Actor 541, Actor 800, Actor 710",Japan,English,Studio 52,67
+967,Movie 967,1980,159,"Action, Fantasy",5.2,224449,124.6,Director 115,"Actor 599, Actor 691, Actor 787",India,Hindi,Studio 59,55
+968,Movie 968,2016,125,"Fantasy, Drama, Thriller",8.3,108578,250.2,Director 52,"Actor 27, Actor 547, Actor 617",USA,Italian,Studio 17,74
+969,Movie 969,1984,121,"Thriller, Fantasy",5.1,86110,342.3,Director 139,"Actor 239, Actor 223, Actor 791",India,English,Studio 18,86
+970,Movie 970,1987,128,Adventure,8.8,448340,593.2,Director 195,"Actor 51, Actor 458, Actor 450",Japan,Spanish,Studio 27,78
+971,Movie 971,2017,95,Drama,6.8,303697,581.0,Director 63,"Actor 167, Actor 775, Actor 215",UK,German,Studio 95,75
+972,Movie 972,2000,133,Thriller,9.4,419820,408.0,Director 245,"Actor 262, Actor 521, Actor 115",Spain,English,Studio 1,78
+973,Movie 973,2006,131,Sci-Fi,6.0,163019,670.0,Director 223,"Actor 668, Actor 308, Actor 235",UK,Japanese,Studio 83,79
+974,Movie 974,2010,82,"Sci-Fi, Action",4.8,131046,146.0,Director 5,"Actor 132, Actor 532, Actor 160",Canada,Japanese,Studio 61,34
+975,Movie 975,1983,156,Romance,6.0,218014,659.5,Director 215,"Actor 177, Actor 179, Actor 532",Canada,Japanese,Studio 86,53
+976,Movie 976,2003,94,Action,6.7,160966,325.9,Director 192,"Actor 272, Actor 637, Actor 329",USA,Italian,Studio 4,72
+977,Movie 977,1981,140,Drama,9.0,24879,433.9,Director 269,"Actor 174, Actor 162, Actor 103",USA,French,Studio 29,41
+978,Movie 978,2006,88,Adventure,6.6,218119,685.6,Director 275,"Actor 451, Actor 138, Actor 618",USA,French,Studio 61,90
+979,Movie 979,1996,96,"Animation, Sci-Fi",9.3,350950,574.5,Director 245,"Actor 505, Actor 767, Actor 585",France,Spanish,Studio 29,95
+980,Movie 980,1988,98,Comedy,8.1,376555,326.1,Director 54,"Actor 256, Actor 232, Actor 257",Canada,Japanese,Studio 85,68
+981,Movie 981,2001,170,"Fantasy, Animation",6.8,463751,217.0,Director 68,"Actor 336, Actor 433, Actor 384",Canada,Hindi,Studio 95,34
+982,Movie 982,2004,160,Thriller,9.4,8008,118.6,Director 18,"Actor 244, Actor 166, Actor 407",India,English,Studio 74,91
+983,Movie 983,2010,124,Fantasy,6.2,113136,365.3,Director 135,"Actor 559, Actor 451, Actor 121",Germany,Japanese,Studio 99,95
+984,Movie 984,2001,123,Romance,5.9,457663,392.4,Director 282,"Actor 468, Actor 680, Actor 99",India,Italian,Studio 67,63
+985,Movie 985,1984,180,"Horror, Action",9.3,66679,80.2,Director 235,"Actor 114, Actor 124, Actor 564",Germany,Spanish,Studio 45,69
+986,Movie 986,2008,135,"Comedy, Animation, Drama",6.2,493985,709.1,Director 262,"Actor 200, Actor 146, Actor 697",France,Italian,Studio 3,55
+987,Movie 987,2002,147,"Drama, Animation, Action",8.4,190636,433.9,Director 272,"Actor 171, Actor 384, Actor 163",UK,Japanese,Studio 22,58
+988,Movie 988,2025,99,"Fantasy, Horror, Thriller",5.5,497996,323.7,Director 200,"Actor 535, Actor 432, Actor 488",Spain,French,Studio 18,68
+989,Movie 989,1980,89,"Animation, Romance",5.1,385044,492.4,Director 35,"Actor 61, Actor 774, Actor 421",Canada,Spanish,Studio 62,50
+990,Movie 990,1995,130,Horror,6.2,101882,202.6,Director 180,"Actor 73, Actor 232, Actor 283",Canada,German,Studio 16,49
+991,Movie 991,1993,136,Romance,8.2,6146,511.2,Director 267,"Actor 319, Actor 537, Actor 106",Australia,German,Studio 30,86
+992,Movie 992,1999,95,"Fantasy, Adventure, Drama",4.4,395944,728.9,Director 175,"Actor 279, Actor 42, Actor 391",Germany,English,Studio 81,89
+993,Movie 993,2007,154,Adventure,8.2,118272,420.7,Director 46,"Actor 750, Actor 618, Actor 614",India,Spanish,Studio 86,93
+994,Movie 994,2024,135,"Action, Comedy",8.8,147407,674.6,Director 142,"Actor 258, Actor 656, Actor 521",India,German,Studio 86,62
+995,Movie 995,2002,90,Comedy,7.9,255067,198.0,Director 254,"Actor 227, Actor 606, Actor 445",Germany,English,Studio 100,92
+996,Movie 996,2015,157,"Horror, Animation, Fantasy",4.2,57017,474.3,Director 51,"Actor 590, Actor 98, Actor 121",France,French,Studio 75,83
+997,Movie 997,2005,171,"Action, Sci-Fi, Adventure",8.7,301097,691.4,Director 20,"Actor 409, Actor 644, Actor 763",Japan,Japanese,Studio 4,57
+998,Movie 998,2016,103,Sci-Fi,4.5,483196,332.7,Director 15,"Actor 747, Actor 468, Actor 260",India,Italian,Studio 88,74
+999,Movie 999,2002,111,"Adventure, Action",5.8,367032,792.8,Director 135,"Actor 788, Actor 165, Actor 215",Italy,Italian,Studio 71,71
+1000,Movie 1000,2005,176,"Drama, Adventure",8.7,175488,284.7,Director 276,"Actor 758, Actor 234, Actor 325",Germany,English,Studio 93,41

@@ -1,0 +1,47 @@
+Quiz: Hello imposter quiz
+Score: 10/10
+
+Question 1
+What happens when you do `arr = [1,2,3]; b = arr`?
+Selected: 1. Both variables reference the same list in memory
+Correct: 1. Both variables reference the same list in memory
+Imposters flagged: 2. A new copy of the list is created for `b`
+Expected imposters: 2. A new copy of the list is created for `b`
+Result: Correct
+Explanation: Assignment creates a reference, not a copy. Changes via `b` affect `arr`.
+
+Question 2
+What does `arr * 3` do for a list?
+Selected: 1. Repeats the list three times
+Correct: 1. Repeats the list three times
+Imposters flagged: 4. Multiplies each element by 3
+Expected imposters: 4. Multiplies each element by 3
+Result: Correct
+Explanation: `*` repeats the list, it does not apply multiplication to each element.
+
+Question 3
+What does `arr.append([4,5])` do?
+Selected: 1. Adds the list `[4,5]` as a single element
+Correct: 1. Adds the list `[4,5]` as a single element
+Imposters flagged: 4. Extends the list with `[4,5]`
+Expected imposters: 4. Extends the list with `[4,5]`
+Result: Correct
+Explanation: `append` adds one element, even if that element is a list. Using `extend` would add elements separately.
+
+Question 4
+What is the time complexity of calling `len(arr)` in Python?
+Selected: 1. O(1)
+Correct: 1. O(1)
+Imposters flagged: 2. O(n)
+Expected imposters: 2. O(n)
+Result: Correct
+Explanation: Python stores the length internally, so `len()` is constant time.
+
+Question 5
+What is the time complexity of checking if a value exists in a list using `if x in arr`?
+Selected: 1. O(n)
+Correct: 1. O(n)
+Imposters flagged: 2. O(1)
+Expected imposters: 2. O(1)
+Result: Correct
+Explanation: In the worst case, Python checks each element until it finds a match or reaches the end.

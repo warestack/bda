@@ -1,0 +1,92 @@
+Quiz: Python loops and indexing quiz
+Score: 9/10
+
+Question 1
+What is the purpose of a counter in Python loops?
+Selected: 4. To count how many times an event/condition occurs
+Correct: 4. To count how many times an event/condition occurs
+Imposters flagged: -
+Expected imposters: -
+Result: Correct
+Explanation: A counter increases or decreases to track quantity.
+
+Question 2
+What does an index represent in a list?
+Selected: 3. The position of the element
+Correct: 3. The position of the element
+Imposters flagged: -
+Expected imposters: -
+Result: Correct
+Explanation: Index refers to the position of an element in a list, starting at 0.
+
+Question 3
+You need both the index and value while iterating through a list. Which pattern is most appropriate?
+Selected: 3. `for i in range(len(data))`: then use `data[i]`
+Correct: 3. `for i in range(len(data))`: then use `data[i]`
+Imposters flagged: -
+Expected imposters: -
+Result: Correct
+Explanation: `range(len(data))` gives valid indexes, and data[i] gives the corresponding values.
+
+Question 4
+What does break do inside a loop?
+Selected: 2. Stops the loop immediately
+Correct: 2. Stops the loop immediately
+Imposters flagged: -
+Expected imposters: -
+Result: Correct
+Explanation: break exits the loop immediately when triggered.
+
+Question 5
+What does range(len(data)) allow you to do?
+Selected: 4. Iterate over indexes of a list
+Correct: 4. Iterate over indexes of a list
+Imposters flagged: -
+Expected imposters: -
+Result: Correct
+Explanation: It lets you loop over indexes instead of values.
+
+Question 6
+What is a nested loop?
+Selected: 3. A loop inside another loop
+Correct: 3. A loop inside another loop
+Imposters flagged: -
+Expected imposters: -
+Result: Correct
+Explanation: A nested loop is a loop inside another loop.
+
+Question 7
+Why do we reset col_index = 0 after each row in a matrix?
+Selected: 2. To restart counting columns for the new row
+Correct: 2. To restart counting columns for the new row
+Imposters flagged: -
+Expected imposters: -
+Result: Correct
+Explanation: Each row starts from column 0, so the index must reset.
+
+Question 8
+What is the time complexity of counting elements in a list using a loop?
+Selected: 3. O(n)
+Correct: 3. O(n)
+Imposters flagged: -
+Expected imposters: -
+Result: Correct
+Explanation: You visit each element once -> O(n).
+
+Question 9
+What is the time complexity of traversing a matrix with nested loops?
+Selected: 3. O(r * c)
+Correct: 3. O(r * c)
+Imposters flagged: -
+Expected imposters: -
+Result: Correct
+Explanation: You visit each row and column -> O(r * c).
+
+Question 10
+Which of the following are good practices from the tutorial?
+Selected: 1. Use functions for reusable logic
+Correct: 1. Use functions for reusable logic; 3. Use counters and indexes correctly; 4. Reset inner loop variables when needed
+Imposters flagged: -
+Expected imposters: -
+Result: Wrong
+Explanation: Good practice includes reusable functions, correct indexing, and resetting loop variables.

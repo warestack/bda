@@ -1,0 +1,290 @@
+{
+  "quiz_title": "Python loops and indexing quiz",
+  "score": 9,
+  "score_total": 10,
+  "total_questions": 10,
+  "answers": [
+    {
+      "question_title": "Question 1",
+      "question_text": "What is the purpose of a counter in Python loops?",
+      "selected_indexes": [
+        4
+      ],
+      "selected_labels": "4. To count how many times an event/condition occurs",
+      "selected_imposters": [],
+      "selected_imposter_labels": "",
+      "correct_indexes": [
+        4
+      ],
+      "correct_labels": "4. To count how many times an event/condition occurs",
+      "expected_imposters": [],
+      "expected_imposter_labels": "",
+      "is_correct": true,
+      "result_label": "Correct",
+      "answer_correct": true,
+      "question_points": 1,
+      "question_max_points": 1,
+      "imposter_true_positive": 0,
+      "imposter_false_positive": 0,
+      "imposter_false_negative": 0,
+      "explanation": "A counter increases or decreases to track quantity.",
+      "lifelines_used": [],
+      "current_points_after_question": 0,
+      "guaranteed_points_after_question": 0
+    },
+    {
+      "question_title": "Question 2",
+      "question_text": "What does an index represent in a list?",
+      "selected_indexes": [
+        3
+      ],
+      "selected_labels": "3. The position of the element",
+      "selected_imposters": [],
+      "selected_imposter_labels": "",
+      "correct_indexes": [
+        3
+      ],
+      "correct_labels": "3. The position of the element",
+      "expected_imposters": [],
+      "expected_imposter_labels": "",
+      "is_correct": true,
+      "result_label": "Correct",
+      "answer_correct": true,
+      "question_points": 1,
+      "question_max_points": 1,
+      "imposter_true_positive": 0,
+      "imposter_false_positive": 0,
+      "imposter_false_negative": 0,
+      "explanation": "Index refers to the position of an element in a list, starting at 0.",
+      "lifelines_used": [],
+      "current_points_after_question": 0,
+      "guaranteed_points_after_question": 0
+    },
+    {
+      "question_title": "Question 3",
+      "question_text": "You need both the index and value while iterating through a list. Which pattern is most appropriate?",
+      "selected_indexes": [
+        3
+      ],
+      "selected_labels": "3. `for i in range(len(data))`: then use `data[i]`",
+      "selected_imposters": [],
+      "selected_imposter_labels": "",
+      "correct_indexes": [
+        3
+      ],
+      "correct_labels": "3. `for i in range(len(data))`: then use `data[i]`",
+      "expected_imposters": [],
+      "expected_imposter_labels": "",
+      "is_correct": true,
+      "result_label": "Correct",
+      "answer_correct": true,
+      "question_points": 1,
+      "question_max_points": 1,
+      "imposter_true_positive": 0,
+      "imposter_false_positive": 0,
+      "imposter_false_negative": 0,
+      "explanation": "`range(len(data))` gives valid indexes, and data[i] gives the corresponding values.",
+      "lifelines_used": [],
+      "current_points_after_question": 0,
+      "guaranteed_points_after_question": 0
+    },
+    {
+      "question_title": "Question 4",
+      "question_text": "What does break do inside a loop?",
+      "selected_indexes": [
+        2
+      ],
+      "selected_labels": "2. Stops the loop immediately",
+      "selected_imposters": [],
+      "selected_imposter_labels": "",
+      "correct_indexes": [
+        2
+      ],
+      "correct_labels": "2. Stops the loop immediately",
+      "expected_imposters": [],
+      "expected_imposter_labels": "",
+      "is_correct": true,
+      "result_label": "Correct",
+      "answer_correct": true,
+      "question_points": 1,
+      "question_max_points": 1,
+      "imposter_true_positive": 0,
+      "imposter_false_positive": 0,
+      "imposter_false_negative": 0,
+      "explanation": "break exits the loop immediately when triggered.",
+      "lifelines_used": [],
+      "current_points_after_question": 0,
+      "guaranteed_points_after_question": 0
+    },
+    {
+      "question_title": "Question 5",
+      "question_text": "What does range(len(data)) allow you to do?",
+      "selected_indexes": [
+        4
+      ],
+      "selected_labels": "4. Iterate over indexes of a list",
+      "selected_imposters": [],
+      "selected_imposter_labels": "",
+      "correct_indexes": [
+        4
+      ],
+      "correct_labels": "4. Iterate over indexes of a list",
+      "expected_imposters": [],
+      "expected_imposter_labels": "",
+      "is_correct": true,
+      "result_label": "Correct",
+      "answer_correct": true,
+      "question_points": 1,
+      "question_max_points": 1,
+      "imposter_true_positive": 0,
+      "imposter_false_positive": 0,
+      "imposter_false_negative": 0,
+      "explanation": "It lets you loop over indexes instead of values.",
+      "lifelines_used": [],
+      "current_points_after_question": 0,
+      "guaranteed_points_after_question": 0
+    },
+    {
+      "question_title": "Question 6",
+      "question_text": "What is a nested loop?",
+      "selected_indexes": [
+        3
+      ],
+      "selected_labels": "3. A loop inside another loop",
+      "selected_imposters": [],
+      "selected_imposter_labels": "",
+      "correct_indexes": [
+        3
+      ],
+      "correct_labels": "3. A loop inside another loop",
+      "expected_imposters": [],
+      "expected_imposter_labels": "",
+      "is_correct": true,
+      "result_label": "Correct",
+      "answer_correct": true,
+      "question_points": 1,
+      "question_max_points": 1,
+      "imposter_true_positive": 0,
+      "imposter_false_positive": 0,
+      "imposter_false_negative": 0,
+      "explanation": "A nested loop is a loop inside another loop.",
+      "lifelines_used": [],
+      "current_points_after_question": 0,
+      "guaranteed_points_after_question": 0
+    },
+    {
+      "question_title": "Question 7",
+      "question_text": "Why do we reset col_index = 0 after each row in a matrix?",
+      "selected_indexes": [
+        2
+      ],
+      "selected_labels": "2. To restart counting columns for the new row",
+      "selected_imposters": [],
+      "selected_imposter_labels": "",
+      "correct_indexes": [
+        2
+      ],
+      "correct_labels": "2. To restart counting columns for the new row",
+      "expected_imposters": [],
+      "expected_imposter_labels": "",
+      "is_correct": true,
+      "result_label": "Correct",
+      "answer_correct": true,
+      "question_points": 1,
+      "question_max_points": 1,
+      "imposter_true_positive": 0,
+      "imposter_false_positive": 0,
+      "imposter_false_negative": 0,
+      "explanation": "Each row starts from column 0, so the index must reset.",
+      "lifelines_used": [],
+      "current_points_after_question": 0,
+      "guaranteed_points_after_question": 0
+    },
+    {
+      "question_title": "Question 8",
+      "question_text": "What is the time complexity of counting elements in a list using a loop?",
+      "selected_indexes": [
+        3
+      ],
+      "selected_labels": "3. O(n)",
+      "selected_imposters": [],
+      "selected_imposter_labels": "",
+      "correct_indexes": [
+        3
+      ],
+      "correct_labels": "3. O(n)",
+      "expected_imposters": [],
+      "expected_imposter_labels": "",
+      "is_correct": true,
+      "result_label": "Correct",
+      "answer_correct": true,
+      "question_points": 1,
+      "question_max_points": 1,
+      "imposter_true_positive": 0,
+      "imposter_false_positive": 0,
+      "imposter_false_negative": 0,
+      "explanation": "You visit each element once -> O(n).",
+      "lifelines_used": [],
+      "current_points_after_question": 0,
+      "guaranteed_points_after_question": 0
+    },
+    {
+      "question_title": "Question 9",
+      "question_text": "What is the time complexity of traversing a matrix with nested loops?",
+      "selected_indexes": [
+        3
+      ],
+      "selected_labels": "3. O(r * c)",
+      "selected_imposters": [],
+      "selected_imposter_labels": "",
+      "correct_indexes": [
+        3
+      ],
+      "correct_labels": "3. O(r * c)",
+      "expected_imposters": [],
+      "expected_imposter_labels": "",
+      "is_correct": true,
+      "result_label": "Correct",
+      "answer_correct": true,
+      "question_points": 1,
+      "question_max_points": 1,
+      "imposter_true_positive": 0,
+      "imposter_false_positive": 0,
+      "imposter_false_negative": 0,
+      "explanation": "You visit each row and column -> O(r * c).",
+      "lifelines_used": [],
+      "current_points_after_question": 0,
+      "guaranteed_points_after_question": 0
+    },
+    {
+      "question_title": "Question 10",
+      "question_text": "Which of the following are good practices from the tutorial?",
+      "selected_indexes": [
+        1
+      ],
+      "selected_labels": "1. Use functions for reusable logic",
+      "selected_imposters": [],
+      "selected_imposter_labels": "",
+      "correct_indexes": [
+        1,
+        3,
+        4
+      ],
+      "correct_labels": "1. Use functions for reusable logic; 3. Use counters and indexes correctly; 4. Reset inner loop variables when needed",
+      "expected_imposters": [],
+      "expected_imposter_labels": "",
+      "is_correct": false,
+      "result_label": "Wrong",
+      "answer_correct": false,
+      "question_points": 0,
+      "question_max_points": 1,
+      "imposter_true_positive": 0,
+      "imposter_false_positive": 0,
+      "imposter_false_negative": 0,
+      "explanation": "Good practice includes reusable functions, correct indexing, and resetting loop variables.",
+      "lifelines_used": [],
+      "current_points_after_question": 0,
+      "guaranteed_points_after_question": 0
+    }
+  ]
+}

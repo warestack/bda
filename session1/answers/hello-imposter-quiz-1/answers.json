@@ -1,0 +1,168 @@
+{
+  "quiz_title": "Hello imposter quiz",
+  "score": 10,
+  "score_total": 10,
+  "total_questions": 5,
+  "answers": [
+    {
+      "question_title": "Question 1",
+      "question_text": "What happens when you do `arr = [1,2,3]; b = arr`?",
+      "selected_indexes": [
+        1
+      ],
+      "selected_labels": "1. Both variables reference the same list in memory",
+      "selected_imposters": [
+        2
+      ],
+      "selected_imposter_labels": "2. A new copy of the list is created for `b`",
+      "correct_indexes": [
+        1
+      ],
+      "correct_labels": "1. Both variables reference the same list in memory",
+      "expected_imposters": [
+        2
+      ],
+      "expected_imposter_labels": "2. A new copy of the list is created for `b`",
+      "is_correct": true,
+      "result_label": "Correct",
+      "answer_correct": true,
+      "question_points": 2,
+      "question_max_points": 2,
+      "imposter_true_positive": 1,
+      "imposter_false_positive": 0,
+      "imposter_false_negative": 0,
+      "explanation": "Assignment creates a reference, not a copy. Changes via `b` affect `arr`.",
+      "lifelines_used": [],
+      "current_points_after_question": 0,
+      "guaranteed_points_after_question": 0
+    },
+    {
+      "question_title": "Question 2",
+      "question_text": "What does `arr * 3` do for a list?",
+      "selected_indexes": [
+        1
+      ],
+      "selected_labels": "1. Repeats the list three times",
+      "selected_imposters": [
+        4
+      ],
+      "selected_imposter_labels": "4. Multiplies each element by 3",
+      "correct_indexes": [
+        1
+      ],
+      "correct_labels": "1. Repeats the list three times",
+      "expected_imposters": [
+        4
+      ],
+      "expected_imposter_labels": "4. Multiplies each element by 3",
+      "is_correct": true,
+      "result_label": "Correct",
+      "answer_correct": true,
+      "question_points": 2,
+      "question_max_points": 2,
+      "imposter_true_positive": 1,
+      "imposter_false_positive": 0,
+      "imposter_false_negative": 0,
+      "explanation": "`*` repeats the list, it does not apply multiplication to each element.",
+      "lifelines_used": [],
+      "current_points_after_question": 0,
+      "guaranteed_points_after_question": 0
+    },
+    {
+      "question_title": "Question 3",
+      "question_text": "What does `arr.append([4,5])` do?",
+      "selected_indexes": [
+        1
+      ],
+      "selected_labels": "1. Adds the list `[4,5]` as a single element",
+      "selected_imposters": [
+        4
+      ],
+      "selected_imposter_labels": "4. Extends the list with `[4,5]`",
+      "correct_indexes": [
+        1
+      ],
+      "correct_labels": "1. Adds the list `[4,5]` as a single element",
+      "expected_imposters": [
+        4
+      ],
+      "expected_imposter_labels": "4. Extends the list with `[4,5]`",
+      "is_correct": true,
+      "result_label": "Correct",
+      "answer_correct": true,
+      "question_points": 2,
+      "question_max_points": 2,
+      "imposter_true_positive": 1,
+      "imposter_false_positive": 0,
+      "imposter_false_negative": 0,
+      "explanation": "`append` adds one element, even if that element is a list. Using `extend` would add elements separately.",
+      "lifelines_used": [],
+      "current_points_after_question": 0,
+      "guaranteed_points_after_question": 0
+    },
+    {
+      "question_title": "Question 4",
+      "question_text": "What is the time complexity of calling `len(arr)` in Python?",
+      "selected_indexes": [
+        1
+      ],
+      "selected_labels": "1. O(1)",
+      "selected_imposters": [
+        2
+      ],
+      "selected_imposter_labels": "2. O(n)",
+      "correct_indexes": [
+        1
+      ],
+      "correct_labels": "1. O(1)",
+      "expected_imposters": [
+        2
+      ],
+      "expected_imposter_labels": "2. O(n)",
+      "is_correct": true,
+      "result_label": "Correct",
+      "answer_correct": true,
+      "question_points": 2,
+      "question_max_points": 2,
+      "imposter_true_positive": 1,
+      "imposter_false_positive": 0,
+      "imposter_false_negative": 0,
+      "explanation": "Python stores the length internally, so `len()` is constant time.",
+      "lifelines_used": [],
+      "current_points_after_question": 0,
+      "guaranteed_points_after_question": 0
+    },
+    {
+      "question_title": "Question 5",
+      "question_text": "What is the time complexity of checking if a value exists in a list using `if x in arr`?",
+      "selected_indexes": [
+        1
+      ],
+      "selected_labels": "1. O(n)",
+      "selected_imposters": [
+        2
+      ],
+      "selected_imposter_labels": "2. O(1)",
+      "correct_indexes": [
+        1
+      ],
+      "correct_labels": "1. O(n)",
+      "expected_imposters": [
+        2
+      ],
+      "expected_imposter_labels": "2. O(1)",
+      "is_correct": true,
+      "result_label": "Correct",
+      "answer_correct": true,
+      "question_points": 2,
+      "question_max_points": 2,
+      "imposter_true_positive": 1,
+      "imposter_false_positive": 0,
+      "imposter_false_negative": 0,
+      "explanation": "In the worst case, Python checks each element until it finds a match or reaches the end.",
+      "lifelines_used": [],
+      "current_points_after_question": 0,
+      "guaranteed_points_after_question": 0
+    }
+  ]
+}
